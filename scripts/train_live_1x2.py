@@ -222,8 +222,24 @@ def fit_report(rows: list[dict], as_of: str, horizon_days: int = 7) -> tuple[dic
 
 def run(directory: Path, output: Path, horizon_days: int = 7) -> dict:
     manifest = json.loads((directory / "ultima_actualizacion.json").read_text(encoding="utf-8"))
-    rows = read_rows(directory, manifest)
-    report, scored = fit_report(rows, manifest["checked_at_utc"], horizon_days=horizon_days)
+    current = read_rows(directory, manifest)
+    archive_dir = directory.parent / "historicos"
+    past = []
+    archive_used = []
+    archive_manifest_path = archive_dir / "manifest.json"
+    if archive_manifest_path.exists():
+        archive_manifest = json.loads(archive_manifest_path.read_text(encoding="utf-8"))
+        past = read_rows(archive_dir, archive_manifest)
+        for record in past:
+            if record["_kickoff"] >= utc(manifest["checked_at_utc"]):
+                raise ValueError("Historico contiene un resultado de una fecha futura")
+        archive_used = sorted({str(row["league"]) + "_" + str(row["season_start_year"])
+                               for row in past})
+    report, scored = fit_report(past + current, manifest["checked_at_utc"],
+                                horizon_days=horizon_days)
+    report["historical_seasons_used"] = archive_used
+    report["historical_matches_loaded"] = len(past)
+    report["current_season_matches_loaded"] = len(current)
     output.mkdir(parents=True, exist_ok=True)
     (output / "modelo_1x2_validacion.json").write_text(
         json.dumps(report, ensure_ascii=False, indent=2) + "\n", encoding="utf-8"

@@ -63,3 +63,12 @@ En GitHub Actions, estos pasos generan CSV de goles de jugador en `datasets/actu
 - Accuracy de ambos: **47,06 %**. Log-loss del modelo 1,3200 frente a referencia histórica 1,1282. El modelo **no supera al baseline**.
 - Por ello se activa la compuerta de seguridad: el CSV de pronósticos permanece sin registros de probabilidad, aunque se identificaron 8 partidos próximos elegibles como candidatos. No usar estas probabilidades para apostar.
 - El resultado muestra falta de robustez y tamaño de muestra. Para mejorar la calidad necesitamos ampliar temporadas y comparar nuevas features en validación temporal separada. Prohibido elegir hiperparámetros guiándose por el bloque reservado para evaluación sin diseñar otra prueba.
+
+
+## Ampliación de entrenamiento con temporadas históricas
+
+`python -m scripts.historical_backfill` intenta recuperar **LaLiga y Bundesliga 2024/25 y 2025/26** exclusivamente de OpenLigaDB. La fuente es comunitaria y puede tener lagunas; se excluye cualquier temporada con menos de 150 partidos finalizados con resultado validado. El proceso genera `datasets/historicos/{liga}_{año}_partidos.csv` y `*_features_prepartido.csv` y un manifiesto de consulta y licencias. Si no hay cobertura histórica disponible, se deja el último snapshot intacto y el modelo puede seguir evaluándose con la temporada corriente.
+
+La evaluación del 1X2 incorpora automáticamente el histórico disponible, conservando un corte temporal que nunca mezcla partidos de la misma fecha entre entrenamiento y prueba. No se usan atributos EA FC para esos partidos históricos, porque no se verificó que los ratings actuales fueran conocidos en 2024 o 2025.
+
+**Nota de método:** al ampliar temporadas, las métricas del bloque de prueba pueden cambiar. No se debe comparar ingenuamente precisión entre pruebas con muestras y fechas diferentes. El informe conserva rango de fechas, cantidad de partidos por bloque y lista de temporadas utilizadas.
