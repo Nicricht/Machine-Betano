@@ -1,0 +1,61 @@
+name: Cruce EA FC27 y goleadores OpenLigaDB
+
+on:
+  schedule:
+    - cron: "47 23 * * *"
+      timezone: "America/Santiago"
+  workflow_dispatch:
+  push:
+    branches: ["feat/fc27-openligadb-*"]
+  pull_request:
+    paths:
+      - "scripts/link_fc27_openligadb.py"
+      - "tests/test_fc27_player_linkage.py"
+      - ".github/workflows/cruce-fc27-goleadores.yml"
+
+permissions:
+  contents: read
+
+concurrency:
+  group: machine-betano-fc27-linkage
+  cancel-in-progress: false
+
+jobs:
+  cruzar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Instalar lector de Kaggle
+        run: python -m pip install "kagglehub>=1.0,<2"
+      - name: Probar emparejamiento con datos sintéticos
+        run: python -m unittest discover -s tests -p "test_fc27_player_linkage.py" -v
+      - name: Descargar y normalizar ratings FC27 en almacenamiento temporal
+        run: python -m scripts.normalize_kaggle_fc27
+      - name: Generar propuestas de equivalencia sin aprobación automática
+        run: python -m scripts.link_fc27_openligadb
+      - name: Publicar solo indicadores agregados (no jugadores)
+        run: |
+          python - <<'PY'
+          import json
+          import os
+          from pathlib import Path
+          path = Path("datasets/ratings/fc27_openligadb_linkage_audit.json")
+          status = json.loads(path.read_text(encoding="utf-8"))
+          with open(os.environ["GITHUB_STEP_SUMMARY"], "a", encoding="utf-8") as file:
+              file.write("## Cruce exploratorio FC27 y OpenLigaDB\n\n")
+              file.write("Futbolistas de FC27 analizados: " + str(status["fc_players_considered"]) + "\n\n")
+              file.write("Goleadores únicos con evidencia de club: " + str(status["distinct_scorer_ids_with_team_evidence"]) + "\n\n")
+              file.write("IDs de goleadores con al menos una propuesta: " + str(status["distinct_openligadb_ids_with_candidate"]) + "\n\n")
+              file.write("Propuestas generadas: " + str(status["proposed_mappings"]) + "\n\n")
+              for kind, count in status["proposals_by_status"].items():
+                  file.write("- " + kind + ": " + str(count) + "\n")
+              file.write("\n**0 equivalencias aprobadas para entrenamiento:** se requiere revisión de identidad y licencia.\n")
+          PY
+      # Nada se envía como artifact ni commit: los ratings y mapas generados
+      # pueden tener restricciones de uso y no deben redistribuirse.
