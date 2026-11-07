@@ -1,0 +1,54 @@
+name: Actualizacion automatica de datos de futbol
+
+on:
+  schedule:
+    - cron: "17 8,14,23 * * *"
+      timezone: "America/Santiago"
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths-ignore:
+      - "datasets/actualizados/**"
+  pull_request:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: machine-betano-datos-actualizados
+  cancel-in-progress: false
+
+jobs:
+  actualizar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - name: Obtener codigo
+        uses: actions/checkout@v4
+      - name: Instalar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Probar normalizacion y reglas de integridad
+        run: python -m unittest discover -s tests -p "test_live_refresh.py" -v
+      - name: Descargar partidos de LaLiga y Bundesliga
+        run: python scripts/refresh_openligadb.py
+      - name: Publicar snapshot de CSV en artefacto
+        uses: actions/upload-artifact@v4
+        with:
+          name: machine-betano-actualizado
+          path: datasets/actualizados/
+          if-no-files-found: error
+          retention-days: 90
+      - name: Confirmar cambio de datos en repositorio
+        if: github.ref == 'refs/heads/main' && github.event_name != 'pull_request'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add datasets/actualizados
+          if git diff --cached --quiet; then
+            echo "Sin cambios; fuente consultada correctamente"
+          else
+            git commit -m "data: refrescar LaLiga y Bundesliga desde OpenLigaDB"
+            git push origin HEAD:main
+          fi
