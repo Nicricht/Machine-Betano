@@ -1,0 +1,38 @@
+{
+  "checked_at_utc": "2026-11-07T20:54:48+00:00",
+  "provider": "OpenLigaDB",
+  "license": "ODbL-1.0",
+  "leagues": [
+    {
+      "league": "bl1",
+      "season": 2024,
+      "matches": 306,
+      "finished_with_final_score": 306,
+      "source_url": "https://api.openligadb.de/getmatchdata/bl1/2024",
+      "matches_sha256": "d1f50651961a0d70723234e9f53cf4d0b75f4d1442e3a677f5bd62f74f3e8409",
+      "features_sha256": "1e875f3169e52dcb2cfae1bcf927e962c538bd23d5bb85a5a2c125c44ce52033"
+    },
+    {
+      "league": "bl1",
+      "season": 2025,
+      "matches": 306,
+      "finished_with_final_score": 306,
+      "source_url": "https://api.openligadb.de/getmatchdata/bl1/2025",
+      "matches_sha256": "f57ecfdd2b1675531f27cf5a76e7a3c2a215b60535301d4ee41e40a1da6d02a5",
+      "features_sha256": "37bbcfe03edef75fd18d5cdf07b9e7f3102c8303298334b26f2d3ccef69c15e7"
+    }
+  ],
+  "skipped_sources": [
+    {
+      "league": "la1",
+      "season": 2024,
+      "reason": "Error consultando https://api.openligadb.de/getmatchdata/la1/2024: Fuente vacía o estructura no reconocida: https://api.openligadb.de/getmatchdata/la1/2024"
+    },
+    {
+      "league": "la1",
+      "season": 2025,
+      "reason": "Error consultando https://api.openligadb.de/getmatchdata/la1/2025: Fuente vacía o estructura no reconocida: https://api.openligadb.de/getmatchdata/la1/2025"
+    }
+  ],
+  "historical_source_policy": "Solo resultados publicados, no se usan productos con restricciones para ML"
+}
