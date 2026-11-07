@@ -76,7 +76,7 @@ match_id,league,season_start_year,round,kickoff_utc,home_id,home_team,away_id,aw
 83229,bl1,2026,9,2026-11-07T14:30:00Z,1635,RB Leipzig,95,FC Augsburg,True,5,2,H,2026-11-07T17:55:34.02,"OpenLigaDB (comunidad, ODbL-1.0)",https://api.openligadb.de/getmatchdata/bl1/2026
 83233,bl1,2026,9,2026-11-07T14:30:00Z,81,1. FSV Mainz 05,40,FC Bayern München,True,1,2,A,2026-11-07T17:53:06.043,"OpenLigaDB (comunidad, ODbL-1.0)",https://api.openligadb.de/getmatchdata/bl1/2026
 83236,bl1,2026,9,2026-11-07T14:30:00Z,31,SC Paderborn 07,91,Eintracht Frankfurt,True,2,2,D,2026-11-07T17:50:05.49,"OpenLigaDB (comunidad, ODbL-1.0)",https://api.openligadb.de/getmatchdata/bl1/2026
-83230,bl1,2026,9,2026-11-07T17:30:00Z,16,VfB Stuttgart,134,SV Werder Bremen,False,,,,2026-11-07T19:17:51.523,"OpenLigaDB (comunidad, ODbL-1.0)",https://api.openligadb.de/getmatchdata/bl1/2026
+83230,bl1,2026,9,2026-11-07T17:30:00Z,16,VfB Stuttgart,134,SV Werder Bremen,True,1,0,H,2026-11-07T20:27:05.163,"OpenLigaDB (comunidad, ODbL-1.0)",https://api.openligadb.de/getmatchdata/bl1/2026
 83235,bl1,2026,9,2026-11-08T14:30:00Z,65,1. FC Köln,6,Bayer 04 Leverkusen,False,,,,2026-09-10T17:28:40.24,"OpenLigaDB (comunidad, ODbL-1.0)",https://api.openligadb.de/getmatchdata/bl1/2026
 83232,bl1,2026,9,2026-11-08T16:30:00Z,112,SC Freiburg,80,1. FC Union Berlin,False,,,,2026-09-10T17:28:56.027,"OpenLigaDB (comunidad, ODbL-1.0)",https://api.openligadb.de/getmatchdata/bl1/2026
 83231,bl1,2026,9,2026-11-08T18:30:00Z,175,TSG Hoffenheim,9,FC Schalke 04,False,,,,2026-09-10T17:29:08.703,"OpenLigaDB (comunidad, ODbL-1.0)",https://api.openligadb.de/getmatchdata/bl1/2026

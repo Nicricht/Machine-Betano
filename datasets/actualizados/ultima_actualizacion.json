@@ -1,5 +1,5 @@
 {
-  "checked_at_utc": "2026-11-07T18:38:09+00:00",
+  "checked_at_utc": "2026-11-07T19:35:18+00:00",
   "license": "ODbL-1.0",
   "source": "https://openligadb.de",
   "warning": "Fuente comunitaria. Puede estar retrasada o incompleta; no contiene alineaciones, lesiones, xG ni estadísticas FIFA.",
@@ -17,7 +17,7 @@
       "league": "bl1",
       "season": 2026,
       "matches": 306,
-      "finished_with_score": 77,
+      "finished_with_score": 78,
       "missing_final_score": 0,
       "goal_events": 274,
       "endpoint": "https://api.openligadb.de/getmatchdata/bl1/2026"
