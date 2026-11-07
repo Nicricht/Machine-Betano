@@ -33,6 +33,10 @@ jobs:
         run: python -m unittest discover -s tests -p "test_live_refresh.py" -v
       - name: Descargar partidos de LaLiga y Bundesliga
         run: python scripts/refresh_openligadb.py
+      - name: Pruebas de features sin fuga temporal
+        run: python -m unittest discover -s tests -p "test_live_features.py" -v
+      - name: Calcular features prepartido para ambas ligas
+        run: python scripts/build_live_features.py
       - name: Publicar snapshot de CSV en artefacto
         uses: actions/upload-artifact@v4
         with:
