@@ -1,0 +1,53 @@
+name: Auditar Kaggle FC27 sin redistribuir datos
+
+on:
+  workflow_dispatch:
+  push:
+    branches: ["feat/kaggle-fc27-*"]
+  pull_request:
+    paths:
+      - "scripts/audit_kaggle_fc27.py"
+      - "tests/test_kaggle_fc27.py"
+      - ".github/workflows/auditar-kaggle-fc27.yml"
+
+permissions:
+  contents: read
+
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Instalar libreria oficial de Kaggle
+        run: python -m pip install "kagglehub>=1.0,<2"
+      - name: Validar auditor con CSV sintéticos
+        run: python -m unittest discover -s tests -p "test_kaggle_fc27.py" -v
+      - name: Pruebas del importador sin datos de terceros
+        run: python -m unittest discover -s tests -p "test_normalize_kaggle_fc27.py" -v
+      - name: Descargar y auditar dataset real sin publicarlo
+        run: python scripts/audit_kaggle_fc27.py
+      - name: Convertir a CSV normalizado solo en el entorno temporal
+        run: python -m scripts.normalize_kaggle_fc27
+      - name: Resumen de cobertura
+        if: success()
+        run: |
+          python - <<'PY'
+          import json
+          import os
+          from pathlib import Path
+          d = json.loads(Path("outputs/auditoria_kaggle_fc27.json").read_text(encoding="utf-8"))
+          n = json.loads(Path("datasets/ratings/kaggle_fc27_import.json").read_text(encoding="utf-8"))
+          with open(os.environ["GITHUB_STEP_SUMMARY"], "a", encoding="utf-8") as f:
+              f.write("## FC27 de Kaggle (auditoría de calidad)\n\n")
+              f.write("Fuente: " + d["url"] + "\n\n")
+              for t in d["candidate_csv"]:
+                  f.write(f"- {t['file']}: {t['rows']} jugadores, {t['columns']} columnas; rango OVR {t['ovr_min']}-{t['ovr_max']}\n")
+              f.write("\n**Licencia sin verificar; los CSV originales no se publican ni se usan para predicciones.**\n")
+          PY
+      # No se suben copias de ratings de terceros como artifacts, ni se commitean.

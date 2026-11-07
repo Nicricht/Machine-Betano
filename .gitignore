@@ -13,3 +13,5 @@ venv/
 # Ratings licenciados: nunca commitear datos privados
 datasets/ratings/fc_ratings.csv
 datasets/ratings/ratings_import_status.json
+datasets/ratings/kaggle_fc27_import.json
+outputs/
