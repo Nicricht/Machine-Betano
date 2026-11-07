@@ -31,3 +31,19 @@ El usuario seleccionó [EA SPORTS FC 27 Player Ratings](https://www.kaggle.com/d
 ## Cruce de jugadores FC 27 con goles reales (experimental)
 
 Se añadió un proceso que intenta asociar IDs de futbolistas de FC27 (Kaggle) con goleadores de OpenLigaDB (LaLiga y Bundesliga) usando **nombre, club y evidencia de marcador**, sin confiar en equivalencias por nombre únicamente. Ejecuta a diario una auditoría privada y informa cobertura agregada; las propuestas nunca se convierten por sí solas en identificaciones confirmadas ni se utilizan para predecir. [Método y límites](docs/CRUCE_FC27_OPENLIGADB.md).
+
+
+## Primer modelo de resultados y cobertura de jugadores
+
+Con los partidos actuales de OpenLigaDB se puede generar automáticamente:
+- Un **resumen observado de goles por jugador**, sin suponer minutos, tiros o participación en partidos donde no anotó.
+- Un **modelo exploratorio 1X2** (local, empate, visitante) con corte cronológico, accuracy, log-loss y Brier, comparado con un baseline del entrenamiento.
+- Probabilidades exploratorias solamente para partidos de los próximos 7 días con historial mínimo.
+
+```bash
+python -m pip install -r requirements-model.txt
+python -m scripts.build_scorer_summary
+python -m scripts.train_live_1x2
+```
+
+La ejecución automática publica un artifact de evaluación. **No se han integrado todavía ratings FC27 al entrenamiento**, porque los IDs de FIFA y los de los proveedores deportivos todavía no se han confirmado, aunque la descarga y normalización técnica ya funcionan. Ver [alcance y requisitos pendientes](docs/MODELO_1X2_Y_COBERTURA_JUGADORES.md).

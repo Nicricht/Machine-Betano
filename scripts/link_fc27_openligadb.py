@@ -106,17 +106,18 @@ def team_for_goal_events(matches: list[dict], goals: list[dict]):
                 "club": str(match.get(scorer_side + "_team") or "").strip(),
                 "match_id": key[2],
                 "is_own_goal": own_goal,
+                "is_penalty": str(event.get("is_penalty", "")).casefold() == "true",
             })
         if not valid or not matched:
             invalid_matches += 1
             continue
-        # El último gol anotado no puede superar el resultado final publicado.
+        # No validar un partido con secuencia parcial de eventos de gol.
         try:
             final_h, final_a = int(match["home_goals"]), int(match["away_goals"])
         except (ValueError, KeyError):
             invalid_matches += 1
             continue
-        if h > final_h or a > final_a:
+        if (h, a) != (final_h, final_a):
             invalid_matches += 1
             continue
         evidence.extend(matched)
