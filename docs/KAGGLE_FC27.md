@@ -25,3 +25,11 @@ La tarea de GitHub Actions se ejecuta en el PR para comprobar el dataset real. N
 2. Comprobar que el archivo sea auténtico y que los 19.789 identificadores estén bien formados.
 3. Integrar un extractor de versión con retención privada autorizada; no republicar el dataset en un repositorio público.
 4. Emparejar jugadores con fuentes deportivas reales mediante IDs verificados antes de incorporarlos como features.
+
+## Auditoría verificada en GitHub Actions
+
+La descarga real del dataset Kaggle con `kagglehub` aprobó en [esta ejecución](https://github.com/Nicricht/Machine-Betano/actions/runs/42409557338): `players.csv` tiene **19.789 filas y 60 columnas**.
+
+El segundo paso `scripts/normalize_kaggle_fc27.py` convierte el archivo local a la estructura estándar del proyecto, con `edition=FC27`, fecha del snapshot tomada de cada fila, ID EA, club, posición y ratings OVR/PAC/SHO/PAS/DRI/DEF/PHY. El archivo generado permanece en la ejecución temporal o en la computadora local; no se distribuye públicamente. Si faltan fechas o columnas requeridas, falla antes de declarar importación correcta.
+
+La auditoría e importación de formato **no** acreditan derechos comerciales ni una unión con las estadísticas deportivas reales. La verificación de autenticidad y licencia sigue siendo requisito previo a utilizarlo en modelos predictivos o redistribuirlo.
