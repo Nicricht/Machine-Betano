@@ -29,12 +29,6 @@ def observed_scorers(matches: list[dict], goals: list[dict], as_of_utc: str):
     goal_by_identity = defaultdict(lambda: {
         "matches": set(), "goals": 0, "penalties": 0, "own_goals": 0, "events": 0,
     })
-    # Events validly ordered by their post-score are attributed to the correct club.
-    raw_goals = {
-        (r["league"], str(r["season_start_year"]), str(r["match_id"]),
-         str(r.get("player_id") or ""), str(r.get("home_score_after_goal") or ""),
-         str(r.get("away_score_after_goal") or "")): r for r in goals
-    }
     for event in evidence:
         key = (event["league"], event["season"], event["openligadb_player_id"],
                event["openligadb_player_name"], event["club"])
@@ -52,25 +46,8 @@ def observed_scorers(matches: list[dict], goals: list[dict], as_of_utc: str):
             values["own_goals"] += 1
         else:
             values["goals"] += 1
-
-    # Penaltis: cruzar solo dentro del mismo partido/jugador/club. Cuando
-    # hay varios goles, contar el total de penaltis observado sin inferir
-    # otros eventos (el equipo ya se dedujo por la secuencia).
-    grouped_source = defaultdict(list)
-    for g in goals:
-        grouped_source[(g["league"], str(g["season_start_year"]),
-                        str(g.get("match_id")), str(g.get("player_id")))].append(g)
-    for key, rec in goal_by_identity.items():
-        league, season, pid, _, club = key
-        matches_for_player = rec["matches"]
-        penalty_count = 0
-        for match in matches_for_player:
-            candidates = grouped_source.get((league, season, match, pid), [])
-            for event in candidates:
-                if (str(event.get("is_penalty", "")).lower() == "true"
-                        and str(event.get("is_own_goal", "")).lower() != "true"):
-                    penalty_count += 1
-        rec["penalties"] = min(rec["goals"], penalty_count)
+            if event["is_penalty"]:
+                values["penalties"] += 1
 
     rows = []
     for (league, season, pid, name, club), rec in sorted(goal_by_identity.items()):
