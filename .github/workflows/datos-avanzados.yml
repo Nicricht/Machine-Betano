@@ -1,0 +1,60 @@
+name: API-Football - datos avanzados (sin redistribucion)
+
+on:
+  schedule:
+    - cron: "43 9,18 * * *"
+      timezone: "America/Santiago"
+  workflow_dispatch:
+  push:
+    branches: ["feat/api-football-*"]
+  pull_request:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: machine-betano-api-football
+  cancel-in-progress: false
+
+jobs:
+  conector-avanzado:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    env:
+      API_FOOTBALL_KEY: ${{ secrets.API_FOOTBALL_KEY }}
+    steps:
+      - name: Obtener codigo
+        uses: actions/checkout@v4
+      - name: Preparar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Pruebas del conector sin red ni credenciales
+        run: python -m unittest discover -s tests -p "test_advanced_provider.py" -v
+      - name: Registrar bloqueo de credenciales si corresponde
+        if: env.API_FOOTBALL_KEY == ''
+        run: |
+          echo "### API-Football: PENDIENTE DE ACCESO" >> "$GITHUB_STEP_SUMMARY"
+          echo "Las pruebas pasan, pero no se hicieron consultas avanzadas: falta el secreto API_FOOTBALL_KEY." >> "$GITHUB_STEP_SUMMARY"
+          echo "OpenLigaDB sigue actualizando los resultados mediante otro workflow." >> "$GITHUB_STEP_SUMMARY"
+      - name: Consultar fuente avanzada con presupuesto seguro
+        if: env.API_FOOTBALL_KEY != '' && github.event_name != 'pull_request'
+        run: python scripts/refresh_api_football.py --budget 35
+      - name: Informar filas obtenidas sin publicar datos licenciados
+        if: env.API_FOOTBALL_KEY != '' && github.event_name != 'pull_request'
+        run: |
+          if test -f datasets/avanzados/estado.json; then
+            python - <<'PY'
+          import json
+          from pathlib import Path
+          data = json.loads(Path("datasets/avanzados/estado.json").read_text(encoding="utf-8"))
+          with open(__import__("os").environ["GITHUB_STEP_SUMMARY"], "a", encoding="utf-8") as report:
+              report.write("### API-Football consultado (uso interno)\n")
+              report.write("Consultas ejecutadas: " + str(data["api_calls_used_this_run"]) + "\n\n")
+              for name, count in data["coverage"].items():
+                  report.write("- " + name + ": " + str(count) + " filas\n")
+              report.write("\nLas tablas no se publican en este repositorio público por restricciones de licencia.\n")
+          PY
+          else
+            echo "Sin partidos en la ventana: no se sobrescribió el snapshot." >> "$GITHUB_STEP_SUMMARY"
+          fi
