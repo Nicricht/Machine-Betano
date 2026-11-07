@@ -15,3 +15,6 @@ datasets/ratings/fc_ratings.csv
 datasets/ratings/ratings_import_status.json
 datasets/ratings/kaggle_fc27_import.json
 outputs/
+# Propuestas de identidad y auditoría basadas en FC27: privadas
+datasets/ratings/fc27_openligadb_candidates.csv
+datasets/ratings/fc27_openligadb_linkage_audit.json
