@@ -43,3 +43,43 @@ jobs:
       - name: Informe de verificación
         run: |
           python -c "import json; from pathlib import Path; d=json.loads(Path('outputs/37_90/metrics.json').read_text()); print({k:d[k] for k in ['status','train_rows','test_rows','accuracy','baseline_accuracy','log_loss','baseline_log_loss']})"
+
+  dataset-csv:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Instalar dependencias
+        run: python -m pip install -e .
+      - name: Descargar datos reales de todos los partidos de la temporada
+        run: machine-betano fetch --competition 37 --season 90 --events 250
+      - name: Verificar archivos CSV
+        run: |
+          test -s data/processed/matches_37_90.csv
+          test -s data/processed/features_prepartido_37_90.csv
+          test -s data/processed/player_shots_all_37_90.csv
+          test -s data/processed/player_events_all_37_90.csv
+          python - <<'PY'
+          import csv
+          from pathlib import Path
+          for f in sorted(Path("data/processed").glob("*.csv")):
+              with f.open(encoding="utf-8", newline="") as inp:
+                  rows = sum(1 for _ in csv.DictReader(inp))
+              print(f.name, "filas=", rows)
+              if rows == 0:
+                  raise RuntimeError(f"CSV vacío: {f}")
+          PY
+      - name: Publicar CSV descargables
+        uses: actions/upload-artifact@v4
+        with:
+          name: machine-betano-datos-reales-csv
+          path: |
+            data/processed/*.csv
+            data/processed/*_metadata.json
+          if-no-files-found: error
+          retention-days: 90
