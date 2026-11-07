@@ -33,13 +33,6 @@ def observed_scorers(matches: list[dict], goals: list[dict], as_of_utc: str):
         key = (event["league"], event["season"], event["openligadb_player_id"],
                event["openligadb_player_name"], event["club"])
         values = goal_by_identity[key]
-        source = raw_goals.get((event["league"], event["season"],
-            event["match_id"], event["openligadb_player_id"],
-            # Las puntuaciones no están en evidencia; recuperar este
-            # evento por nombre/partido/ID y contarlo con trazabilidad.
-            "__unavailable__", "__unavailable__"))
-        # Buscar todos los eventos originales de ese jugador y partido
-        # en vez de deducir penalty por su nombre.
         values["matches"].add(event["match_id"])
         values["events"] += 1
         if event["is_own_goal"]:
