@@ -120,7 +120,8 @@ def normalize_fixtures(items: list[dict], league_id: int, season: int, checked: 
             raise ValueError("Partido sin identificador de ambos equipos")
         kickoff = fixture.get("date") or ""
         fixture_info[match_id] = kickoff
-        finished = status in FINISHED_STATUSES
+        # Solo FT se considera marcador reglamentario seguro para modelos 1X2.
+        finished = status == "FT"
         rows.append({
             "provider": "API-Football", "retrieved_at_utc": checked,
             "league_id": league_id, "season": season, "fixture_id": match_id,
