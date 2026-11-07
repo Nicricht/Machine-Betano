@@ -10,3 +10,6 @@ __pycache__/
 venv/
 *.egg-info/
 .DS_Store
+# Ratings licenciados: nunca commitear datos privados
+datasets/ratings/fc_ratings.csv
+datasets/ratings/ratings_import_status.json
