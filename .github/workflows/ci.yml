@@ -1,0 +1,45 @@
+name: Tests Machine-Betano
+
+on:
+  push:
+    branches: [main, "feat/**"]
+  pull_request:
+
+jobs:
+  unittest:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Install
+        run: python -m pip install -e .
+      - name: Unit tests
+        run: python -m unittest discover -s tests -v
+      - name: CLI help
+        run: machine-betano --help
+
+  statsbomb-smoke:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Install
+        run: python -m pip install -e .
+      - name: Descargar catálogo público
+        run: machine-betano catalog
+      - name: Descargar una temporada y dos partidos con eventos
+        run: machine-betano fetch --competition 37 --season 90 --events 2
+      - name: Evaluación cronológica con partidos reales
+        run: machine-betano train --competition 37 --season 90
+      - name: Informe de verificación
+        run: |
+          python -c "import json; from pathlib import Path; d=json.loads(Path('outputs/37_90/metrics.json').read_text()); print({k:d[k] for k in ['status','train_rows','test_rows','accuracy','baseline_accuracy','log_loss','baseline_log_loss']})"
