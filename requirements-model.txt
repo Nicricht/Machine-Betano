@@ -1,0 +1,3 @@
+# Dependencias exclusivas del modelo 1X2; el refresco base no necesita ML.
+numpy>=1.26,<3
+scikit-learn>=1.5,<2
