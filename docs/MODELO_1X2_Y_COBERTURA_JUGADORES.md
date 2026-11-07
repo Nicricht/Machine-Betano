@@ -14,7 +14,7 @@ Los CSV de OpenLigaDB disponibles en `datasets/actualizados/` se actualizan auto
 `python -m scripts.train_live_1x2` produce:
 
 - `outputs/modelo_actual/modelo_1x2_validacion.json`: número de partidos, rango de entrenamiento y prueba, exactitud, `log_loss` multiclase y Brier multiclase, tanto del modelo como de una referencia basada solo en clases conocidas del pasado.
-- `outputs/modelo_actual/partidos_proximos_1x2_exploratorio.csv`: probabilidades **no calibradas**, exclusivamente para encuentros dentro de los próximos 7 días con al menos tres partidos anteriores por equipo.
+- `outputs/modelo_actual/partidos_proximos_1x2_exploratorio.csv`: probabilidades **no calibradas**, exclusivamente para encuentros dentro de los próximos 7 días con al menos tres partidos anteriores por equipo. **Si el modelo no supera la referencia básica en log-loss del bloque cronológico, no publica probabilidades para esos partidos.**
 
 El corte temporal se hace por día, nunca aleatorio. Se evalúa un modelo entrenado con las fechas anteriores a un bloque de prueba posterior; después de evaluar, se permite reentrenar con todos los resultados conocidos para el próximo pronóstico. La predicción de un partido nunca utiliza su propio marcador, estadísticas posteriores ni ratings FIFA unidos con IDs inciertos.
 
@@ -56,3 +56,10 @@ En GitHub Actions, estos pasos generan CSV de goles de jugador en `datasets/actu
 2. Conseguir cobertura de participantes y estadísticas individuales mediante una API autorizada.
 3. Consolidar mapeos de IDs confirmados por fuentes independientes y fecha histórica.
 4. Calibrar probabilidades, medir deriva y comparar con un baseline robusto en múltiples periodos.
+
+## Primer resultado medido, 7 de noviembre de 2026
+
+- 86 partidos en entrenamiento, 34 posteriores reservados para prueba; 120 en total con historial mínimo.
+- Accuracy de ambos: **47,06 %**. Log-loss del modelo 1,3200 frente a referencia histórica 1,1282. El modelo **no supera al baseline**.
+- Por ello se activa la compuerta de seguridad: el CSV de pronósticos permanece sin registros de probabilidad, aunque se identificaron 8 partidos próximos elegibles como candidatos. No usar estas probabilidades para apostar.
+- El resultado muestra falta de robustez y tamaño de muestra. Para mejorar la calidad necesitamos ampliar temporadas y comparar nuevas features en validación temporal separada. Prohibido elegir hiperparámetros guiándose por el bloque reservado para evaluación sin diseñar otra prueba.
