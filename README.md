@@ -27,3 +27,7 @@ Todos los resultados observados **después** de un partido se deben excluir de l
 ## Dataset EA FC27 de Kaggle
 
 El usuario seleccionó [EA SPORTS FC 27 Player Ratings](https://www.kaggle.com/datasets/mikedpad/ea-sports-fc27-player-ratings). La auditoría sin credenciales está en `scripts/audit_kaggle_fc27.py`, con pruebas y workflow. Su resultado es exclusivamente metadatos (calidad/filas/columnas, sin copiar datos de terceros al repositorio); ver [documentación](docs/KAGGLE_FC27.md). Antes de entrenar, se debe verificar licencia, autenticidad, snapshot y correspondencias entre IDs de EA y jugadores de las ligas.
+
+## Cruce de jugadores FC 27 con goles reales (experimental)
+
+Se añadió un proceso que intenta asociar IDs de futbolistas de FC27 (Kaggle) con goleadores de OpenLigaDB (LaLiga y Bundesliga) usando **nombre, club y evidencia de marcador**, sin confiar en equivalencias por nombre únicamente. Ejecuta a diario una auditoría privada y informa cobertura agregada; las propuestas nunca se convierten por sí solas en identificaciones confirmadas ni se utilizan para predecir. [Método y límites](docs/CRUCE_FC27_OPENLIGADB.md).
