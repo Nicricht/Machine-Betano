@@ -1,0 +1,12 @@
+# Datos protegidos y descargas privadas; no publicar en GitHub
+datasets/avanzados/
+.env
+.env.*
+*.key
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+*.egg-info/
+.DS_Store
