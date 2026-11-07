@@ -4,7 +4,7 @@ import tempfile
 from pathlib import Path
 import unittest
 
-from scripts.historical_backfill import backfill, MIN_COMPLETED
+from scripts.historical_backfill import backfill, MIN_COMPLETED, completed_seasons
 
 
 def game(mid, i, year):
@@ -22,6 +22,9 @@ def game(mid, i, year):
 
 
 class TestHistoricalSource(unittest.TestCase):
+    def test_rollover_to_completed_seasons(self):
+        self.assertEqual(completed_seasons(datetime(2026, 11, 7, tzinfo=timezone.utc)), (2024, 2025))
+        self.assertEqual(completed_seasons(datetime(2027, 8, 1, tzinfo=timezone.utc)), (2025, 2026))
     def test_builds_feature_files_and_recovers_cache(self):
         now = datetime(2026, 11, 7, tzinfo=timezone.utc)
         with tempfile.TemporaryDirectory() as folder:
@@ -36,6 +39,8 @@ class TestHistoricalSource(unittest.TestCase):
             report = backfill(root, now=now, fetcher=fake)
             self.assertEqual(len(report["leagues"]), 1)
             self.assertEqual(report["leagues"][0]["season"], 2025)
+            self.assertEqual(len(report["leagues"][0]["matches_sha256"]), 64)
+            self.assertEqual(len(report["leagues"][0]["features_sha256"]), 64)
             self.assertTrue((root / "la1_2025_features_prepartido.csv").exists())
             self.assertTrue((root / "la1_2025_partidos.csv").exists())
             self.assertEqual(len(report["skipped_sources"]), 3)
