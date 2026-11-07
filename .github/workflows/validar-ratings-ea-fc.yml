@@ -1,0 +1,23 @@
+name: Validacion importador EA FC (sin descargar ratings)
+
+on:
+  push:
+    branches:
+      - "feat/ratings-ea-fc-*"
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  tests-ratings:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Validar importador sin datos comerciales
+        run: python -m unittest discover -s tests -p "test_fc_ratings.py" -v
