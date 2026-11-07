@@ -29,6 +29,8 @@ jobs:
         uses: actions/setup-python@v5
         with:
           python-version: "3.11"
+      - name: Instalar dependencias del modelo 1X2
+        run: python -m pip install -r requirements-model.txt
       - name: Probar normalizacion y reglas de integridad
         run: python -m unittest discover -s tests -p "test_live_refresh.py" -v
       - name: Descargar partidos de LaLiga y Bundesliga
@@ -37,6 +39,28 @@ jobs:
         run: python -m unittest discover -s tests -p "test_live_features.py" -v
       - name: Calcular features prepartido para ambas ligas
         run: python scripts/build_live_features.py
+      - name: Probar extraccion de goleadores y autogoles
+        run: python -m unittest discover -s tests -p "test_scorer_summary.py" -v
+      - name: Exportar resumen observado de goleadores
+        run: python -m scripts.build_scorer_summary
+      - name: Probar modelo 1X2 con corte cronologico
+        run: python -m unittest discover -s tests -p "test_live_model.py" -v
+      - name: Evaluar 1X2 y generar probabilidades exploratorias
+        id: train_1x2
+        continue-on-error: true
+        run: python -m scripts.train_live_1x2
+      - name: Publicar informe exploratorio del modelo
+        if: steps.train_1x2.outcome == 'success'
+        uses: actions/upload-artifact@v4
+        with:
+          name: machine-betano-modelo-1x2
+          path: outputs/modelo_actual/
+          if-no-files-found: error
+          retention-days: 90
+      - name: Informar falta de datos para entrenar cuando corresponda
+        if: steps.train_1x2.outcome == 'failure'
+        run: |
+          echo "Modelo 1X2: no se pudo entrenar/evaluar con la muestra disponible. Las tablas deportivas siguen actualizándose; revisar logs." >> "$GITHUB_STEP_SUMMARY"
       - name: Publicar snapshot de CSV en artefacto
         uses: actions/upload-artifact@v4
         with:
