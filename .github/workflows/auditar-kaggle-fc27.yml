@@ -33,7 +33,7 @@ jobs:
       - name: Descargar y auditar dataset real sin publicarlo
         run: python scripts/audit_kaggle_fc27.py
       - name: Convertir a CSV normalizado solo en el entorno temporal
-        run: python scripts/normalize_kaggle_fc27.py
+        run: python -m scripts.normalize_kaggle_fc27
       - name: Resumen de cobertura
         if: success()
         run: |
