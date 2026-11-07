@@ -23,3 +23,7 @@ python scripts/refresh_api_football.py --budget 35
 CSV privados generados en `datasets/avanzados/` (excluidos por .gitignore). Las consultas programadas solo estarán activas en `main` y si el secreto existe. Si falta, el workflow declara PENDIENTE DE ACCESO y no simula una descarga.
 
 Todos los resultados observados **después** de un partido se deben excluir de las variables predictoras de ese mismo partido. El proyecto no ha demostrado ventaja sobre cuotas de casas de apuestas.
+
+## Kaggle y Hugging Face: EA FC 26
+
+Encontramos bases recientes de FIFA/EA FC publicadas por terceros. El conector experimental `scripts/audit_hf_fc26.py` puede leer y auditar las valoraciones FC26 desde Hugging Face, con archivos distintos para porteros y jugadores de campo. **No son necesariamente datos oficiales ni tienen licencia de reutilización verificada**: de momento se auditan cantidades y calidad, sin redistribuir los CSV ni mezclarlos con los resultados. Ver [evaluación de datasets](docs/AUDITORIA_DATASETS_FC.md) y [valoraciones](docs/RATINGS_EA_FC.md).
