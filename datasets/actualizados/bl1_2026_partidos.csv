@@ -1,0 +1,307 @@
+match_id,league,season_start_year,round,kickoff_utc,home_id,home_team,away_id,away_team,finished,home_goals,away_goals,outcome,source_last_updated,source,source_url
+83156,bl1,2026,1,2026-08-28T18:30:00Z,40,FC Bayern München,16,VfB Stuttgart,True,5,1,H,2026-09-02T15:36:25.313,"OpenLigaDB (comunidad, ODbL-1.0)",https://api.openligadb.de/getmatchdata/bl1/2026
+83158,bl1,2026,1,2026-08-29T13:30:00Z,1635,RB Leipzig,87,Borussia Mönchengladbach,True,3,0,H,2026-08-29T17:27:03.903,"OpenLigaDB (comunidad, ODbL-1.0)",https://api.openligadb.de/getmatchdata/bl1/2026
+83161,bl1,2026,1,2026-08-29T13:30:00Z,81,1. FSV Mainz 05,31,SC Paderborn 07,True,0,0,D,2026-08-29T17:25:32.37,"OpenLigaDB (comunidad, ODbL-1.0)",https://api.openligadb.de/getmatchdata/bl1/2026
+83162,bl1,2026,1,2026-08-29T13:30:00Z,80,1. FC Union Berlin,91,Eintracht Frankfurt,True,3,3,D,2026-08-29T17:34:37.943,"OpenLigaDB (comunidad, ODbL-1.0)",https://api.openligadb.de/getmatchdata/bl1/2026
+83163,bl1,2026,1,2026-08-29T13:30:00Z,65,1. FC Köln,175,TSG Hoffenheim,True,3,2,H,2026-08-29T17:34:55.623,"OpenLigaDB (comunidad, ODbL-1.0)",https://api.openligadb.de/getmatchdata/bl1/2026
+83164,bl1,2026,1,2026-08-29T13:30:00Z,198,SV 07 Elversberg,6,Bayer 04 Leverkusen,True,3,2,H,2026-08-29T17:29:42.287,"OpenLigaDB (comunidad, ODbL-1.0)",https://api.openligadb.de/getmatchdata/bl1/2026
+83157,bl1,2026,1,2026-08-29T16:30:00Z,7,Borussia Dortmund,100,Hamburger SV,True,2,0,H,2026-08-29T20:23:29.203,"OpenLigaDB (comunidad, ODbL-1.0)",https://api.openligadb.de/getmatchdata/bl1/2026
+83159,bl1,2026,1,2026-08-30T13:30:00Z,112,SC Freiburg,134,SV Werder Bremen,True,4,1,H,2026-08-30T17:22:21.52,"OpenLigaDB (comunidad, ODbL-1.0)",https://api.openligadb.de/getmatchdata/bl1/2026
+83160,bl1,2026,1,2026-08-30T15:30:00Z,95,FC Augsburg,9,FC Schalke 04,True,3,0,H,2026-08-30T19:22:56.833,"OpenLigaDB (comunidad, ODbL-1.0)",https://api.openligadb.de/getmatchdata/bl1/2026
+83165,bl1,2026,2,2026-09-04T18:30:00Z,16,VfB Stuttgart,65,1. FC Köln,True,4,1,H,2026-09-05T10:09:32.793,"OpenLigaDB (comunidad, ODbL-1.0)",https://api.openligadb.de/getmatchdata/bl1/2026
+83166,bl1,2026,2,2026-09-05T13:30:00Z,175,TSG Hoffenheim,7,Borussia Dortmund,True,2,3,A,2026-09-05T17:25:56.737,"OpenLigaDB (comunidad, ODbL-1.0)",https://api.openligadb.de/getmatchdata/bl1/2026
+83167,bl1,2026,2,2026-09-05T13:30:00Z,6,Bayer 04 Leverkusen,80,1. FC Union Berlin,True,4,0,H,2026-09-05T17:21:30.463,"OpenLigaDB (comunidad, ODbL-1.0)",https://api.openligadb.de/getmatchdata/bl1/2026
+83169,bl1,2026,2,2026-09-05T13:30:00Z,87,Borussia Mönchengladbach,198,SV 07 Elversberg,True,3,4,A,2026-09-05T17:25:39.133,"OpenLigaDB (comunidad, ODbL-1.0)",https://api.openligadb.de/getmatchdata/bl1/2026
+83171,bl1,2026,2,2026-09-05T13:30:00Z,134,SV Werder Bremen,1635,RB Leipzig,True,3,1,H,2026-09-05T17:28:48.947,"OpenLigaDB (comunidad, ODbL-1.0)",https://api.openligadb.de/getmatchdata/bl1/2026
+83173,bl1,2026,2,2026-09-05T13:30:00Z,31,SC Paderborn 07,112,SC Freiburg,True,0,1,A,2026-09-05T17:22:39.38,"OpenLigaDB (comunidad, ODbL-1.0)",https://api.openligadb.de/getmatchdata/bl1/2026
+83172,bl1,2026,2,2026-09-05T16:30:00Z,9,FC Schalke 04,40,FC Bayern München,True,0,0,D,2026-09-05T20:24:03.547,"OpenLigaDB (comunidad, ODbL-1.0)",https://api.openligadb.de/getmatchdata/bl1/2026
+83170,bl1,2026,2,2026-09-06T13:30:00Z,100,Hamburger SV,81,1. FSV Mainz 05,True,0,5,A,2026-09-06T17:22:31.473,"OpenLigaDB (comunidad, ODbL-1.0)",https://api.openligadb.de/getmatchdata/bl1/2026
+83168,bl1,2026,2,2026-09-06T15:30:00Z,91,Eintracht Frankfurt,95,FC Augsburg,True,1,4,A,2026-09-10T12:22:09.66,"OpenLigaDB (comunidad, ODbL-1.0)",https://api.openligadb.de/getmatchdata/bl1/2026
+83180,bl1,2026,3,2026-09-11T18:30:00Z,80,1. FC Union Berlin,9,FC Schalke 04,True,1,3,A,2026-09-11T23:21:29.24,"OpenLigaDB (comunidad, ODbL-1.0)",https://api.openligadb.de/getmatchdata/bl1/2026
+83174,bl1,2026,3,2026-09-12T13:30:00Z,7,Borussia Dortmund,31,SC Paderborn 07,True,3,0,H,2026-09-12T17:23:31.113,"OpenLigaDB (comunidad, ODbL-1.0)",https://api.openligadb.de/getmatchdata/bl1/2026
+83176,bl1,2026,3,2026-09-12T13:30:00Z,175,TSG Hoffenheim,16,VfB Stuttgart,True,2,1,H,2026-09-12T17:26:43.427,"OpenLigaDB (comunidad, ODbL-1.0)",https://api.openligadb.de/getmatchdata/bl1/2026
+83177,bl1,2026,3,2026-09-12T13:30:00Z,112,SC Freiburg,87,Borussia Mönchengladbach,True,5,0,H,2026-09-12T23:29:26.12,"OpenLigaDB (comunidad, ODbL-1.0)",https://api.openligadb.de/getmatchdata/bl1/2026
+83178,bl1,2026,3,2026-09-12T13:30:00Z,95,FC Augsburg,6,Bayer 04 Leverkusen,True,2,2,D,2026-09-12T17:24:51.223,"OpenLigaDB (comunidad, ODbL-1.0)",https://api.openligadb.de/getmatchdata/bl1/2026
+83179,bl1,2026,3,2026-09-12T13:30:00Z,81,1. FSV Mainz 05,91,Eintracht Frankfurt,True,1,3,A,2026-09-12T17:23:21.717,"OpenLigaDB (comunidad, ODbL-1.0)",https://api.openligadb.de/getmatchdata/bl1/2026
+83181,bl1,2026,3,2026-09-12T16:30:00Z,65,1. FC Köln,134,SV Werder Bremen,True,1,1,D,2026-09-12T20:24:11.19,"OpenLigaDB (comunidad, ODbL-1.0)",https://api.openligadb.de/getmatchdata/bl1/2026
+83175,bl1,2026,3,2026-09-13T13:30:00Z,1635,RB Leipzig,100,Hamburger SV,True,5,0,H,2026-09-13T17:23:23.893,"OpenLigaDB (comunidad, ODbL-1.0)",https://api.openligadb.de/getmatchdata/bl1/2026
+83182,bl1,2026,3,2026-09-13T15:30:00Z,198,SV 07 Elversberg,40,FC Bayern München,True,1,2,A,2026-09-13T19:26:13.75,"OpenLigaDB (comunidad, ODbL-1.0)",https://api.openligadb.de/getmatchdata/bl1/2026
+83183,bl1,2026,4,2026-09-18T18:30:00Z,40,FC Bayern München,80,1. FC Union Berlin,True,7,0,H,2026-09-18T22:23:06.137,"OpenLigaDB (comunidad, ODbL-1.0)",https://api.openligadb.de/getmatchdata/bl1/2026
+83186,bl1,2026,4,2026-09-19T13:30:00Z,91,Eintracht Frankfurt,112,SC Freiburg,True,2,2,D,2026-09-19T17:26:17.287,"OpenLigaDB (comunidad, ODbL-1.0)",https://api.openligadb.de/getmatchdata/bl1/2026
+83187,bl1,2026,4,2026-09-19T13:30:00Z,87,Borussia Mönchengladbach,81,1. FSV Mainz 05,True,3,4,A,2026-09-19T17:31:36.617,"OpenLigaDB (comunidad, ODbL-1.0)",https://api.openligadb.de/getmatchdata/bl1/2026
+83188,bl1,2026,4,2026-09-19T13:30:00Z,100,Hamburger SV,65,1. FC Köln,True,2,1,H,2026-09-19T17:26:28.4,"OpenLigaDB (comunidad, ODbL-1.0)",https://api.openligadb.de/getmatchdata/bl1/2026
+83189,bl1,2026,4,2026-09-19T13:30:00Z,134,SV Werder Bremen,95,FC Augsburg,True,3,2,H,2026-09-19T17:26:31.1,"OpenLigaDB (comunidad, ODbL-1.0)",https://api.openligadb.de/getmatchdata/bl1/2026
+83184,bl1,2026,4,2026-09-19T16:30:00Z,16,VfB Stuttgart,7,Borussia Dortmund,True,0,1,A,2026-09-19T20:23:12.903,"OpenLigaDB (comunidad, ODbL-1.0)",https://api.openligadb.de/getmatchdata/bl1/2026
+83185,bl1,2026,4,2026-09-20T13:30:00Z,6,Bayer 04 Leverkusen,1635,RB Leipzig,True,2,0,H,2026-09-20T17:25:43.843,"OpenLigaDB (comunidad, ODbL-1.0)",https://api.openligadb.de/getmatchdata/bl1/2026
+83190,bl1,2026,4,2026-09-20T15:30:00Z,9,FC Schalke 04,198,SV 07 Elversberg,True,0,0,D,2026-09-20T19:20:29.223,"OpenLigaDB (comunidad, ODbL-1.0)",https://api.openligadb.de/getmatchdata/bl1/2026
+83191,bl1,2026,4,2026-09-20T17:30:00Z,31,SC Paderborn 07,175,TSG Hoffenheim,True,3,1,H,2026-09-20T21:21:18.82,"OpenLigaDB (comunidad, ODbL-1.0)",https://api.openligadb.de/getmatchdata/bl1/2026
+83192,bl1,2026,5,2026-10-09T18:30:00Z,7,Borussia Dortmund,134,SV Werder Bremen,True,2,2,D,2026-10-09T22:27:52.04,"OpenLigaDB (comunidad, ODbL-1.0)",https://api.openligadb.de/getmatchdata/bl1/2026
+83194,bl1,2026,5,2026-10-10T13:30:00Z,175,TSG Hoffenheim,100,Hamburger SV,True,2,3,A,2026-10-10T17:51:34.26,"OpenLigaDB (comunidad, ODbL-1.0)",https://api.openligadb.de/getmatchdata/bl1/2026
+83196,bl1,2026,5,2026-10-10T13:30:00Z,95,FC Augsburg,40,FC Bayern München,True,2,2,D,2026-10-10T17:32:01.023,"OpenLigaDB (comunidad, ODbL-1.0)",https://api.openligadb.de/getmatchdata/bl1/2026
+83197,bl1,2026,5,2026-10-10T13:30:00Z,81,1. FSV Mainz 05,6,Bayer 04 Leverkusen,True,3,4,A,2026-10-10T17:26:37.283,"OpenLigaDB (comunidad, ODbL-1.0)",https://api.openligadb.de/getmatchdata/bl1/2026
+83198,bl1,2026,5,2026-10-10T13:30:00Z,80,1. FC Union Berlin,198,SV 07 Elversberg,True,1,0,H,2026-10-10T17:23:00.573,"OpenLigaDB (comunidad, ODbL-1.0)",https://api.openligadb.de/getmatchdata/bl1/2026
+83200,bl1,2026,5,2026-10-10T13:30:00Z,31,SC Paderborn 07,16,VfB Stuttgart,True,0,2,A,2026-10-10T17:23:58.187,"OpenLigaDB (comunidad, ODbL-1.0)",https://api.openligadb.de/getmatchdata/bl1/2026
+83193,bl1,2026,5,2026-10-10T16:30:00Z,1635,RB Leipzig,91,Eintracht Frankfurt,True,6,0,H,2026-10-10T20:22:34.163,"OpenLigaDB (comunidad, ODbL-1.0)",https://api.openligadb.de/getmatchdata/bl1/2026
+83199,bl1,2026,5,2026-10-11T13:30:00Z,65,1. FC Köln,87,Borussia Mönchengladbach,True,2,1,H,2026-10-11T17:31:56.557,"OpenLigaDB (comunidad, ODbL-1.0)",https://api.openligadb.de/getmatchdata/bl1/2026
+83195,bl1,2026,5,2026-10-11T15:30:00Z,112,SC Freiburg,9,FC Schalke 04,True,2,1,H,2026-10-11T19:25:39.077,"OpenLigaDB (comunidad, ODbL-1.0)",https://api.openligadb.de/getmatchdata/bl1/2026
+83203,bl1,2026,6,2026-10-16T18:30:00Z,91,Eintracht Frankfurt,65,1. FC Köln,True,1,0,H,2026-10-16T22:26:29.057,"OpenLigaDB (comunidad, ODbL-1.0)",https://api.openligadb.de/getmatchdata/bl1/2026
+83204,bl1,2026,6,2026-10-17T13:30:00Z,80,1. FC Union Berlin,7,Borussia Dortmund,True,0,0,D,2026-10-17T17:26:14.777,"OpenLigaDB (comunidad, ODbL-1.0)",https://api.openligadb.de/getmatchdata/bl1/2026
+83206,bl1,2026,6,2026-10-17T13:30:00Z,100,Hamburger SV,16,VfB Stuttgart,True,1,0,H,2026-10-17T17:22:43.29,"OpenLigaDB (comunidad, ODbL-1.0)",https://api.openligadb.de/getmatchdata/bl1/2026
+83207,bl1,2026,6,2026-10-17T13:30:00Z,134,SV Werder Bremen,31,SC Paderborn 07,True,2,2,D,2026-10-17T17:22:50.01,"OpenLigaDB (comunidad, ODbL-1.0)",https://api.openligadb.de/getmatchdata/bl1/2026
+83208,bl1,2026,6,2026-10-17T13:30:00Z,9,FC Schalke 04,81,1. FSV Mainz 05,True,0,1,A,2026-10-17T17:23:54.657,"OpenLigaDB (comunidad, ODbL-1.0)",https://api.openligadb.de/getmatchdata/bl1/2026
+83209,bl1,2026,6,2026-10-17T13:30:00Z,198,SV 07 Elversberg,95,FC Augsburg,True,4,3,H,2026-10-17T20:30:32.643,"OpenLigaDB (comunidad, ODbL-1.0)",https://api.openligadb.de/getmatchdata/bl1/2026
+83201,bl1,2026,6,2026-10-17T16:30:00Z,40,FC Bayern München,1635,RB Leipzig,True,6,1,H,2026-10-17T23:32:53.233,"OpenLigaDB (comunidad, ODbL-1.0)",https://api.openligadb.de/getmatchdata/bl1/2026
+83202,bl1,2026,6,2026-10-18T13:30:00Z,6,Bayer 04 Leverkusen,112,SC Freiburg,True,2,1,H,2026-10-18T17:26:57.94,"OpenLigaDB (comunidad, ODbL-1.0)",https://api.openligadb.de/getmatchdata/bl1/2026
+83205,bl1,2026,6,2026-10-18T15:30:00Z,87,Borussia Mönchengladbach,175,TSG Hoffenheim,True,1,2,A,2026-10-18T19:23:40.75,"OpenLigaDB (comunidad, ODbL-1.0)",https://api.openligadb.de/getmatchdata/bl1/2026
+83212,bl1,2026,7,2026-10-23T18:30:00Z,16,VfB Stuttgart,87,Borussia Mönchengladbach,True,2,3,A,2026-10-23T22:26:35.347,"OpenLigaDB (comunidad, ODbL-1.0)",https://api.openligadb.de/getmatchdata/bl1/2026
+83211,bl1,2026,7,2026-10-24T13:30:00Z,1635,RB Leipzig,198,SV 07 Elversberg,True,4,0,H,2026-10-24T17:24:07.5,"OpenLigaDB (comunidad, ODbL-1.0)",https://api.openligadb.de/getmatchdata/bl1/2026
+83215,bl1,2026,7,2026-10-24T13:30:00Z,95,FC Augsburg,80,1. FC Union Berlin,True,1,1,D,2026-10-24T17:24:55.267,"OpenLigaDB (comunidad, ODbL-1.0)",https://api.openligadb.de/getmatchdata/bl1/2026
+83216,bl1,2026,7,2026-10-24T13:30:00Z,81,1. FSV Mainz 05,134,SV Werder Bremen,True,2,3,A,2026-10-24T17:27:39.707,"OpenLigaDB (comunidad, ODbL-1.0)",https://api.openligadb.de/getmatchdata/bl1/2026
+83217,bl1,2026,7,2026-10-24T13:30:00Z,65,1. FC Köln,9,FC Schalke 04,True,0,0,D,2026-10-24T17:26:35.193,"OpenLigaDB (comunidad, ODbL-1.0)",https://api.openligadb.de/getmatchdata/bl1/2026
+83218,bl1,2026,7,2026-10-24T13:30:00Z,31,SC Paderborn 07,100,Hamburger SV,True,1,0,H,2026-10-24T17:25:53.37,"OpenLigaDB (comunidad, ODbL-1.0)",https://api.openligadb.de/getmatchdata/bl1/2026
+83210,bl1,2026,7,2026-10-24T16:30:00Z,7,Borussia Dortmund,91,Eintracht Frankfurt,True,1,0,H,2026-10-24T20:22:37.043,"OpenLigaDB (comunidad, ODbL-1.0)",https://api.openligadb.de/getmatchdata/bl1/2026
+83213,bl1,2026,7,2026-10-25T14:30:00Z,175,TSG Hoffenheim,6,Bayer 04 Leverkusen,True,3,0,H,2026-10-25T17:30:44.863,"OpenLigaDB (comunidad, ODbL-1.0)",https://api.openligadb.de/getmatchdata/bl1/2026
+83214,bl1,2026,7,2026-10-25T16:30:00Z,112,SC Freiburg,40,FC Bayern München,True,1,3,A,2026-10-25T19:26:44.59,"OpenLigaDB (comunidad, ODbL-1.0)",https://api.openligadb.de/getmatchdata/bl1/2026
+83227,bl1,2026,8,2026-10-30T19:30:00Z,198,SV 07 Elversberg,81,1. FSV Mainz 05,True,4,1,H,2026-10-30T22:25:17.05,"OpenLigaDB (comunidad, ODbL-1.0)",https://api.openligadb.de/getmatchdata/bl1/2026
+83220,bl1,2026,8,2026-10-31T14:30:00Z,6,Bayer 04 Leverkusen,16,VfB Stuttgart,True,2,4,A,2026-11-02T10:24:43.753,"OpenLigaDB (comunidad, ODbL-1.0)",https://api.openligadb.de/getmatchdata/bl1/2026
+83222,bl1,2026,8,2026-10-31T14:30:00Z,95,FC Augsburg,112,SC Freiburg,True,1,2,A,2026-10-31T17:22:02.803,"OpenLigaDB (comunidad, ODbL-1.0)",https://api.openligadb.de/getmatchdata/bl1/2026
+83224,bl1,2026,8,2026-10-31T14:30:00Z,87,Borussia Mönchengladbach,31,SC Paderborn 07,True,0,0,D,2026-10-31T17:23:02.433,"OpenLigaDB (comunidad, ODbL-1.0)",https://api.openligadb.de/getmatchdata/bl1/2026
+83225,bl1,2026,8,2026-10-31T14:30:00Z,134,SV Werder Bremen,175,TSG Hoffenheim,True,2,0,H,2026-10-31T17:24:14.653,"OpenLigaDB (comunidad, ODbL-1.0)",https://api.openligadb.de/getmatchdata/bl1/2026
+83226,bl1,2026,8,2026-10-31T14:30:00Z,9,FC Schalke 04,1635,RB Leipzig,True,0,2,A,2026-10-31T17:24:50.827,"OpenLigaDB (comunidad, ODbL-1.0)",https://api.openligadb.de/getmatchdata/bl1/2026
+83219,bl1,2026,8,2026-10-31T17:30:00Z,40,FC Bayern München,7,Borussia Dortmund,True,2,2,D,2026-10-31T20:30:14.237,"OpenLigaDB (comunidad, ODbL-1.0)",https://api.openligadb.de/getmatchdata/bl1/2026
+83223,bl1,2026,8,2026-11-01T14:30:00Z,80,1. FC Union Berlin,65,1. FC Köln,True,1,1,D,2026-11-01T17:21:37.07,"OpenLigaDB (comunidad, ODbL-1.0)",https://api.openligadb.de/getmatchdata/bl1/2026
+83221,bl1,2026,8,2026-11-01T16:30:00Z,91,Eintracht Frankfurt,100,Hamburger SV,True,3,1,H,2026-11-01T19:29:27.607,"OpenLigaDB (comunidad, ODbL-1.0)",https://api.openligadb.de/getmatchdata/bl1/2026
+83234,bl1,2026,9,2026-11-06T19:30:00Z,100,Hamburger SV,87,Borussia Mönchengladbach,True,3,1,H,2026-11-07T13:20:22.493,"OpenLigaDB (comunidad, ODbL-1.0)",https://api.openligadb.de/getmatchdata/bl1/2026
+83228,bl1,2026,9,2026-11-07T14:30:00Z,7,Borussia Dortmund,198,SV 07 Elversberg,True,2,1,H,2026-11-07T17:28:46.127,"OpenLigaDB (comunidad, ODbL-1.0)",https://api.openligadb.de/getmatchdata/bl1/2026
+83229,bl1,2026,9,2026-11-07T14:30:00Z,1635,RB Leipzig,95,FC Augsburg,True,5,2,H,2026-11-07T17:55:34.02,"OpenLigaDB (comunidad, ODbL-1.0)",https://api.openligadb.de/getmatchdata/bl1/2026
+83233,bl1,2026,9,2026-11-07T14:30:00Z,81,1. FSV Mainz 05,40,FC Bayern München,True,1,2,A,2026-11-07T17:53:06.043,"OpenLigaDB (comunidad, ODbL-1.0)",https://api.openligadb.de/getmatchdata/bl1/2026
+83236,bl1,2026,9,2026-11-07T14:30:00Z,31,SC Paderborn 07,91,Eintracht Frankfurt,True,2,2,D,2026-11-07T17:50:05.49,"OpenLigaDB (comunidad, ODbL-1.0)",https://api.openligadb.de/getmatchdata/bl1/2026
+83230,bl1,2026,9,2026-11-07T17:30:00Z,16,VfB Stuttgart,134,SV Werder Bremen,False,,,,2026-11-07T18:38:04.2,"OpenLigaDB (comunidad, ODbL-1.0)",https://api.openligadb.de/getmatchdata/bl1/2026
+83235,bl1,2026,9,2026-11-08T14:30:00Z,65,1. FC Köln,6,Bayer 04 Leverkusen,False,,,,2026-09-10T17:28:40.24,"OpenLigaDB (comunidad, ODbL-1.0)",https://api.openligadb.de/getmatchdata/bl1/2026
+83232,bl1,2026,9,2026-11-08T16:30:00Z,112,SC Freiburg,80,1. FC Union Berlin,False,,,,2026-09-10T17:28:56.027,"OpenLigaDB (comunidad, ODbL-1.0)",https://api.openligadb.de/getmatchdata/bl1/2026
+83231,bl1,2026,9,2026-11-08T18:30:00Z,175,TSG Hoffenheim,9,FC Schalke 04,False,,,,2026-09-10T17:29:08.703,"OpenLigaDB (comunidad, ODbL-1.0)",https://api.openligadb.de/getmatchdata/bl1/2026
+83237,bl1,2026,10,2026-11-20T19:30:00Z,40,FC Bayern München,65,1. FC Köln,False,,,,2026-09-10T17:29:43.763,"OpenLigaDB (comunidad, ODbL-1.0)",https://api.openligadb.de/getmatchdata/bl1/2026
+83238,bl1,2026,10,2026-11-21T14:30:00Z,6,Bayer 04 Leverkusen,31,SC Paderborn 07,False,,,,2026-07-03T08:15:41.453,"OpenLigaDB (comunidad, ODbL-1.0)",https://api.openligadb.de/getmatchdata/bl1/2026
+83239,bl1,2026,10,2026-11-21T14:30:00Z,91,Eintracht Frankfurt,175,TSG Hoffenheim,False,,,,2026-07-03T08:16:02.887,"OpenLigaDB (comunidad, ODbL-1.0)",https://api.openligadb.de/getmatchdata/bl1/2026
+83241,bl1,2026,10,2026-11-21T14:30:00Z,80,1. FC Union Berlin,1635,RB Leipzig,False,,,,2026-07-03T08:16:26.903,"OpenLigaDB (comunidad, ODbL-1.0)",https://api.openligadb.de/getmatchdata/bl1/2026
+83242,bl1,2026,10,2026-11-21T14:30:00Z,87,Borussia Mönchengladbach,7,Borussia Dortmund,False,,,,2026-07-03T08:16:35.227,"OpenLigaDB (comunidad, ODbL-1.0)",https://api.openligadb.de/getmatchdata/bl1/2026
+83245,bl1,2026,10,2026-11-21T14:30:00Z,198,SV 07 Elversberg,112,SC Freiburg,False,,,,2026-07-03T08:17:04.54,"OpenLigaDB (comunidad, ODbL-1.0)",https://api.openligadb.de/getmatchdata/bl1/2026
+83244,bl1,2026,10,2026-11-21T17:30:00Z,9,FC Schalke 04,16,VfB Stuttgart,False,,,,2026-09-10T17:29:58.837,"OpenLigaDB (comunidad, ODbL-1.0)",https://api.openligadb.de/getmatchdata/bl1/2026
+83240,bl1,2026,10,2026-11-22T14:30:00Z,95,FC Augsburg,81,1. FSV Mainz 05,False,,,,2026-09-10T17:30:08.693,"OpenLigaDB (comunidad, ODbL-1.0)",https://api.openligadb.de/getmatchdata/bl1/2026
+83243,bl1,2026,10,2026-11-22T16:30:00Z,134,SV Werder Bremen,100,Hamburger SV,False,,,,2026-09-10T17:30:25.293,"OpenLigaDB (comunidad, ODbL-1.0)",https://api.openligadb.de/getmatchdata/bl1/2026
+83253,bl1,2026,11,2026-11-27T19:30:00Z,134,SV Werder Bremen,87,Borussia Mönchengladbach,False,,,,2026-09-10T17:30:53.893,"OpenLigaDB (comunidad, ODbL-1.0)",https://api.openligadb.de/getmatchdata/bl1/2026
+83250,bl1,2026,11,2026-11-28T14:30:00Z,81,1. FSV Mainz 05,80,1. FC Union Berlin,False,,,,2026-07-03T08:18:52.687,"OpenLigaDB (comunidad, ODbL-1.0)",https://api.openligadb.de/getmatchdata/bl1/2026
+83251,bl1,2026,11,2026-11-28T14:30:00Z,100,Hamburger SV,40,FC Bayern München,False,,,,2026-07-03T08:19:07.307,"OpenLigaDB (comunidad, ODbL-1.0)",https://api.openligadb.de/getmatchdata/bl1/2026
+83252,bl1,2026,11,2026-11-28T14:30:00Z,65,1. FC Köln,198,SV 07 Elversberg,False,,,,2026-07-03T08:19:17.767,"OpenLigaDB (comunidad, ODbL-1.0)",https://api.openligadb.de/getmatchdata/bl1/2026
+83254,bl1,2026,11,2026-11-28T14:30:00Z,31,SC Paderborn 07,9,FC Schalke 04,False,,,,2026-07-03T08:19:37.04,"OpenLigaDB (comunidad, ODbL-1.0)",https://api.openligadb.de/getmatchdata/bl1/2026
+83247,bl1,2026,11,2026-11-28T17:30:00Z,16,VfB Stuttgart,91,Eintracht Frankfurt,False,,,,2026-09-10T17:31:08.303,"OpenLigaDB (comunidad, ODbL-1.0)",https://api.openligadb.de/getmatchdata/bl1/2026
+83249,bl1,2026,11,2026-11-29T14:30:00Z,112,SC Freiburg,1635,RB Leipzig,False,,,,2026-09-10T17:31:20.403,"OpenLigaDB (comunidad, ODbL-1.0)",https://api.openligadb.de/getmatchdata/bl1/2026
+83248,bl1,2026,11,2026-11-29T16:30:00Z,175,TSG Hoffenheim,95,FC Augsburg,False,,,,2026-09-10T17:31:33.25,"OpenLigaDB (comunidad, ODbL-1.0)",https://api.openligadb.de/getmatchdata/bl1/2026
+83246,bl1,2026,11,2026-11-29T18:30:00Z,7,Borussia Dortmund,6,Bayer 04 Leverkusen,False,,,,2026-09-10T17:31:47.757,"OpenLigaDB (comunidad, ODbL-1.0)",https://api.openligadb.de/getmatchdata/bl1/2026
+83255,bl1,2026,12,2026-12-04T19:30:00Z,40,FC Bayern München,31,SC Paderborn 07,False,,,,2026-11-05T13:12:35.417,"OpenLigaDB (comunidad, ODbL-1.0)",https://api.openligadb.de/getmatchdata/bl1/2026
+83256,bl1,2026,12,2026-12-05T14:30:00Z,1635,RB Leipzig,81,1. FSV Mainz 05,False,,,,2026-07-03T08:20:23.57,"OpenLigaDB (comunidad, ODbL-1.0)",https://api.openligadb.de/getmatchdata/bl1/2026
+83257,bl1,2026,12,2026-12-05T14:30:00Z,6,Bayer 04 Leverkusen,87,Borussia Mönchengladbach,False,,,,2026-07-03T08:20:32.613,"OpenLigaDB (comunidad, ODbL-1.0)",https://api.openligadb.de/getmatchdata/bl1/2026
+83258,bl1,2026,12,2026-12-05T14:30:00Z,112,SC Freiburg,175,TSG Hoffenheim,False,,,,2026-07-03T08:20:43.72,"OpenLigaDB (comunidad, ODbL-1.0)",https://api.openligadb.de/getmatchdata/bl1/2026
+83260,bl1,2026,12,2026-12-05T14:30:00Z,95,FC Augsburg,65,1. FC Köln,False,,,,2026-07-03T08:21:08.453,"OpenLigaDB (comunidad, ODbL-1.0)",https://api.openligadb.de/getmatchdata/bl1/2026
+83261,bl1,2026,12,2026-12-05T14:30:00Z,80,1. FC Union Berlin,100,Hamburger SV,False,,,,2026-07-03T08:21:28.403,"OpenLigaDB (comunidad, ODbL-1.0)",https://api.openligadb.de/getmatchdata/bl1/2026
+83259,bl1,2026,12,2026-12-05T17:30:00Z,91,Eintracht Frankfurt,134,SV Werder Bremen,False,,,,2026-11-05T13:12:47.55,"OpenLigaDB (comunidad, ODbL-1.0)",https://api.openligadb.de/getmatchdata/bl1/2026
+83262,bl1,2026,12,2026-12-06T14:30:00Z,9,FC Schalke 04,7,Borussia Dortmund,False,,,,2026-11-05T13:13:00.303,"OpenLigaDB (comunidad, ODbL-1.0)",https://api.openligadb.de/getmatchdata/bl1/2026
+83263,bl1,2026,12,2026-12-06T16:30:00Z,198,SV 07 Elversberg,16,VfB Stuttgart,False,,,,2026-11-05T13:13:26.317,"OpenLigaDB (comunidad, ODbL-1.0)",https://api.openligadb.de/getmatchdata/bl1/2026
+83269,bl1,2026,13,2026-12-11T19:30:00Z,100,Hamburger SV,9,FC Schalke 04,False,,,,2026-11-05T13:14:16.21,"OpenLigaDB (comunidad, ODbL-1.0)",https://api.openligadb.de/getmatchdata/bl1/2026
+83264,bl1,2026,13,2026-12-12T14:30:00Z,7,Borussia Dortmund,95,FC Augsburg,False,,,,2026-07-03T08:22:24.033,"OpenLigaDB (comunidad, ODbL-1.0)",https://api.openligadb.de/getmatchdata/bl1/2026
+83265,bl1,2026,13,2026-12-12T14:30:00Z,16,VfB Stuttgart,80,1. FC Union Berlin,False,,,,2026-07-03T08:22:34.99,"OpenLigaDB (comunidad, ODbL-1.0)",https://api.openligadb.de/getmatchdata/bl1/2026
+83270,bl1,2026,13,2026-12-12T14:30:00Z,65,1. FC Köln,1635,RB Leipzig,False,,,,2026-07-03T08:23:21.92,"OpenLigaDB (comunidad, ODbL-1.0)",https://api.openligadb.de/getmatchdata/bl1/2026
+83272,bl1,2026,13,2026-12-12T14:30:00Z,31,SC Paderborn 07,198,SV 07 Elversberg,False,,,,2026-07-03T08:23:48.973,"OpenLigaDB (comunidad, ODbL-1.0)",https://api.openligadb.de/getmatchdata/bl1/2026
+83268,bl1,2026,13,2026-12-12T17:30:00Z,87,Borussia Mönchengladbach,91,Eintracht Frankfurt,False,,,,2026-11-05T13:14:32.09,"OpenLigaDB (comunidad, ODbL-1.0)",https://api.openligadb.de/getmatchdata/bl1/2026
+83267,bl1,2026,13,2026-12-13T14:30:00Z,81,1. FSV Mainz 05,112,SC Freiburg,False,,,,2026-11-05T13:14:45.377,"OpenLigaDB (comunidad, ODbL-1.0)",https://api.openligadb.de/getmatchdata/bl1/2026
+83266,bl1,2026,13,2026-12-13T16:30:00Z,175,TSG Hoffenheim,40,FC Bayern München,False,,,,2026-11-05T13:14:57.033,"OpenLigaDB (comunidad, ODbL-1.0)",https://api.openligadb.de/getmatchdata/bl1/2026
+83271,bl1,2026,13,2026-12-13T18:30:00Z,134,SV Werder Bremen,6,Bayer 04 Leverkusen,False,,,,2026-11-05T13:15:10.597,"OpenLigaDB (comunidad, ODbL-1.0)",https://api.openligadb.de/getmatchdata/bl1/2026
+83273,bl1,2026,14,2026-12-18T19:30:00Z,40,FC Bayern München,134,SV Werder Bremen,False,,,,2026-11-05T13:17:10.247,"OpenLigaDB (comunidad, ODbL-1.0)",https://api.openligadb.de/getmatchdata/bl1/2026
+83275,bl1,2026,14,2026-12-19T14:30:00Z,6,Bayer 04 Leverkusen,91,Eintracht Frankfurt,False,,,,2026-07-03T08:24:52.643,"OpenLigaDB (comunidad, ODbL-1.0)",https://api.openligadb.de/getmatchdata/bl1/2026
+83277,bl1,2026,14,2026-12-19T14:30:00Z,95,FC Augsburg,31,SC Paderborn 07,False,,,,2026-07-03T08:25:18.517,"OpenLigaDB (comunidad, ODbL-1.0)",https://api.openligadb.de/getmatchdata/bl1/2026
+83278,bl1,2026,14,2026-12-19T14:30:00Z,81,1. FSV Mainz 05,65,1. FC Köln,False,,,,2026-07-03T08:25:28.57,"OpenLigaDB (comunidad, ODbL-1.0)",https://api.openligadb.de/getmatchdata/bl1/2026
+83281,bl1,2026,14,2026-12-19T14:30:00Z,198,SV 07 Elversberg,100,Hamburger SV,False,,,,2026-07-03T08:25:54.49,"OpenLigaDB (comunidad, ODbL-1.0)",https://api.openligadb.de/getmatchdata/bl1/2026
+83274,bl1,2026,14,2026-12-19T17:30:00Z,1635,RB Leipzig,7,Borussia Dortmund,False,,,,2026-11-05T13:17:25.16,"OpenLigaDB (comunidad, ODbL-1.0)",https://api.openligadb.de/getmatchdata/bl1/2026
+83276,bl1,2026,14,2026-12-20T14:30:00Z,112,SC Freiburg,16,VfB Stuttgart,False,,,,2026-11-05T13:18:12.98,"OpenLigaDB (comunidad, ODbL-1.0)",https://api.openligadb.de/getmatchdata/bl1/2026
+83279,bl1,2026,14,2026-12-20T16:30:00Z,80,1. FC Union Berlin,175,TSG Hoffenheim,False,,,,2026-11-05T13:18:31.183,"OpenLigaDB (comunidad, ODbL-1.0)",https://api.openligadb.de/getmatchdata/bl1/2026
+83280,bl1,2026,14,2026-12-20T18:30:00Z,9,FC Schalke 04,87,Borussia Mönchengladbach,False,,,,2026-11-05T13:18:38.893,"OpenLigaDB (comunidad, ODbL-1.0)",https://api.openligadb.de/getmatchdata/bl1/2026
+83282,bl1,2026,15,2027-01-08T19:30:00Z,7,Borussia Dortmund,81,1. FSV Mainz 05,False,,,,2026-11-05T13:19:23.76,"OpenLigaDB (comunidad, ODbL-1.0)",https://api.openligadb.de/getmatchdata/bl1/2026
+83283,bl1,2026,15,2027-01-09T14:30:00Z,16,VfB Stuttgart,95,FC Augsburg,False,,,,2026-07-03T08:26:38.703,"OpenLigaDB (comunidad, ODbL-1.0)",https://api.openligadb.de/getmatchdata/bl1/2026
+83284,bl1,2026,15,2027-01-09T14:30:00Z,175,TSG Hoffenheim,198,SV 07 Elversberg,False,,,,2026-07-03T08:26:52.003,"OpenLigaDB (comunidad, ODbL-1.0)",https://api.openligadb.de/getmatchdata/bl1/2026
+83285,bl1,2026,15,2027-01-09T14:30:00Z,91,Eintracht Frankfurt,9,FC Schalke 04,False,,,,2026-07-03T08:27:03.897,"OpenLigaDB (comunidad, ODbL-1.0)",https://api.openligadb.de/getmatchdata/bl1/2026
+83288,bl1,2026,15,2027-01-09T14:30:00Z,65,1. FC Köln,112,SC Freiburg,False,,,,2026-07-03T08:27:30.883,"OpenLigaDB (comunidad, ODbL-1.0)",https://api.openligadb.de/getmatchdata/bl1/2026
+83290,bl1,2026,15,2027-01-09T14:30:00Z,31,SC Paderborn 07,1635,RB Leipzig,False,,,,2026-07-03T08:27:48.787,"OpenLigaDB (comunidad, ODbL-1.0)",https://api.openligadb.de/getmatchdata/bl1/2026
+83286,bl1,2026,15,2027-01-09T17:30:00Z,87,Borussia Mönchengladbach,40,FC Bayern München,False,,,,2026-11-05T13:19:36.107,"OpenLigaDB (comunidad, ODbL-1.0)",https://api.openligadb.de/getmatchdata/bl1/2026
+83289,bl1,2026,15,2027-01-10T14:30:00Z,134,SV Werder Bremen,80,1. FC Union Berlin,False,,,,2026-11-05T13:19:47.32,"OpenLigaDB (comunidad, ODbL-1.0)",https://api.openligadb.de/getmatchdata/bl1/2026
+83287,bl1,2026,15,2027-01-10T16:30:00Z,100,Hamburger SV,6,Bayer 04 Leverkusen,False,,,,2026-11-05T13:20:02.053,"OpenLigaDB (comunidad, ODbL-1.0)",https://api.openligadb.de/getmatchdata/bl1/2026
+83292,bl1,2026,16,2027-01-12T17:30:00Z,1635,RB Leipzig,16,VfB Stuttgart,False,,,,2026-11-05T13:21:23.633,"OpenLigaDB (comunidad, ODbL-1.0)",https://api.openligadb.de/getmatchdata/bl1/2026
+83294,bl1,2026,16,2027-01-12T19:30:00Z,95,FC Augsburg,87,Borussia Mönchengladbach,False,,,,2026-07-03T08:30:50.403,"OpenLigaDB (comunidad, ODbL-1.0)",https://api.openligadb.de/getmatchdata/bl1/2026
+83295,bl1,2026,16,2027-01-12T19:30:00Z,81,1. FSV Mainz 05,175,TSG Hoffenheim,False,,,,2026-07-03T08:30:59.87,"OpenLigaDB (comunidad, ODbL-1.0)",https://api.openligadb.de/getmatchdata/bl1/2026
+83297,bl1,2026,16,2027-01-12T19:30:00Z,65,1. FC Köln,7,Borussia Dortmund,False,,,,2026-07-03T08:31:15.873,"OpenLigaDB (comunidad, ODbL-1.0)",https://api.openligadb.de/getmatchdata/bl1/2026
+83299,bl1,2026,16,2027-01-13T17:30:00Z,198,SV 07 Elversberg,91,Eintracht Frankfurt,False,,,,2026-11-05T13:24:18,"OpenLigaDB (comunidad, ODbL-1.0)",https://api.openligadb.de/getmatchdata/bl1/2026
+83291,bl1,2026,16,2027-01-13T19:30:00Z,40,FC Bayern München,6,Bayer 04 Leverkusen,False,,,,2026-11-05T13:24:35.077,"OpenLigaDB (comunidad, ODbL-1.0)",https://api.openligadb.de/getmatchdata/bl1/2026
+83293,bl1,2026,16,2027-01-13T19:30:00Z,112,SC Freiburg,100,Hamburger SV,False,,,,2026-11-05T13:24:46.01,"OpenLigaDB (comunidad, ODbL-1.0)",https://api.openligadb.de/getmatchdata/bl1/2026
+83296,bl1,2026,16,2027-01-13T19:30:00Z,80,1. FC Union Berlin,31,SC Paderborn 07,False,,,,2026-11-05T13:24:59.31,"OpenLigaDB (comunidad, ODbL-1.0)",https://api.openligadb.de/getmatchdata/bl1/2026
+83298,bl1,2026,16,2027-01-13T19:30:00Z,9,FC Schalke 04,134,SV Werder Bremen,False,,,,2026-11-05T13:25:05.993,"OpenLigaDB (comunidad, ODbL-1.0)",https://api.openligadb.de/getmatchdata/bl1/2026
+83301,bl1,2026,17,2027-01-15T19:30:00Z,16,VfB Stuttgart,81,1. FSV Mainz 05,False,,,,2026-11-05T13:25:34.58,"OpenLigaDB (comunidad, ODbL-1.0)",https://api.openligadb.de/getmatchdata/bl1/2026
+83300,bl1,2026,17,2027-01-16T14:30:00Z,7,Borussia Dortmund,112,SC Freiburg,False,,,,2026-07-03T08:32:14.523,"OpenLigaDB (comunidad, ODbL-1.0)",https://api.openligadb.de/getmatchdata/bl1/2026
+83302,bl1,2026,17,2027-01-16T14:30:00Z,175,TSG Hoffenheim,1635,RB Leipzig,False,,,,2026-07-03T08:32:33.103,"OpenLigaDB (comunidad, ODbL-1.0)",https://api.openligadb.de/getmatchdata/bl1/2026
+83305,bl1,2026,17,2027-01-16T14:30:00Z,87,Borussia Mönchengladbach,80,1. FC Union Berlin,False,,,,2026-07-03T08:32:59.79,"OpenLigaDB (comunidad, ODbL-1.0)",https://api.openligadb.de/getmatchdata/bl1/2026
+83306,bl1,2026,17,2027-01-16T14:30:00Z,100,Hamburger SV,95,FC Augsburg,False,,,,2026-07-03T08:33:09.353,"OpenLigaDB (comunidad, ODbL-1.0)",https://api.openligadb.de/getmatchdata/bl1/2026
+83308,bl1,2026,17,2027-01-16T14:30:00Z,31,SC Paderborn 07,65,1. FC Köln,False,,,,2026-07-03T08:33:30.537,"OpenLigaDB (comunidad, ODbL-1.0)",https://api.openligadb.de/getmatchdata/bl1/2026
+83304,bl1,2026,17,2027-01-16T17:30:00Z,91,Eintracht Frankfurt,40,FC Bayern München,False,,,,2026-11-05T13:25:50.233,"OpenLigaDB (comunidad, ODbL-1.0)",https://api.openligadb.de/getmatchdata/bl1/2026
+83307,bl1,2026,17,2027-01-17T14:30:00Z,134,SV Werder Bremen,198,SV 07 Elversberg,False,,,,2026-11-05T13:26:04.443,"OpenLigaDB (comunidad, ODbL-1.0)",https://api.openligadb.de/getmatchdata/bl1/2026
+83303,bl1,2026,17,2027-01-17T16:30:00Z,6,Bayer 04 Leverkusen,9,FC Schalke 04,False,,,,2026-11-05T13:26:17.91,"OpenLigaDB (comunidad, ODbL-1.0)",https://api.openligadb.de/getmatchdata/bl1/2026
+83315,bl1,2026,18,2027-01-22T19:30:00Z,134,SV Werder Bremen,112,SC Freiburg,False,,,,2026-11-05T13:26:43.513,"OpenLigaDB (comunidad, ODbL-1.0)",https://api.openligadb.de/getmatchdata/bl1/2026
+83309,bl1,2026,18,2027-01-23T14:30:00Z,16,VfB Stuttgart,40,FC Bayern München,False,,,,2026-07-03T08:42:55.203,"OpenLigaDB (comunidad, ODbL-1.0)",https://api.openligadb.de/getmatchdata/bl1/2026
+83313,bl1,2026,18,2027-01-23T14:30:00Z,87,Borussia Mönchengladbach,1635,RB Leipzig,False,,,,2026-07-03T08:43:37.867,"OpenLigaDB (comunidad, ODbL-1.0)",https://api.openligadb.de/getmatchdata/bl1/2026
+83316,bl1,2026,18,2027-01-23T14:30:00Z,9,FC Schalke 04,95,FC Augsburg,False,,,,2026-07-03T08:44:07.987,"OpenLigaDB (comunidad, ODbL-1.0)",https://api.openligadb.de/getmatchdata/bl1/2026
+83317,bl1,2026,18,2027-01-23T14:30:00Z,31,SC Paderborn 07,81,1. FSV Mainz 05,False,,,,2026-07-03T08:44:17.223,"OpenLigaDB (comunidad, ODbL-1.0)",https://api.openligadb.de/getmatchdata/bl1/2026
+83314,bl1,2026,18,2027-01-23T17:30:00Z,100,Hamburger SV,7,Borussia Dortmund,False,,,,2026-11-05T13:26:58.893,"OpenLigaDB (comunidad, ODbL-1.0)",https://api.openligadb.de/getmatchdata/bl1/2026
+83312,bl1,2026,18,2027-01-24T14:30:00Z,91,Eintracht Frankfurt,80,1. FC Union Berlin,False,,,,2026-11-05T13:27:11.86,"OpenLigaDB (comunidad, ODbL-1.0)",https://api.openligadb.de/getmatchdata/bl1/2026
+83311,bl1,2026,18,2027-01-24T16:30:00Z,6,Bayer 04 Leverkusen,198,SV 07 Elversberg,False,,,,2026-11-05T13:27:25.46,"OpenLigaDB (comunidad, ODbL-1.0)",https://api.openligadb.de/getmatchdata/bl1/2026
+83310,bl1,2026,18,2027-01-24T18:30:00Z,175,TSG Hoffenheim,65,1. FC Köln,False,,,,2026-11-05T13:27:46.583,"OpenLigaDB (comunidad, ODbL-1.0)",https://api.openligadb.de/getmatchdata/bl1/2026
+83318,bl1,2026,19,2027-01-30T14:30:00Z,40,FC Bayern München,9,FC Schalke 04,False,,,,2026-07-03T08:45:06.497,"OpenLigaDB (comunidad, ODbL-1.0)",https://api.openligadb.de/getmatchdata/bl1/2026
+83319,bl1,2026,19,2027-01-30T14:30:00Z,7,Borussia Dortmund,175,TSG Hoffenheim,False,,,,2026-07-03T08:45:16.92,"OpenLigaDB (comunidad, ODbL-1.0)",https://api.openligadb.de/getmatchdata/bl1/2026
+83320,bl1,2026,19,2027-01-30T14:30:00Z,1635,RB Leipzig,134,SV Werder Bremen,False,,,,2026-07-03T08:45:51.703,"OpenLigaDB (comunidad, ODbL-1.0)",https://api.openligadb.de/getmatchdata/bl1/2026
+83321,bl1,2026,19,2027-01-30T14:30:00Z,112,SC Freiburg,31,SC Paderborn 07,False,,,,2026-07-03T08:46:07.72,"OpenLigaDB (comunidad, ODbL-1.0)",https://api.openligadb.de/getmatchdata/bl1/2026
+83322,bl1,2026,19,2027-01-30T14:30:00Z,95,FC Augsburg,91,Eintracht Frankfurt,False,,,,2026-07-03T08:46:17.803,"OpenLigaDB (comunidad, ODbL-1.0)",https://api.openligadb.de/getmatchdata/bl1/2026
+83323,bl1,2026,19,2027-01-30T14:30:00Z,81,1. FSV Mainz 05,100,Hamburger SV,False,,,,2026-07-03T08:46:25.503,"OpenLigaDB (comunidad, ODbL-1.0)",https://api.openligadb.de/getmatchdata/bl1/2026
+83324,bl1,2026,19,2027-01-30T14:30:00Z,80,1. FC Union Berlin,6,Bayer 04 Leverkusen,False,,,,2026-07-03T08:46:37.203,"OpenLigaDB (comunidad, ODbL-1.0)",https://api.openligadb.de/getmatchdata/bl1/2026
+83325,bl1,2026,19,2027-01-30T14:30:00Z,65,1. FC Köln,16,VfB Stuttgart,False,,,,2026-07-03T08:46:45.153,"OpenLigaDB (comunidad, ODbL-1.0)",https://api.openligadb.de/getmatchdata/bl1/2026
+83326,bl1,2026,19,2027-01-30T14:30:00Z,198,SV 07 Elversberg,87,Borussia Mönchengladbach,False,,,,2026-07-03T08:46:52.9,"OpenLigaDB (comunidad, ODbL-1.0)",https://api.openligadb.de/getmatchdata/bl1/2026
+83327,bl1,2026,20,2027-02-06T14:30:00Z,40,FC Bayern München,198,SV 07 Elversberg,False,,,,2026-07-03T08:47:19.053,"OpenLigaDB (comunidad, ODbL-1.0)",https://api.openligadb.de/getmatchdata/bl1/2026
+83328,bl1,2026,20,2027-02-06T14:30:00Z,16,VfB Stuttgart,175,TSG Hoffenheim,False,,,,2026-07-03T08:47:28.033,"OpenLigaDB (comunidad, ODbL-1.0)",https://api.openligadb.de/getmatchdata/bl1/2026
+83329,bl1,2026,20,2027-02-06T14:30:00Z,6,Bayer 04 Leverkusen,95,FC Augsburg,False,,,,2026-07-03T08:47:38.52,"OpenLigaDB (comunidad, ODbL-1.0)",https://api.openligadb.de/getmatchdata/bl1/2026
+83330,bl1,2026,20,2027-02-06T14:30:00Z,91,Eintracht Frankfurt,81,1. FSV Mainz 05,False,,,,2026-07-03T08:47:48.77,"OpenLigaDB (comunidad, ODbL-1.0)",https://api.openligadb.de/getmatchdata/bl1/2026
+83331,bl1,2026,20,2027-02-06T14:30:00Z,87,Borussia Mönchengladbach,112,SC Freiburg,False,,,,2026-07-03T08:47:58.703,"OpenLigaDB (comunidad, ODbL-1.0)",https://api.openligadb.de/getmatchdata/bl1/2026
+83332,bl1,2026,20,2027-02-06T14:30:00Z,100,Hamburger SV,1635,RB Leipzig,False,,,,2026-07-03T08:48:07.07,"OpenLigaDB (comunidad, ODbL-1.0)",https://api.openligadb.de/getmatchdata/bl1/2026
+83333,bl1,2026,20,2027-02-06T14:30:00Z,134,SV Werder Bremen,65,1. FC Köln,False,,,,2026-07-03T08:48:15.407,"OpenLigaDB (comunidad, ODbL-1.0)",https://api.openligadb.de/getmatchdata/bl1/2026
+83334,bl1,2026,20,2027-02-06T14:30:00Z,9,FC Schalke 04,80,1. FC Union Berlin,False,,,,2026-07-03T08:48:23.203,"OpenLigaDB (comunidad, ODbL-1.0)",https://api.openligadb.de/getmatchdata/bl1/2026
+83335,bl1,2026,20,2027-02-06T14:30:00Z,31,SC Paderborn 07,7,Borussia Dortmund,False,,,,2026-07-03T08:48:31.287,"OpenLigaDB (comunidad, ODbL-1.0)",https://api.openligadb.de/getmatchdata/bl1/2026
+83336,bl1,2026,21,2027-02-13T14:30:00Z,7,Borussia Dortmund,16,VfB Stuttgart,False,,,,2026-07-03T08:49:02.03,"OpenLigaDB (comunidad, ODbL-1.0)",https://api.openligadb.de/getmatchdata/bl1/2026
+83337,bl1,2026,21,2027-02-13T14:30:00Z,1635,RB Leipzig,6,Bayer 04 Leverkusen,False,,,,2026-07-03T08:49:16.207,"OpenLigaDB (comunidad, ODbL-1.0)",https://api.openligadb.de/getmatchdata/bl1/2026
+83338,bl1,2026,21,2027-02-13T14:30:00Z,175,TSG Hoffenheim,31,SC Paderborn 07,False,,,,2026-07-03T08:49:24.737,"OpenLigaDB (comunidad, ODbL-1.0)",https://api.openligadb.de/getmatchdata/bl1/2026
+83339,bl1,2026,21,2027-02-13T14:30:00Z,112,SC Freiburg,91,Eintracht Frankfurt,False,,,,2026-07-03T08:49:34.27,"OpenLigaDB (comunidad, ODbL-1.0)",https://api.openligadb.de/getmatchdata/bl1/2026
+83340,bl1,2026,21,2027-02-13T14:30:00Z,95,FC Augsburg,134,SV Werder Bremen,False,,,,2026-07-03T08:49:43.917,"OpenLigaDB (comunidad, ODbL-1.0)",https://api.openligadb.de/getmatchdata/bl1/2026
+83341,bl1,2026,21,2027-02-13T14:30:00Z,81,1. FSV Mainz 05,87,Borussia Mönchengladbach,False,,,,2026-07-03T08:49:52.087,"OpenLigaDB (comunidad, ODbL-1.0)",https://api.openligadb.de/getmatchdata/bl1/2026
+83342,bl1,2026,21,2027-02-13T14:30:00Z,80,1. FC Union Berlin,40,FC Bayern München,False,,,,2026-07-03T08:50:01.66,"OpenLigaDB (comunidad, ODbL-1.0)",https://api.openligadb.de/getmatchdata/bl1/2026
+83343,bl1,2026,21,2027-02-13T14:30:00Z,65,1. FC Köln,100,Hamburger SV,False,,,,2026-07-03T08:50:11.103,"OpenLigaDB (comunidad, ODbL-1.0)",https://api.openligadb.de/getmatchdata/bl1/2026
+83344,bl1,2026,21,2027-02-13T14:30:00Z,198,SV 07 Elversberg,9,FC Schalke 04,False,,,,2026-07-03T08:50:18.223,"OpenLigaDB (comunidad, ODbL-1.0)",https://api.openligadb.de/getmatchdata/bl1/2026
+83345,bl1,2026,22,2027-02-20T14:30:00Z,40,FC Bayern München,95,FC Augsburg,False,,,,2026-07-03T08:51:02.787,"OpenLigaDB (comunidad, ODbL-1.0)",https://api.openligadb.de/getmatchdata/bl1/2026
+83346,bl1,2026,22,2027-02-20T14:30:00Z,16,VfB Stuttgart,31,SC Paderborn 07,False,,,,2026-07-03T08:51:12.67,"OpenLigaDB (comunidad, ODbL-1.0)",https://api.openligadb.de/getmatchdata/bl1/2026
+83347,bl1,2026,22,2027-02-20T14:30:00Z,6,Bayer 04 Leverkusen,81,1. FSV Mainz 05,False,,,,2026-07-03T08:51:21.75,"OpenLigaDB (comunidad, ODbL-1.0)",https://api.openligadb.de/getmatchdata/bl1/2026
+83348,bl1,2026,22,2027-02-20T14:30:00Z,91,Eintracht Frankfurt,1635,RB Leipzig,False,,,,2026-07-03T08:51:28.95,"OpenLigaDB (comunidad, ODbL-1.0)",https://api.openligadb.de/getmatchdata/bl1/2026
+83349,bl1,2026,22,2027-02-20T14:30:00Z,87,Borussia Mönchengladbach,65,1. FC Köln,False,,,,2026-07-03T08:51:37.753,"OpenLigaDB (comunidad, ODbL-1.0)",https://api.openligadb.de/getmatchdata/bl1/2026
+83350,bl1,2026,22,2027-02-20T14:30:00Z,100,Hamburger SV,175,TSG Hoffenheim,False,,,,2026-07-03T08:51:46.61,"OpenLigaDB (comunidad, ODbL-1.0)",https://api.openligadb.de/getmatchdata/bl1/2026
+83351,bl1,2026,22,2027-02-20T14:30:00Z,134,SV Werder Bremen,7,Borussia Dortmund,False,,,,2026-07-03T08:51:56.02,"OpenLigaDB (comunidad, ODbL-1.0)",https://api.openligadb.de/getmatchdata/bl1/2026
+83352,bl1,2026,22,2027-02-20T14:30:00Z,9,FC Schalke 04,112,SC Freiburg,False,,,,2026-07-03T08:52:05.95,"OpenLigaDB (comunidad, ODbL-1.0)",https://api.openligadb.de/getmatchdata/bl1/2026
+83353,bl1,2026,22,2027-02-20T14:30:00Z,198,SV 07 Elversberg,80,1. FC Union Berlin,False,,,,2026-07-03T08:52:12.003,"OpenLigaDB (comunidad, ODbL-1.0)",https://api.openligadb.de/getmatchdata/bl1/2026
+83354,bl1,2026,23,2027-02-27T14:30:00Z,7,Borussia Dortmund,80,1. FC Union Berlin,False,,,,2026-07-03T08:52:38.62,"OpenLigaDB (comunidad, ODbL-1.0)",https://api.openligadb.de/getmatchdata/bl1/2026
+83355,bl1,2026,23,2027-02-27T14:30:00Z,1635,RB Leipzig,40,FC Bayern München,False,,,,2026-07-03T08:53:05.04,"OpenLigaDB (comunidad, ODbL-1.0)",https://api.openligadb.de/getmatchdata/bl1/2026
+83356,bl1,2026,23,2027-02-27T14:30:00Z,16,VfB Stuttgart,100,Hamburger SV,False,,,,2026-07-03T08:53:16.017,"OpenLigaDB (comunidad, ODbL-1.0)",https://api.openligadb.de/getmatchdata/bl1/2026
+83357,bl1,2026,23,2027-02-27T14:30:00Z,175,TSG Hoffenheim,87,Borussia Mönchengladbach,False,,,,2026-07-03T08:53:24.99,"OpenLigaDB (comunidad, ODbL-1.0)",https://api.openligadb.de/getmatchdata/bl1/2026
+83358,bl1,2026,23,2027-02-27T14:30:00Z,112,SC Freiburg,6,Bayer 04 Leverkusen,False,,,,2026-07-03T08:53:39.587,"OpenLigaDB (comunidad, ODbL-1.0)",https://api.openligadb.de/getmatchdata/bl1/2026
+83359,bl1,2026,23,2027-02-27T14:30:00Z,95,FC Augsburg,198,SV 07 Elversberg,False,,,,2026-07-03T08:53:49.73,"OpenLigaDB (comunidad, ODbL-1.0)",https://api.openligadb.de/getmatchdata/bl1/2026
+83360,bl1,2026,23,2027-02-27T14:30:00Z,81,1. FSV Mainz 05,9,FC Schalke 04,False,,,,2026-07-03T08:53:57.337,"OpenLigaDB (comunidad, ODbL-1.0)",https://api.openligadb.de/getmatchdata/bl1/2026
+83361,bl1,2026,23,2027-02-27T14:30:00Z,65,1. FC Köln,91,Eintracht Frankfurt,False,,,,2026-07-03T08:54:05.92,"OpenLigaDB (comunidad, ODbL-1.0)",https://api.openligadb.de/getmatchdata/bl1/2026
+83362,bl1,2026,23,2027-02-27T14:30:00Z,31,SC Paderborn 07,134,SV Werder Bremen,False,,,,2026-07-03T08:54:14.753,"OpenLigaDB (comunidad, ODbL-1.0)",https://api.openligadb.de/getmatchdata/bl1/2026
+83363,bl1,2026,24,2027-03-02T19:30:00Z,40,FC Bayern München,112,SC Freiburg,False,,,,2026-07-03T08:55:03.087,"OpenLigaDB (comunidad, ODbL-1.0)",https://api.openligadb.de/getmatchdata/bl1/2026
+83364,bl1,2026,24,2027-03-02T19:30:00Z,6,Bayer 04 Leverkusen,175,TSG Hoffenheim,False,,,,2026-07-03T08:55:15.06,"OpenLigaDB (comunidad, ODbL-1.0)",https://api.openligadb.de/getmatchdata/bl1/2026
+83365,bl1,2026,24,2027-03-02T19:30:00Z,91,Eintracht Frankfurt,7,Borussia Dortmund,False,,,,2026-07-03T08:55:25.557,"OpenLigaDB (comunidad, ODbL-1.0)",https://api.openligadb.de/getmatchdata/bl1/2026
+83366,bl1,2026,24,2027-03-02T19:30:00Z,80,1. FC Union Berlin,95,FC Augsburg,False,,,,2026-07-03T08:55:34.44,"OpenLigaDB (comunidad, ODbL-1.0)",https://api.openligadb.de/getmatchdata/bl1/2026
+83367,bl1,2026,24,2027-03-02T19:30:00Z,87,Borussia Mönchengladbach,16,VfB Stuttgart,False,,,,2026-07-03T08:55:44.103,"OpenLigaDB (comunidad, ODbL-1.0)",https://api.openligadb.de/getmatchdata/bl1/2026
+83368,bl1,2026,24,2027-03-02T19:30:00Z,100,Hamburger SV,31,SC Paderborn 07,False,,,,2026-07-03T08:55:55.04,"OpenLigaDB (comunidad, ODbL-1.0)",https://api.openligadb.de/getmatchdata/bl1/2026
+83369,bl1,2026,24,2027-03-02T19:30:00Z,134,SV Werder Bremen,81,1. FSV Mainz 05,False,,,,2026-07-03T08:56:03.017,"OpenLigaDB (comunidad, ODbL-1.0)",https://api.openligadb.de/getmatchdata/bl1/2026
+83370,bl1,2026,24,2027-03-02T19:30:00Z,9,FC Schalke 04,65,1. FC Köln,False,,,,2026-07-03T08:56:10.967,"OpenLigaDB (comunidad, ODbL-1.0)",https://api.openligadb.de/getmatchdata/bl1/2026
+83371,bl1,2026,24,2027-03-02T19:30:00Z,198,SV 07 Elversberg,1635,RB Leipzig,False,,,,2026-07-03T08:56:19.987,"OpenLigaDB (comunidad, ODbL-1.0)",https://api.openligadb.de/getmatchdata/bl1/2026
+83372,bl1,2026,25,2027-03-06T14:30:00Z,7,Borussia Dortmund,40,FC Bayern München,False,,,,2026-07-03T08:56:49.42,"OpenLigaDB (comunidad, ODbL-1.0)",https://api.openligadb.de/getmatchdata/bl1/2026
+83373,bl1,2026,25,2027-03-06T14:30:00Z,1635,RB Leipzig,9,FC Schalke 04,False,,,,2026-07-03T08:57:02.733,"OpenLigaDB (comunidad, ODbL-1.0)",https://api.openligadb.de/getmatchdata/bl1/2026
+83374,bl1,2026,25,2027-03-06T14:30:00Z,16,VfB Stuttgart,6,Bayer 04 Leverkusen,False,,,,2026-07-03T08:57:10.417,"OpenLigaDB (comunidad, ODbL-1.0)",https://api.openligadb.de/getmatchdata/bl1/2026
+83375,bl1,2026,25,2027-03-06T14:30:00Z,175,TSG Hoffenheim,134,SV Werder Bremen,False,,,,2026-07-03T08:57:25.503,"OpenLigaDB (comunidad, ODbL-1.0)",https://api.openligadb.de/getmatchdata/bl1/2026
+83376,bl1,2026,25,2027-03-06T14:30:00Z,112,SC Freiburg,95,FC Augsburg,False,,,,2026-07-03T08:57:35.387,"OpenLigaDB (comunidad, ODbL-1.0)",https://api.openligadb.de/getmatchdata/bl1/2026
+83377,bl1,2026,25,2027-03-06T14:30:00Z,81,1. FSV Mainz 05,198,SV 07 Elversberg,False,,,,2026-07-03T08:57:45.633,"OpenLigaDB (comunidad, ODbL-1.0)",https://api.openligadb.de/getmatchdata/bl1/2026
+83378,bl1,2026,25,2027-03-06T14:30:00Z,100,Hamburger SV,91,Eintracht Frankfurt,False,,,,2026-07-03T08:57:55.09,"OpenLigaDB (comunidad, ODbL-1.0)",https://api.openligadb.de/getmatchdata/bl1/2026
+83379,bl1,2026,25,2027-03-06T14:30:00Z,65,1. FC Köln,80,1. FC Union Berlin,False,,,,2026-07-03T08:58:04.82,"OpenLigaDB (comunidad, ODbL-1.0)",https://api.openligadb.de/getmatchdata/bl1/2026
+83380,bl1,2026,25,2027-03-06T14:30:00Z,31,SC Paderborn 07,87,Borussia Mönchengladbach,False,,,,2026-07-03T08:58:13.95,"OpenLigaDB (comunidad, ODbL-1.0)",https://api.openligadb.de/getmatchdata/bl1/2026
+83381,bl1,2026,26,2027-03-13T14:30:00Z,40,FC Bayern München,81,1. FSV Mainz 05,False,,,,2026-07-03T09:06:16.077,"OpenLigaDB (comunidad, ODbL-1.0)",https://api.openligadb.de/getmatchdata/bl1/2026
+83382,bl1,2026,26,2027-03-13T14:30:00Z,6,Bayer 04 Leverkusen,65,1. FC Köln,False,,,,2026-07-03T09:06:27.667,"OpenLigaDB (comunidad, ODbL-1.0)",https://api.openligadb.de/getmatchdata/bl1/2026
+83383,bl1,2026,26,2027-03-13T14:30:00Z,91,Eintracht Frankfurt,31,SC Paderborn 07,False,,,,2026-07-03T09:06:38.933,"OpenLigaDB (comunidad, ODbL-1.0)",https://api.openligadb.de/getmatchdata/bl1/2026
+83384,bl1,2026,26,2027-03-13T14:30:00Z,95,FC Augsburg,1635,RB Leipzig,False,,,,2026-07-03T09:06:49.1,"OpenLigaDB (comunidad, ODbL-1.0)",https://api.openligadb.de/getmatchdata/bl1/2026
+83385,bl1,2026,26,2027-03-13T14:30:00Z,80,1. FC Union Berlin,112,SC Freiburg,False,,,,2026-07-03T09:06:57.77,"OpenLigaDB (comunidad, ODbL-1.0)",https://api.openligadb.de/getmatchdata/bl1/2026
+83386,bl1,2026,26,2027-03-13T14:30:00Z,87,Borussia Mönchengladbach,100,Hamburger SV,False,,,,2026-07-03T09:07:07,"OpenLigaDB (comunidad, ODbL-1.0)",https://api.openligadb.de/getmatchdata/bl1/2026
+83387,bl1,2026,26,2027-03-13T14:30:00Z,134,SV Werder Bremen,16,VfB Stuttgart,False,,,,2026-07-03T09:07:17.237,"OpenLigaDB (comunidad, ODbL-1.0)",https://api.openligadb.de/getmatchdata/bl1/2026
+83388,bl1,2026,26,2027-03-13T14:30:00Z,9,FC Schalke 04,175,TSG Hoffenheim,False,,,,2026-07-03T09:07:26.287,"OpenLigaDB (comunidad, ODbL-1.0)",https://api.openligadb.de/getmatchdata/bl1/2026
+83389,bl1,2026,26,2027-03-13T14:30:00Z,198,SV 07 Elversberg,7,Borussia Dortmund,False,,,,2026-07-03T09:07:34.287,"OpenLigaDB (comunidad, ODbL-1.0)",https://api.openligadb.de/getmatchdata/bl1/2026
+83390,bl1,2026,27,2027-03-20T14:30:00Z,7,Borussia Dortmund,87,Borussia Mönchengladbach,False,,,,2026-07-03T09:08:03.457,"OpenLigaDB (comunidad, ODbL-1.0)",https://api.openligadb.de/getmatchdata/bl1/2026
+83391,bl1,2026,27,2027-03-20T14:30:00Z,1635,RB Leipzig,80,1. FC Union Berlin,False,,,,2026-07-03T09:08:15.67,"OpenLigaDB (comunidad, ODbL-1.0)",https://api.openligadb.de/getmatchdata/bl1/2026
+83392,bl1,2026,27,2027-03-20T14:30:00Z,16,VfB Stuttgart,9,FC Schalke 04,False,,,,2026-07-03T09:08:24.803,"OpenLigaDB (comunidad, ODbL-1.0)",https://api.openligadb.de/getmatchdata/bl1/2026
+83393,bl1,2026,27,2027-03-20T14:30:00Z,175,TSG Hoffenheim,91,Eintracht Frankfurt,False,,,,2026-07-03T09:08:44.437,"OpenLigaDB (comunidad, ODbL-1.0)",https://api.openligadb.de/getmatchdata/bl1/2026
+83394,bl1,2026,27,2027-03-20T14:30:00Z,112,SC Freiburg,198,SV 07 Elversberg,False,,,,2026-07-03T09:08:57.737,"OpenLigaDB (comunidad, ODbL-1.0)",https://api.openligadb.de/getmatchdata/bl1/2026
+83395,bl1,2026,27,2027-03-20T14:30:00Z,81,1. FSV Mainz 05,95,FC Augsburg,False,,,,2026-07-03T09:09:19.47,"OpenLigaDB (comunidad, ODbL-1.0)",https://api.openligadb.de/getmatchdata/bl1/2026
+83396,bl1,2026,27,2027-03-20T14:30:00Z,100,Hamburger SV,134,SV Werder Bremen,False,,,,2026-07-03T09:09:27.457,"OpenLigaDB (comunidad, ODbL-1.0)",https://api.openligadb.de/getmatchdata/bl1/2026
+83397,bl1,2026,27,2027-03-20T14:30:00Z,65,1. FC Köln,40,FC Bayern München,False,,,,2026-07-03T09:09:34.837,"OpenLigaDB (comunidad, ODbL-1.0)",https://api.openligadb.de/getmatchdata/bl1/2026
+83398,bl1,2026,27,2027-03-20T14:30:00Z,31,SC Paderborn 07,6,Bayer 04 Leverkusen,False,,,,2026-07-03T09:09:44.053,"OpenLigaDB (comunidad, ODbL-1.0)",https://api.openligadb.de/getmatchdata/bl1/2026
+83399,bl1,2026,28,2027-04-03T13:30:00Z,40,FC Bayern München,100,Hamburger SV,False,,,,2026-07-03T09:10:13.623,"OpenLigaDB (comunidad, ODbL-1.0)",https://api.openligadb.de/getmatchdata/bl1/2026
+83400,bl1,2026,28,2027-04-03T13:30:00Z,1635,RB Leipzig,112,SC Freiburg,False,,,,2026-07-03T09:10:23.203,"OpenLigaDB (comunidad, ODbL-1.0)",https://api.openligadb.de/getmatchdata/bl1/2026
+83401,bl1,2026,28,2027-04-03T13:30:00Z,6,Bayer 04 Leverkusen,7,Borussia Dortmund,False,,,,2026-07-03T09:10:32.053,"OpenLigaDB (comunidad, ODbL-1.0)",https://api.openligadb.de/getmatchdata/bl1/2026
+83402,bl1,2026,28,2027-04-03T13:30:00Z,91,Eintracht Frankfurt,16,VfB Stuttgart,False,,,,2026-07-03T09:10:40.72,"OpenLigaDB (comunidad, ODbL-1.0)",https://api.openligadb.de/getmatchdata/bl1/2026
+83403,bl1,2026,28,2027-04-03T13:30:00Z,95,FC Augsburg,175,TSG Hoffenheim,False,,,,2026-07-03T09:10:49.487,"OpenLigaDB (comunidad, ODbL-1.0)",https://api.openligadb.de/getmatchdata/bl1/2026
+83404,bl1,2026,28,2027-04-03T13:30:00Z,80,1. FC Union Berlin,81,1. FSV Mainz 05,False,,,,2026-07-03T09:10:57.39,"OpenLigaDB (comunidad, ODbL-1.0)",https://api.openligadb.de/getmatchdata/bl1/2026
+83405,bl1,2026,28,2027-04-03T13:30:00Z,87,Borussia Mönchengladbach,134,SV Werder Bremen,False,,,,2026-07-03T09:11:06.67,"OpenLigaDB (comunidad, ODbL-1.0)",https://api.openligadb.de/getmatchdata/bl1/2026
+83406,bl1,2026,28,2027-04-03T13:30:00Z,9,FC Schalke 04,31,SC Paderborn 07,False,,,,2026-07-03T09:11:14.953,"OpenLigaDB (comunidad, ODbL-1.0)",https://api.openligadb.de/getmatchdata/bl1/2026
+83407,bl1,2026,28,2027-04-03T13:30:00Z,198,SV 07 Elversberg,65,1. FC Köln,False,,,,2026-07-03T09:11:21.97,"OpenLigaDB (comunidad, ODbL-1.0)",https://api.openligadb.de/getmatchdata/bl1/2026
+83408,bl1,2026,29,2027-04-10T13:30:00Z,7,Borussia Dortmund,9,FC Schalke 04,False,,,,2026-07-03T09:11:49.243,"OpenLigaDB (comunidad, ODbL-1.0)",https://api.openligadb.de/getmatchdata/bl1/2026
+83409,bl1,2026,29,2027-04-10T13:30:00Z,16,VfB Stuttgart,198,SV 07 Elversberg,False,,,,2026-07-03T09:11:58.403,"OpenLigaDB (comunidad, ODbL-1.0)",https://api.openligadb.de/getmatchdata/bl1/2026
+83410,bl1,2026,29,2027-04-10T13:30:00Z,175,TSG Hoffenheim,112,SC Freiburg,False,,,,2026-07-03T09:12:07.707,"OpenLigaDB (comunidad, ODbL-1.0)",https://api.openligadb.de/getmatchdata/bl1/2026
+83411,bl1,2026,29,2027-04-10T13:30:00Z,81,1. FSV Mainz 05,1635,RB Leipzig,False,,,,2026-07-03T09:12:15.883,"OpenLigaDB (comunidad, ODbL-1.0)",https://api.openligadb.de/getmatchdata/bl1/2026
+83412,bl1,2026,29,2027-04-10T13:30:00Z,87,Borussia Mönchengladbach,6,Bayer 04 Leverkusen,False,,,,2026-07-03T09:12:24.953,"OpenLigaDB (comunidad, ODbL-1.0)",https://api.openligadb.de/getmatchdata/bl1/2026
+83413,bl1,2026,29,2027-04-10T13:30:00Z,100,Hamburger SV,80,1. FC Union Berlin,False,,,,2026-07-03T09:12:33.353,"OpenLigaDB (comunidad, ODbL-1.0)",https://api.openligadb.de/getmatchdata/bl1/2026
+83414,bl1,2026,29,2027-04-10T13:30:00Z,65,1. FC Köln,95,FC Augsburg,False,,,,2026-07-03T09:12:44.34,"OpenLigaDB (comunidad, ODbL-1.0)",https://api.openligadb.de/getmatchdata/bl1/2026
+83415,bl1,2026,29,2027-04-10T13:30:00Z,134,SV Werder Bremen,91,Eintracht Frankfurt,False,,,,2026-07-03T09:12:53.657,"OpenLigaDB (comunidad, ODbL-1.0)",https://api.openligadb.de/getmatchdata/bl1/2026
+83416,bl1,2026,29,2027-04-10T13:30:00Z,31,SC Paderborn 07,40,FC Bayern München,False,,,,2026-07-03T09:13:01.657,"OpenLigaDB (comunidad, ODbL-1.0)",https://api.openligadb.de/getmatchdata/bl1/2026
+83417,bl1,2026,30,2027-04-17T13:30:00Z,40,FC Bayern München,175,TSG Hoffenheim,False,,,,2026-07-03T09:14:00.213,"OpenLigaDB (comunidad, ODbL-1.0)",https://api.openligadb.de/getmatchdata/bl1/2026
+83418,bl1,2026,30,2027-04-17T13:30:00Z,1635,RB Leipzig,65,1. FC Köln,False,,,,2026-07-03T09:14:09.137,"OpenLigaDB (comunidad, ODbL-1.0)",https://api.openligadb.de/getmatchdata/bl1/2026
+83419,bl1,2026,30,2027-04-17T13:30:00Z,6,Bayer 04 Leverkusen,134,SV Werder Bremen,False,,,,2026-07-03T09:14:17.237,"OpenLigaDB (comunidad, ODbL-1.0)",https://api.openligadb.de/getmatchdata/bl1/2026
+83420,bl1,2026,30,2027-04-17T13:30:00Z,112,SC Freiburg,81,1. FSV Mainz 05,False,,,,2026-07-03T09:14:25.52,"OpenLigaDB (comunidad, ODbL-1.0)",https://api.openligadb.de/getmatchdata/bl1/2026
+83421,bl1,2026,30,2027-04-17T13:30:00Z,91,Eintracht Frankfurt,87,Borussia Mönchengladbach,False,,,,2026-07-03T09:14:34.3,"OpenLigaDB (comunidad, ODbL-1.0)",https://api.openligadb.de/getmatchdata/bl1/2026
+83422,bl1,2026,30,2027-04-17T13:30:00Z,95,FC Augsburg,7,Borussia Dortmund,False,,,,2026-07-03T09:14:42.92,"OpenLigaDB (comunidad, ODbL-1.0)",https://api.openligadb.de/getmatchdata/bl1/2026
+83423,bl1,2026,30,2027-04-17T13:30:00Z,80,1. FC Union Berlin,16,VfB Stuttgart,False,,,,2026-07-03T09:14:51.207,"OpenLigaDB (comunidad, ODbL-1.0)",https://api.openligadb.de/getmatchdata/bl1/2026
+83424,bl1,2026,30,2027-04-17T13:30:00Z,9,FC Schalke 04,100,Hamburger SV,False,,,,2026-07-03T09:14:59.767,"OpenLigaDB (comunidad, ODbL-1.0)",https://api.openligadb.de/getmatchdata/bl1/2026
+83425,bl1,2026,30,2027-04-17T13:30:00Z,198,SV 07 Elversberg,31,SC Paderborn 07,False,,,,2026-07-03T09:15:08.493,"OpenLigaDB (comunidad, ODbL-1.0)",https://api.openligadb.de/getmatchdata/bl1/2026
+83426,bl1,2026,31,2027-04-24T13:30:00Z,7,Borussia Dortmund,1635,RB Leipzig,False,,,,2026-07-03T09:15:42.74,"OpenLigaDB (comunidad, ODbL-1.0)",https://api.openligadb.de/getmatchdata/bl1/2026
+83427,bl1,2026,31,2027-04-24T13:30:00Z,16,VfB Stuttgart,112,SC Freiburg,False,,,,2026-07-03T09:15:54.623,"OpenLigaDB (comunidad, ODbL-1.0)",https://api.openligadb.de/getmatchdata/bl1/2026
+83428,bl1,2026,31,2027-04-24T13:30:00Z,175,TSG Hoffenheim,80,1. FC Union Berlin,False,,,,2026-07-03T09:16:03.257,"OpenLigaDB (comunidad, ODbL-1.0)",https://api.openligadb.de/getmatchdata/bl1/2026
+83429,bl1,2026,31,2027-04-24T13:30:00Z,91,Eintracht Frankfurt,6,Bayer 04 Leverkusen,False,,,,2026-07-03T09:16:13.12,"OpenLigaDB (comunidad, ODbL-1.0)",https://api.openligadb.de/getmatchdata/bl1/2026
+83430,bl1,2026,31,2027-04-24T13:30:00Z,87,Borussia Mönchengladbach,9,FC Schalke 04,False,,,,2026-07-03T09:16:21.453,"OpenLigaDB (comunidad, ODbL-1.0)",https://api.openligadb.de/getmatchdata/bl1/2026
+83431,bl1,2026,31,2027-04-24T13:30:00Z,100,Hamburger SV,198,SV 07 Elversberg,False,,,,2026-07-03T09:16:30.333,"OpenLigaDB (comunidad, ODbL-1.0)",https://api.openligadb.de/getmatchdata/bl1/2026
+83432,bl1,2026,31,2027-04-24T13:30:00Z,65,1. FC Köln,81,1. FSV Mainz 05,False,,,,2026-07-03T09:16:39.61,"OpenLigaDB (comunidad, ODbL-1.0)",https://api.openligadb.de/getmatchdata/bl1/2026
+83433,bl1,2026,31,2027-04-24T13:30:00Z,134,SV Werder Bremen,40,FC Bayern München,False,,,,2026-07-03T09:16:48.533,"OpenLigaDB (comunidad, ODbL-1.0)",https://api.openligadb.de/getmatchdata/bl1/2026
+83434,bl1,2026,31,2027-04-24T13:30:00Z,31,SC Paderborn 07,95,FC Augsburg,False,,,,2026-07-03T09:16:55.373,"OpenLigaDB (comunidad, ODbL-1.0)",https://api.openligadb.de/getmatchdata/bl1/2026
+83435,bl1,2026,32,2027-05-08T13:30:00Z,40,FC Bayern München,87,Borussia Mönchengladbach,False,,,,2026-07-03T09:17:24.017,"OpenLigaDB (comunidad, ODbL-1.0)",https://api.openligadb.de/getmatchdata/bl1/2026
+83436,bl1,2026,32,2027-05-08T13:30:00Z,1635,RB Leipzig,31,SC Paderborn 07,False,,,,2026-07-03T09:17:35.07,"OpenLigaDB (comunidad, ODbL-1.0)",https://api.openligadb.de/getmatchdata/bl1/2026
+83437,bl1,2026,32,2027-05-08T13:30:00Z,6,Bayer 04 Leverkusen,100,Hamburger SV,False,,,,2026-07-03T09:17:44.787,"OpenLigaDB (comunidad, ODbL-1.0)",https://api.openligadb.de/getmatchdata/bl1/2026
+83438,bl1,2026,32,2027-05-08T13:30:00Z,112,SC Freiburg,65,1. FC Köln,False,,,,2026-07-03T09:17:52.017,"OpenLigaDB (comunidad, ODbL-1.0)",https://api.openligadb.de/getmatchdata/bl1/2026
+83439,bl1,2026,32,2027-05-08T13:30:00Z,95,FC Augsburg,16,VfB Stuttgart,False,,,,2026-07-03T09:18:02.323,"OpenLigaDB (comunidad, ODbL-1.0)",https://api.openligadb.de/getmatchdata/bl1/2026
+83440,bl1,2026,32,2027-05-08T13:30:00Z,81,1. FSV Mainz 05,7,Borussia Dortmund,False,,,,2026-07-03T09:18:11.47,"OpenLigaDB (comunidad, ODbL-1.0)",https://api.openligadb.de/getmatchdata/bl1/2026
+83441,bl1,2026,32,2027-05-08T13:30:00Z,80,1. FC Union Berlin,134,SV Werder Bremen,False,,,,2026-07-03T09:18:20.083,"OpenLigaDB (comunidad, ODbL-1.0)",https://api.openligadb.de/getmatchdata/bl1/2026
+83442,bl1,2026,32,2027-05-08T13:30:00Z,9,FC Schalke 04,91,Eintracht Frankfurt,False,,,,2026-07-03T09:18:32.153,"OpenLigaDB (comunidad, ODbL-1.0)",https://api.openligadb.de/getmatchdata/bl1/2026
+83443,bl1,2026,32,2027-05-08T13:30:00Z,198,SV 07 Elversberg,175,TSG Hoffenheim,False,,,,2026-07-03T09:18:39.307,"OpenLigaDB (comunidad, ODbL-1.0)",https://api.openligadb.de/getmatchdata/bl1/2026
+83444,bl1,2026,33,2027-05-15T13:30:00Z,7,Borussia Dortmund,65,1. FC Köln,False,,,,2026-07-03T09:19:06.9,"OpenLigaDB (comunidad, ODbL-1.0)",https://api.openligadb.de/getmatchdata/bl1/2026
+83445,bl1,2026,33,2027-05-15T13:30:00Z,16,VfB Stuttgart,1635,RB Leipzig,False,,,,2026-07-03T09:19:19.837,"OpenLigaDB (comunidad, ODbL-1.0)",https://api.openligadb.de/getmatchdata/bl1/2026
+83446,bl1,2026,33,2027-05-15T13:30:00Z,175,TSG Hoffenheim,81,1. FSV Mainz 05,False,,,,2026-07-03T09:19:31.567,"OpenLigaDB (comunidad, ODbL-1.0)",https://api.openligadb.de/getmatchdata/bl1/2026
+83447,bl1,2026,33,2027-05-15T13:30:00Z,6,Bayer 04 Leverkusen,40,FC Bayern München,False,,,,2026-07-03T09:19:41.183,"OpenLigaDB (comunidad, ODbL-1.0)",https://api.openligadb.de/getmatchdata/bl1/2026
+83448,bl1,2026,33,2027-05-15T13:30:00Z,91,Eintracht Frankfurt,198,SV 07 Elversberg,False,,,,2026-07-03T09:19:50.64,"OpenLigaDB (comunidad, ODbL-1.0)",https://api.openligadb.de/getmatchdata/bl1/2026
+83449,bl1,2026,33,2027-05-15T13:30:00Z,87,Borussia Mönchengladbach,95,FC Augsburg,False,,,,2026-07-03T09:20:03.707,"OpenLigaDB (comunidad, ODbL-1.0)",https://api.openligadb.de/getmatchdata/bl1/2026
+83450,bl1,2026,33,2027-05-15T13:30:00Z,100,Hamburger SV,112,SC Freiburg,False,,,,2026-07-03T09:20:12.887,"OpenLigaDB (comunidad, ODbL-1.0)",https://api.openligadb.de/getmatchdata/bl1/2026
+83451,bl1,2026,33,2027-05-15T13:30:00Z,134,SV Werder Bremen,9,FC Schalke 04,False,,,,2026-07-03T09:20:21.173,"OpenLigaDB (comunidad, ODbL-1.0)",https://api.openligadb.de/getmatchdata/bl1/2026
+83452,bl1,2026,33,2027-05-15T13:30:00Z,31,SC Paderborn 07,80,1. FC Union Berlin,False,,,,2026-07-03T09:20:29.173,"OpenLigaDB (comunidad, ODbL-1.0)",https://api.openligadb.de/getmatchdata/bl1/2026
+83453,bl1,2026,34,2027-05-22T13:30:00Z,40,FC Bayern München,91,Eintracht Frankfurt,False,,,,2026-07-03T09:21:06.64,"OpenLigaDB (comunidad, ODbL-1.0)",https://api.openligadb.de/getmatchdata/bl1/2026
+83454,bl1,2026,34,2027-05-22T13:30:00Z,1635,RB Leipzig,175,TSG Hoffenheim,False,,,,2026-07-03T09:21:21.033,"OpenLigaDB (comunidad, ODbL-1.0)",https://api.openligadb.de/getmatchdata/bl1/2026
+83455,bl1,2026,34,2027-05-22T13:30:00Z,112,SC Freiburg,7,Borussia Dortmund,False,,,,2026-07-03T09:21:29.93,"OpenLigaDB (comunidad, ODbL-1.0)",https://api.openligadb.de/getmatchdata/bl1/2026
+83456,bl1,2026,34,2027-05-22T13:30:00Z,95,FC Augsburg,100,Hamburger SV,False,,,,2026-07-03T09:21:39.543,"OpenLigaDB (comunidad, ODbL-1.0)",https://api.openligadb.de/getmatchdata/bl1/2026
+83457,bl1,2026,34,2027-05-22T13:30:00Z,81,1. FSV Mainz 05,16,VfB Stuttgart,False,,,,2026-07-03T09:21:48.55,"OpenLigaDB (comunidad, ODbL-1.0)",https://api.openligadb.de/getmatchdata/bl1/2026
+83458,bl1,2026,34,2027-05-22T13:30:00Z,80,1. FC Union Berlin,87,Borussia Mönchengladbach,False,,,,2026-07-03T09:21:57.157,"OpenLigaDB (comunidad, ODbL-1.0)",https://api.openligadb.de/getmatchdata/bl1/2026
+83459,bl1,2026,34,2027-05-22T13:30:00Z,65,1. FC Köln,31,SC Paderborn 07,False,,,,2026-07-03T09:22:04.893,"OpenLigaDB (comunidad, ODbL-1.0)",https://api.openligadb.de/getmatchdata/bl1/2026
+83460,bl1,2026,34,2027-05-22T13:30:00Z,9,FC Schalke 04,6,Bayer 04 Leverkusen,False,,,,2026-07-03T09:22:13.52,"OpenLigaDB (comunidad, ODbL-1.0)",https://api.openligadb.de/getmatchdata/bl1/2026
+83461,bl1,2026,34,2027-05-22T13:30:00Z,198,SV 07 Elversberg,134,SV Werder Bremen,False,,,,2026-07-03T09:22:21.053,"OpenLigaDB (comunidad, ODbL-1.0)",https://api.openligadb.de/getmatchdata/bl1/2026

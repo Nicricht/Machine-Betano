@@ -1,0 +1,300 @@
+match_id,league,season_start_year,player_id,player_name,minute,home_score_after_goal,away_score_after_goal,is_penalty,is_own_goal,source
+85335,la1,2026,27184,N. Tenaglia,73,1,0,False,False,OpenLigaDB
+85335,la1,2026,27186,M. Rodriguez,90,3,0,False,False,OpenLigaDB
+85335,la1,2026,27185,M. Diaz,90,2,0,False,False,OpenLigaDB
+85336,la1,2026,27187,A. Garcia,4,0,1,False,False,OpenLigaDB
+85336,la1,2026,27188,J. Guridi,52,1,1,True,False,OpenLigaDB
+85336,la1,2026,27189,Peque,90,2,1,True,False,OpenLigaDB
+85337,la1,2026,19255,A. Martin,21,1,0,True,False,OpenLigaDB
+85337,la1,2026,27190,S. Martinez,34,2,0,False,False,OpenLigaDB
+85337,la1,2026,27192,N. Pépé,45,2,2,False,False,OpenLigaDB
+85337,la1,2026,27191,P. Gueye,45,2,1,False,False,OpenLigaDB
+85338,la1,2026,27193,R. Fernández,40,2,0,False,False,OpenLigaDB
+85338,la1,2026,27193,R. Fernández,5,1,0,False,False,OpenLigaDB
+85338,la1,2026,27195,T. Dolan,80,3,0,False,False,OpenLigaDB
+85339,la1,2026,7121,Iago Aspas,14,1,0,False,False,OpenLigaDB
+85339,la1,2026,27274,K. Barja,54,1,1,False,False,OpenLigaDB
+85339,la1,2026,14424,Budimir,64,1,2,True,False,OpenLigaDB
+85340,la1,2026,11397,Aubameyang,21,1,0,False,False,OpenLigaDB
+85340,la1,2026,27196,M. Aguado,76,1,1,False,False,OpenLigaDB
+85341,la1,2026,27197,Kang-in Lee,70,1,0,False,False,OpenLigaDB
+85341,la1,2026,23340,Alex Baena,85,2,0,False,False,OpenLigaDB
+85342,la1,2026,27272,P. Garcia,83,0,1,False,False,OpenLigaDB
+85343,la1,2026,19243,Kylian Mbappé,40,1,0,False,False,OpenLigaDB
+85343,la1,2026,27273,L. Sucic,44,1,1,False,False,OpenLigaDB
+85343,la1,2026,19243,Kylian Mbappé,60,2,1,False,False,OpenLigaDB
+85343,la1,2026,19345,Vinicius Junior,68,3,1,False,False,OpenLigaDB
+85343,la1,2026,19243,Kylian Mbappé,80,4,1,False,False,OpenLigaDB
+85344,la1,2026,20458,Raphinha,37,1,0,False,False,OpenLigaDB
+85344,la1,2026,27270,Fermín,82,2,0,False,False,OpenLigaDB
+85345,la1,2026,27198,S. Camello,48,1,0,False,False,OpenLigaDB
+85345,la1,2026,27185,M. Diaz,84,1,1,False,False,OpenLigaDB
+85346,la1,2026,20543,Riquelme,63,1,0,False,False,OpenLigaDB
+85347,la1,2026,27221,Oso,15,0,1,False,False,OpenLigaDB
+85347,la1,2026,19441,C. Ejuke,50,0,2,False,False,OpenLigaDB
+85347,la1,2026,27222,I. Romero,57,0,3,False,False,OpenLigaDB
+85347,la1,2026,27223,A. Paredes,70,1,3,False,False,OpenLigaDB
+85349,la1,2026,27230,A. Calatrava,30,1,1,False,False,OpenLigaDB
+85349,la1,2026,18702,J. Bellingham,9,0,1,False,False,OpenLigaDB
+85349,la1,2026,27231,C. Espi,90,1,2,False,False,OpenLigaDB
+85350,la1,2026,27268,M. Publim,59,1,0,False,False,OpenLigaDB
+85350,la1,2026,18902,G. Moreno,66,1,1,True,False,OpenLigaDB
+85350,la1,2026,23310,G. Mikautadze,78,1,2,True,False,OpenLigaDB
+85350,la1,2026,23961,G. Simeone,85,2,2,False,False,OpenLigaDB
+85351,la1,2026,27269,E. Unal,81,1,0,False,False,OpenLigaDB
+85352,la1,2026,20458,Raphinha,14,0,1,True,False,OpenLigaDB
+85352,la1,2026,19423,K. Adeyemi,45,0,2,False,False,OpenLigaDB
+85352,la1,2026,20458,Raphinha,67,0,3,False,False,OpenLigaDB
+85352,la1,2026,27270,Fermín,71,0,4,False,False,OpenLigaDB
+85352,la1,2026,27270,Fermín,79,0,5,False,False,OpenLigaDB
+85354,la1,2026,11397,Aubameyang,21,0,1,False,False,OpenLigaDB
+85354,la1,2026,27271,Chupe,34,1,1,True,False,OpenLigaDB
+85355,la1,2026,27275,Y. Zabiri,15,1,0,False,False,OpenLigaDB
+85355,la1,2026,27275,Y. Zabiri,21,2,0,False,False,OpenLigaDB
+85355,la1,2026,27275,Y. Zabiri,36,3,0,False,False,OpenLigaDB
+85355,la1,2026,27276,Buba Sangare,78,3,1,False,False,OpenLigaDB
+85355,la1,2026,27277,F. Nino,79,3,2,False,False,OpenLigaDB
+85356,la1,2026,14331,Boye,31,1,0,False,False,OpenLigaDB
+85357,la1,2026,27279,Della,24,1,0,False,False,OpenLigaDB
+85357,la1,2026,27280,M. Bartra,34,1,1,False,False,OpenLigaDB
+85357,la1,2026,20543,Riquelme,45,2,2,False,False,OpenLigaDB
+85357,la1,2026,27281,E. Bardeli,45,2,1,False,False,OpenLigaDB
+85357,la1,2026,27283,R. Brugue,56,3,2,False,False,OpenLigaDB
+85357,la1,2026,27283,R. Brugue,70,4,2,False,False,OpenLigaDB
+85357,la1,2026,27284,J. A. Olasagasti,90,5,2,False,False,OpenLigaDB
+85358,la1,2026,20838,A. Barrenetxea,4,1,0,False,False,OpenLigaDB
+85358,la1,2026,27193,R. Fernández,45,1,1,False,False,OpenLigaDB
+85358,la1,2026,27286,O. Oskarsson,61,2,1,False,False,OpenLigaDB
+85359,la1,2026,,,,1,3,False,False,OpenLigaDB
+85359,la1,2026,16400,Lookman,26,0,2,False,False,OpenLigaDB
+85359,la1,2026,23340,Alex Baena,33,0,3,False,False,OpenLigaDB
+85359,la1,2026,23340,Alex Baena,4,0,1,False,False,OpenLigaDB
+85360,la1,2026,18702,J. Bellingham,19,1,0,False,False,OpenLigaDB
+85360,la1,2026,,,26,2,0,False,True,OpenLigaDB
+85360,la1,2026,19649,K. Mbappé,30,3,0,False,False,OpenLigaDB
+85360,la1,2026,23522,A. Güler,90,4,0,False,False,OpenLigaDB
+85361,la1,2026,,,13,1,0,False,True,OpenLigaDB
+85361,la1,2026,11397,Aubameyang,17,2,0,False,False,OpenLigaDB
+85361,la1,2026,14510,Sadik,26,2,1,False,False,OpenLigaDB
+85361,la1,2026,23676,A. Diakhaby,59,3,1,False,True,OpenLigaDB
+85362,la1,2026,20781,A. Berenguer,20,0,1,False,False,OpenLigaDB
+85362,la1,2026,24136,Roberto Navarro,22,0,2,False,False,OpenLigaDB
+85363,la1,2026,14424,Budimir,45,1,0,False,False,OpenLigaDB
+85364,la1,2026,27198,S. Camello,12,0,1,False,False,OpenLigaDB
+85364,la1,2026,20458,Raphinha,19,1,1,False,False,OpenLigaDB
+85364,la1,2026,20684,L. Yamal,21,2,1,False,False,OpenLigaDB
+85364,la1,2026,17234,???,45,0,0,False,False,OpenLigaDB
+85364,la1,2026,27369,F. Lejeune,51,3,1,False,True,OpenLigaDB
+85364,la1,2026,27198,S. Camello,59,3,2,False,False,OpenLigaDB
+85364,la1,2026,20458,Raphinha,71,4,2,False,False,OpenLigaDB
+85364,la1,2026,20684,L. Yamal,90,5,2,False,False,OpenLigaDB
+85365,la1,2026,14331,Boye,27,1,0,False,False,OpenLigaDB
+85365,la1,2026,27185,M. Diaz,36,2,0,False,False,OpenLigaDB
+85365,la1,2026,14424,Budimir,46,2,1,False,False,OpenLigaDB
+85365,la1,2026,14331,Boye,51,3,1,False,False,OpenLigaDB
+85365,la1,2026,14424,Budimir,64,3,2,False,False,OpenLigaDB
+85365,la1,2026,14331,Boye,68,4,2,False,False,OpenLigaDB
+85365,la1,2026,27493,P. Ibanez,90,5,2,False,False,OpenLigaDB
+85366,la1,2026,20833,N. Williams,46,1,0,False,False,OpenLigaDB
+85366,la1,2026,27368,R. Navarro,48,2,0,False,False,OpenLigaDB
+85366,la1,2026,20650,O. Sancet,90,3,0,False,False,OpenLigaDB
+85367,la1,2026,27360,T. Parrott,81,1,0,False,False,OpenLigaDB
+85368,la1,2026,27498,J. Ochieng,11,0,1,False,False,OpenLigaDB
+85368,la1,2026,20771,Y. Herrera,31,0,2,False,False,OpenLigaDB
+85368,la1,2026,27499,T. Lemar,67,1,2,False,False,OpenLigaDB
+85368,la1,2026,27277,F. Nino,74,2,2,False,False,OpenLigaDB
+85368,la1,2026,27273,L. Sucic,90,2,3,False,False,OpenLigaDB
+85369,la1,2026,27494,L. Stassin,85,0,1,False,False,OpenLigaDB
+85369,la1,2026,27495,M. Ferndandez Sanchez,90,1,1,False,False,OpenLigaDB
+85370,la1,2026,27496,M. Satriano,21,1,0,False,False,OpenLigaDB
+85370,la1,2026,27497,C. Starfelt,57,1,1,False,False,OpenLigaDB
+85372,la1,2026,27378,A. Ratiu,17,1,1,False,False,OpenLigaDB
+85372,la1,2026,27272,P. Garcia,28,1,2,False,False,OpenLigaDB
+85372,la1,2026,27373,S. Canales,4,0,1,False,False,OpenLigaDB
+85372,la1,2026,27198,S. Camello,43,2,2,False,False,OpenLigaDB
+85372,la1,2026,27198,S. Camello,47,3,2,False,False,OpenLigaDB
+85373,la1,2026,27270,Fermín,22,0,2,False,False,OpenLigaDB
+85373,la1,2026,20458,Raphinha,50,0,3,False,False,OpenLigaDB
+85373,la1,2026,20684,L. Yamal,6,0,1,False,False,OpenLigaDB
+85373,la1,2026,18214,Pedri,79,0,4,False,False,OpenLigaDB
+85373,la1,2026,20684,L. Yamal,84,0,5,False,False,OpenLigaDB
+85374,la1,2026,27192,N. Pépé,19,1,0,False,False,OpenLigaDB
+85374,la1,2026,27386,L. Cruz,43,1,1,False,False,OpenLigaDB
+85374,la1,2026,27387,A. Traoré,76,2,1,False,True,OpenLigaDB
+85374,la1,2026,27388,Z. Eddahchouri,79,2,2,False,False,OpenLigaDB
+85374,la1,2026,27389,P.-E. Aubameyang,88,2,3,False,False,OpenLigaDB
+85375,la1,2026,27587,F. Buonanotte,50,0,1,True,False,OpenLigaDB
+85375,la1,2026,27588,V. Chust,79,1,1,False,True,OpenLigaDB
+85376,la1,2026,27590,F. Jutgla,41,1,0,False,False,OpenLigaDB
+85376,la1,2026,27591,A. Nino,83,1,1,False,False,OpenLigaDB
+85377,la1,2026,27593,R. Terrats,66,1,0,False,False,OpenLigaDB
+85377,la1,2026,11397,Aubameyang,78,1,1,False,False,OpenLigaDB
+85378,la1,2026,22866,Lamine Yamal,19,0,2,False,False,OpenLigaDB
+85378,la1,2026,22866,Lamine Yamal,48,0,3,True,False,OpenLigaDB
+85378,la1,2026,27592,X. Espart,5,0,1,False,False,OpenLigaDB
+85378,la1,2026,27222,I. Romero,79,1,3,False,False,OpenLigaDB
+85378,la1,2026,27283,R. Brugue,88,2,3,False,False,OpenLigaDB
+85378,la1,2026,19423,K. Adeyemi,90,2,4,False,False,OpenLigaDB
+85379,la1,2026,27193,R. Fernández,17,0,2,False,False,OpenLigaDB
+85379,la1,2026,27193,R. Fernández,3,0,1,False,False,OpenLigaDB
+85380,la1,2026,27501,V. Koski,18,0,1,False,False,OpenLigaDB
+85380,la1,2026,27275,Y. Zabiri,38,1,1,False,False,OpenLigaDB
+85380,la1,2026,27275,Y. Zabiri,53,2,1,False,False,OpenLigaDB
+85381,la1,2026,19243,Kylian Mbappé,14,1,0,True,False,OpenLigaDB
+85381,la1,2026,27589,A. Carreras,17,2,0,False,False,OpenLigaDB
+85381,la1,2026,18702,J. Bellingham,35,3,0,False,False,OpenLigaDB
+85381,la1,2026,27198,S. Camello,51,3,1,False,False,OpenLigaDB
+85381,la1,2026,19243,Kylian Mbappé,90,4,1,False,False,OpenLigaDB
+85382,la1,2026,19527,A. Grimaldo,84,0,1,True,False,OpenLigaDB
+85382,la1,2026,19125,J. David,90,0,2,False,False,OpenLigaDB
+85382,la1,2026,23961,G. Simeone,90,0,3,False,False,OpenLigaDB
+85383,la1,2026,27500,J. Iglesias,81,1,0,False,False,OpenLigaDB
+85384,la1,2026,18902,G. Moreno,29,1,0,False,False,OpenLigaDB
+85384,la1,2026,27594,C. Hernandez,39,1,1,False,False,OpenLigaDB
+85384,la1,2026,27595,Natan,43,1,2,False,False,OpenLigaDB
+85385,la1,2026,20403,Rioja,78,0,1,False,False,OpenLigaDB
+85386,la1,2026,19125,J. David,24,1,0,False,False,OpenLigaDB
+85386,la1,2026,27197,Kang-in Lee,54,2,0,False,False,OpenLigaDB
+85386,la1,2026,23960,R. Le Normand,63,3,0,False,False,OpenLigaDB
+85386,la1,2026,23340,Alex Baena,82,4,0,False,False,OpenLigaDB
+85387,la1,2026,20582,A. Ezzalzouli,45,1,0,False,False,OpenLigaDB
+85388,la1,2026,27599,M. Sierra,52,0,1,False,False,OpenLigaDB
+85389,la1,2026,27597,M. Dituro,25,0,1,False,True,OpenLigaDB
+85389,la1,2026,19243,Kylian Mbappé,33,0,2,False,False,OpenLigaDB
+85389,la1,2026,27598,A. Osorio,71,1,2,False,False,OpenLigaDB
+85389,la1,2026,27277,F. Nino,83,2,2,False,False,OpenLigaDB
+85389,la1,2026,27231,C. Espi,90,2,3,False,False,OpenLigaDB
+85390,la1,2026,20458,Raphinha,25,2,0,True,False,OpenLigaDB
+85390,la1,2026,27600,M. Gueye,30,2,1,False,False,OpenLigaDB
+85390,la1,2026,20452,Villalibre,36,3,1,False,True,OpenLigaDB
+85390,la1,2026,20458,Raphinha,42,4,1,False,False,OpenLigaDB
+85390,la1,2026,27275,Y. Zabiri,65,4,2,False,False,OpenLigaDB
+85390,la1,2026,20458,Raphinha,67,5,2,True,False,OpenLigaDB
+85390,la1,2026,17149,Gabriel Jesus,79,6,2,False,False,OpenLigaDB
+85390,la1,2026,20019,J. Cancelo,8,1,0,False,False,OpenLigaDB
+85390,la1,2026,22866,Lamine Yamal,89,7,2,False,False,OpenLigaDB
+85391,la1,2026,27283,R. Brugue,20,1,0,False,False,OpenLigaDB
+85391,la1,2026,27283,R. Brugue,22,2,0,False,False,OpenLigaDB
+85391,la1,2026,20781,A. Berenguer,67,2,1,True,False,OpenLigaDB
+85391,la1,2026,28031,K. Etta Eyong,90,3,1,False,False,OpenLigaDB
+85392,la1,2026,27601,C. Dotor,12,1,0,False,False,OpenLigaDB
+85392,la1,2026,20873,A. Moleiro,40,1,1,False,False,OpenLigaDB
+85392,la1,2026,27191,P. Gueye,45,1,2,False,False,OpenLigaDB
+85392,la1,2026,27191,P. Gueye,86,1,3,False,False,OpenLigaDB
+85393,la1,2026,27596,A. Pedrosa,26,2,0,False,False,OpenLigaDB
+85393,la1,2026,27187,A. Garcia,3,1,0,False,False,OpenLigaDB
+85393,la1,2026,27193,R. Fernández,54,2,1,False,False,OpenLigaDB
+85396,la1,2026,19527,A. Grimaldo,53,1,0,True,False,OpenLigaDB
+85396,la1,2026,19125,J. David,59,2,0,False,False,OpenLigaDB
+85396,la1,2026,22664,A. Rüdiger,89,2,1,False,False,OpenLigaDB
+85397,la1,2026,27627,H. Gonzalez,32,1,0,True,False,OpenLigaDB
+85397,la1,2026,27628,I. Moriba,43,2,0,False,False,OpenLigaDB
+85397,la1,2026,27629,M. Roman,69,3,0,False,False,OpenLigaDB
+85397,la1,2026,27630,P. Duran,78,4,0,False,False,OpenLigaDB
+85397,la1,2026,27630,P. Duran,90,5,0,False,False,OpenLigaDB
+85398,la1,2026,27594,C. Hernandez,43,0,1,False,False,OpenLigaDB
+85398,la1,2026,27633,D. Villares,87,1,1,False,False,OpenLigaDB
+85399,la1,2026,27277,F. Nino,26,0,1,False,False,OpenLigaDB
+85399,la1,2026,27277,F. Nino,29,0,2,False,False,OpenLigaDB
+85399,la1,2026,27588,V. Chust,72,1,2,False,True,OpenLigaDB
+85399,la1,2026,7142,Valera,78,1,3,False,False,OpenLigaDB
+85400,la1,2026,27632,I. Azon,85,1,0,False,False,OpenLigaDB
+85401,la1,2026,14424,Budimir,16,1,0,False,False,OpenLigaDB
+85401,la1,2026,27198,S. Camello,51,1,1,False,False,OpenLigaDB
+85402,la1,2026,27631,Y. Fofana,19,1,0,False,False,OpenLigaDB
+85402,la1,2026,20458,Raphinha,22,1,1,False,False,OpenLigaDB
+85402,la1,2026,20458,Raphinha,52,1,2,False,False,OpenLigaDB
+85402,la1,2026,20458,Raphinha,69,1,3,False,False,OpenLigaDB
+85403,la1,2026,27273,L. Sucic,26,0,1,False,False,OpenLigaDB
+85403,la1,2026,27634,A. Mayol,57,1,1,False,False,OpenLigaDB
+85403,la1,2026,19651,Carlos Soler,76,1,2,True,False,OpenLigaDB
+85403,la1,2026,27635,L. Beitia,84,2,2,False,True,OpenLigaDB
+85403,la1,2026,20838,A. Barrenetxea,90,2,3,False,False,OpenLigaDB
+85404,la1,2026,20681,A. Perez,41,1,0,False,False,OpenLigaDB
+85404,la1,2026,27222,I. Romero,42,1,1,False,False,OpenLigaDB
+85404,la1,2026,20873,A. Moleiro,54,2,1,False,False,OpenLigaDB
+85404,la1,2026,23310,G. Mikautadze,86,3,1,False,False,OpenLigaDB
+85405,la1,2026,19527,A. Grimaldo,33,0,1,False,False,OpenLigaDB
+85405,la1,2026,14331,Boye,45,1,1,True,False,OpenLigaDB
+85405,la1,2026,24783,Cristian Romero,87,1,2,False,False,OpenLigaDB
+85406,la1,2026,7916,Isco,10,1,0,True,False,OpenLigaDB
+85406,la1,2026,20582,A. Ezzalzouli,31,2,0,False,False,OpenLigaDB
+85406,la1,2026,14424,Budimir,48,3,0,False,True,OpenLigaDB
+85406,la1,2026,14424,Budimir,51,3,1,False,False,OpenLigaDB
+85406,la1,2026,27734,R. Garcia,56,3,2,False,False,OpenLigaDB
+85406,la1,2026,7916,Isco,67,4,2,False,False,OpenLigaDB
+85406,la1,2026,27735,Morante,90,5,2,False,False,OpenLigaDB
+85408,la1,2026,27146,Anthony Gordon,2,1,0,False,False,OpenLigaDB
+85408,la1,2026,17149,Gabriel Jesus,30,2,0,False,False,OpenLigaDB
+85408,la1,2026,22862,Jules Koundé,73,3,0,False,False,OpenLigaDB
+85409,la1,2026,27738,R. Ure,13,0,1,False,False,OpenLigaDB
+85409,la1,2026,27739,F. Correia,54,0,2,False,False,OpenLigaDB
+85409,la1,2026,27222,I. Romero,57,1,2,False,False,OpenLigaDB
+85409,la1,2026,27740,De la Fuente,90,2,2,False,False,OpenLigaDB
+85409,la1,2026,27741,Isaac Romero,90,2,3,False,False,OpenLigaDB
+85409,la1,2026,27742,I. Ndukwe,90,3,3,False,False,OpenLigaDB
+85410,la1,2026,27710,B. Zaragoza,13,0,1,False,False,OpenLigaDB
+85410,la1,2026,27591,A. Nino,90,1,1,False,False,OpenLigaDB
+85411,la1,2026,27736,D. Raba,2,0,1,False,False,OpenLigaDB
+85411,la1,2026,27275,Y. Zabiri,32,1,1,False,False,OpenLigaDB
+85411,la1,2026,20470,Iván Martín,47,2,1,False,False,OpenLigaDB
+85411,la1,2026,27737,D. Otorbi,65,2,2,False,False,OpenLigaDB
+85413,la1,2026,23584,Y. Diomande,62,1,0,False,False,OpenLigaDB
+85414,la1,2026,27729,J. Martin,29,1,0,False,False,OpenLigaDB
+85414,la1,2026,27730,A. Zakharyan,34,2,0,False,False,OpenLigaDB
+85414,la1,2026,27731,G. Guedes,54,3,0,False,False,OpenLigaDB
+85414,la1,2026,27732,M. Soriano,61,3,1,False,False,OpenLigaDB
+85414,la1,2026,27733,Yeremay,69,3,2,True,False,OpenLigaDB
+85415,la1,2026,20684,L. Yamal,10,0,1,False,False,OpenLigaDB
+85415,la1,2026,28032,V. Gomez,27,1,1,False,False,OpenLigaDB
+85415,la1,2026,14973,Rodri,41,1,2,False,False,OpenLigaDB
+85415,la1,2026,20609,G. Jesus,51,1,3,False,False,OpenLigaDB
+85415,la1,2026,20582,A. Ezzalzouli,53,2,3,False,False,OpenLigaDB
+85415,la1,2026,28033,E. Garcia,62,2,4,False,False,OpenLigaDB
+85415,la1,2026,18419,D. Olmo,81,2,5,False,False,OpenLigaDB
+85416,la1,2026,27590,F. Jutgla,53,1,0,False,False,OpenLigaDB
+85416,la1,2026,28006,J. Rodriguez,71,2,0,False,False,OpenLigaDB
+85416,la1,2026,19120,H. Novoa,87,2,1,False,False,OpenLigaDB
+85417,la1,2026,27920,B. Nsongo,63,1,0,False,False,OpenLigaDB
+85417,la1,2026,27921,D. Requena,82,1,1,False,False,OpenLigaDB
+85418,la1,2026,23340,Alex Baena,89,0,1,False,False,OpenLigaDB
+85419,la1,2026,27187,A. Garcia,11,0,1,False,False,OpenLigaDB
+85419,la1,2026,27496,M. Satriano,56,1,1,False,False,OpenLigaDB
+85420,la1,2026,27286,O. Oskarsson,26,0,2,False,False,OpenLigaDB
+85420,la1,2026,14786,Kubo,3,0,1,False,False,OpenLigaDB
+85420,la1,2026,27591,A. Nino,54,1,2,False,False,OpenLigaDB
+85420,la1,2026,18892,M. Oyarzabal,59,1,3,False,False,OpenLigaDB
+85420,la1,2026,28035,P. Martinez,66,2,3,False,False,OpenLigaDB
+85420,la1,2026,18892,M. Oyarzabal,67,2,4,False,False,OpenLigaDB
+85420,la1,2026,27731,G. Guedes,73,2,5,False,False,OpenLigaDB
+85421,la1,2026,28034,A. Osambela,88,2,0,False,False,OpenLigaDB
+85421,la1,2026,14424,Budimir,9,1,0,True,False,OpenLigaDB
+85422,la1,2026,23522,A. Güler,30,1,0,False,False,OpenLigaDB
+85422,la1,2026,19243,Kylian Mbappé,37,2,0,False,False,OpenLigaDB
+85422,la1,2026,19243,Kylian Mbappé,63,3,0,True,False,OpenLigaDB
+85422,la1,2026,28036,M. Bueno,80,3,1,False,False,OpenLigaDB
+85422,la1,2026,23584,Y. Diomande,82,4,1,False,False,OpenLigaDB
+85425,la1,2026,27591,A. Nino,44,0,1,False,False,OpenLigaDB
+85425,la1,2026,28037,A. Manas,89,1,1,False,False,OpenLigaDB
+85426,la1,2026,20781,A. Berenguer,17,1,0,False,False,OpenLigaDB
+85426,la1,2026,20834,I. Williams,35,2,0,False,False,OpenLigaDB
+85426,la1,2026,27223,A. Paredes,70,3,0,False,False,OpenLigaDB
+85426,la1,2026,20534,Yuri,88,4,0,False,False,OpenLigaDB
+85427,la1,2026,11436,Alvarez,48,1,0,False,False,OpenLigaDB
+85429,la1,2026,19243,Kylian Mbappé,41,0,1,False,False,OpenLigaDB
+85429,la1,2026,20458,Raphinha,61,1,1,False,False,OpenLigaDB
+85429,la1,2026,19243,Kylian Mbappé,87,1,2,False,False,OpenLigaDB
+85430,la1,2026,28039,Exposito,62,0,1,False,False,OpenLigaDB
+85430,la1,2026,28040,J. Belocian,69,1,1,False,False,OpenLigaDB
+85430,la1,2026,27275,Y. Zabiri,84,2,1,False,False,OpenLigaDB
+85431,la1,2026,28038,F. Redondo,22,0,1,True,False,OpenLigaDB
+85431,la1,2026,27277,F. Nino,36,0,2,True,False,OpenLigaDB
+85431,la1,2026,7142,Valera,68,0,3,False,False,OpenLigaDB
+85432,la1,2026,28054,N. Pérez,22,1,1,False,False,OpenLigaDB
+85432,la1,2026,27852,Turrientes,27,2,1,False,False,OpenLigaDB
+85432,la1,2026,27286,O. Oskarsson,6,1,0,False,False,OpenLigaDB
+85433,la1,2026,27222,I. Romero,24,1,0,False,False,OpenLigaDB
+85433,la1,2026,27739,F. Correia,82,2,0,False,False,OpenLigaDB
+85434,la1,2026,20392,Pepelu,38,1,0,True,False,OpenLigaDB
+85434,la1,2026,26074,Alexander Freeman,69,1,1,False,False,OpenLigaDB
+85434,la1,2026,23310,G. Mikautadze,90,1,2,False,False,OpenLigaDB
