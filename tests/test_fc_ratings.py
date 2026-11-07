@@ -11,9 +11,10 @@ def player(**updates):
     row = dict(
         edition="FC27", as_of_date="2026-09-10", fc_player_id="12345",
         name="Futbolista de prueba", club="Club de prueba", position="ST",
-        ovr="89", pac="90", sho="85", pas="80", dri="88", def="42", phy="77",
+        ovr="89", pac="90", sho="85", pas="80", dri="88", phy="77",
         source_url="https://www.ea.com/games/ea-sports-fc/ratings",
     )
+    row["def"] = "42"
     row.update(updates)
     return row
 
