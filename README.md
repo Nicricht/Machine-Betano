@@ -23,3 +23,7 @@ python scripts/refresh_api_football.py --budget 35
 CSV privados generados en `datasets/avanzados/` (excluidos por .gitignore). Las consultas programadas solo estarán activas en `main` y si el secreto existe. Si falta, el workflow declara PENDIENTE DE ACCESO y no simula una descarga.
 
 Todos los resultados observados **después** de un partido se deben excluir de las variables predictoras de ese mismo partido. El proyecto no ha demostrado ventaja sobre cuotas de casas de apuestas.
+
+## Dataset EA FC27 de Kaggle
+
+El usuario seleccionó [EA SPORTS FC 27 Player Ratings](https://www.kaggle.com/datasets/mikedpad/ea-sports-fc27-player-ratings). La auditoría sin credenciales está en `scripts/audit_kaggle_fc27.py`, con pruebas y workflow. Su resultado es exclusivamente metadatos (calidad/filas/columnas, sin copiar datos de terceros al repositorio); ver [documentación](docs/KAGGLE_FC27.md). Antes de entrenar, se debe verificar licencia, autenticidad, snapshot y correspondencias entre IDs de EA y jugadores de las ligas.
