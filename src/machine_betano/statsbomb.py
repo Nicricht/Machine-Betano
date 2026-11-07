@@ -119,6 +119,66 @@ def player_shots_table(events_by_match: dict[int, list[dict]]) -> pd.DataFrame:
     ])
 
 
+def player_events_table(events_by_match: dict[int, list[dict]]) -> pd.DataFrame:
+    """Estadísticas de eventos observados por futbolista y partido.
+
+    La fuente abierta incluye eventos individuales, pero aquí no inferimos
+    minutos jugados, lesiones ni valoraciones EA Sports FC.
+    """
+    cols = [
+        "match_id", "team_id", "team", "player_id", "player", "started",
+        "shots", "shot_goals", "shot_xg", "passes", "completed_passes",
+        "fouls_committed", "interceptions", "ball_recoveries",
+    ]
+    rows = {}
+    def add(mid, team, player):
+        if not team or not player or "id" not in team or "id" not in player:
+            return None
+        key = (int(mid), int(team["id"]), int(player["id"]))
+        if key not in rows:
+            rows[key] = {
+                "match_id": int(mid), "team_id": int(team["id"]),
+                "team": team.get("name"), "player_id": int(player["id"]),
+                "player": player.get("name"), "started": 0,
+                "shots": 0, "shot_goals": 0, "shot_xg": 0.0,
+                "passes": 0, "completed_passes": 0, "fouls_committed": 0,
+                "interceptions": 0, "ball_recoveries": 0,
+            }
+        return rows[key]
+
+    for match_id, events in events_by_match.items():
+        for event in events:
+            team = event.get("team") or {}
+            event_type = (event.get("type") or {}).get("name")
+            if event_type == "Starting XI":
+                for item in (event.get("tactics") or {}).get("lineup", []):
+                    starter = item.get("player") or {}
+                    record = add(match_id, team, starter)
+                    if record is not None:
+                        record["started"] = 1
+            player = event.get("player") or {}
+            record = add(match_id, team, player)
+            if record is None:
+                continue
+            if event_type == "Shot":
+                shot = event.get("shot") or {}
+                record["shots"] += 1
+                record["shot_xg"] += float(shot.get("statsbomb_xg") or 0)
+                if (shot.get("outcome") or {}).get("name") == "Goal":
+                    record["shot_goals"] += 1
+            elif event_type == "Pass":
+                record["passes"] += 1
+                if not (event.get("pass") or {}).get("outcome"):
+                    record["completed_passes"] += 1
+            elif event_type == "Foul Committed":
+                record["fouls_committed"] += 1
+            elif event_type == "Interception":
+                record["interceptions"] += 1
+            elif event_type == "Ball Recovery":
+                record["ball_recoveries"] += 1
+    return pd.DataFrame(list(rows.values()), columns=cols)
+
+
 def fetch_season(competition_id: int, season_id: int, root: Path, events_limit: int = 0) -> tuple[Path, Path | None]:
     """Guardar partidos y opcionalmente un subconjunto explícito de eventos."""
     if events_limit < 0:
@@ -135,15 +195,19 @@ def fetch_season(competition_id: int, season_id: int, root: Path, events_limit: 
     matches = matches_table(raw_matches, competition_id, season_id)
     matches_path = processed_dir / f"matches_{stem}.csv"
     matches.to_csv(matches_path, index=False)
+    from machine_betano.features import build_features
+    build_features(matches).to_csv(processed_dir / f"features_prepartido_{stem}.csv", index=False)
     player_path = None
     if events_limit:
         event_map = {}
         for match_id in matches["match_id"].head(events_limit):
             event_map[int(match_id)] = download_json(f"events/{int(match_id)}.json")
         players = player_shots_table(event_map)
-        player_path = processed_dir / f"player_shots_sample_{stem}.csv"
+        suffix = "all" if len(event_map) == len(matches) else "sample"
+        player_path = processed_dir / f"player_shots_{suffix}_{stem}.csv"
         players.to_csv(player_path, index=False)
-        (processed_dir / f"player_shots_sample_{stem}_metadata.json").write_text(
+        player_events_table(event_map).to_csv(processed_dir / f"player_events_{suffix}_{stem}.csv", index=False)
+        (processed_dir / f"player_shots_{suffix}_{stem}_metadata.json").write_text(
             json.dumps({
                 "source": "StatsBomb Open Data",
                 "sample_matches": len(event_map),
