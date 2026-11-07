@@ -64,11 +64,16 @@ class TestTemporalModel(unittest.TestCase):
         for x in values:
             x["_kickoff"] = utc(x["kickoff_utc"])
         report, predictions = fit_report(values, CHECKED)
-        self.assertEqual(len(predictions), 1)
-        self.assertEqual(predictions[0]["match_id"], "900")
-        self.assertAlmostEqual(
-            sum(predictions[0][x] for x in ("p_home", "p_draw", "p_away")), 1, places=4
-        )
+        self.assertEqual(report["upcoming_next_7_days_with_enough_history"], 1)
+        if report["test_model_better_log_loss_than_baseline"]:
+            self.assertEqual(len(predictions), 1)
+            self.assertEqual(predictions[0]["match_id"], "900")
+            self.assertAlmostEqual(
+                sum(predictions[0][x] for x in ("p_home", "p_draw", "p_away")), 1, places=4
+            )
+        else:
+            self.assertEqual(predictions, [])
+            self.assertEqual(report["publication_guard"], "BLOCKED_MODEL_WORSE_THAN_BASELINE")
         self.assertFalse(report["player_ratings_in_training"])
         self.assertIn("baseline_only_train_distribution", report)
         self.assertLess(report["train_end_utc"], report["test_start_utc"])
