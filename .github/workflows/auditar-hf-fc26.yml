@@ -1,0 +1,46 @@
+name: Auditar dataset EA FC26 en Hugging Face
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - "feat/hf-kaggle-ratings-*"
+  pull_request:
+    paths:
+      - "scripts/audit_hf_fc26.py"
+      - "tests/test_hf_fc26.py"
+      - ".github/workflows/auditar-hf-fc26.yml"
+
+permissions:
+  contents: read
+
+jobs:
+  auditar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Pruebas del adaptador CSV
+        run: python -m unittest discover -s tests -p "test_hf_fc26.py" -v
+      - name: Leer ambos CSV reales de HF sin redistribuir contenido
+        run: python scripts/audit_hf_fc26.py
+      - name: Resumir cobertura y licencia
+        run: |
+          python - <<'PY'
+          import json,os
+          from pathlib import Path
+          r=json.loads(Path("outputs/hf_fc26_audit.json").read_text(encoding="utf-8"))
+          with open(os.environ["GITHUB_STEP_SUMMARY"],"a",encoding="utf-8") as out:
+              out.write("## Revisión de datos FC26 publicados por terceros\n\n")
+              out.write(f"Fuente: {r['source_url']}\n\n")
+              out.write(f"Registros: {r['total_rows']}\n\n")
+              for x in r["tables"]:
+                  out.write(f"- {x['category']}: {x['records']} filas, OVR {x['overall_min']} a {x['overall_max']}\n")
+              out.write("\n**Licencia NO VERIFICADA. Sin integración predictiva ni redistribución.**\n")
+          PY
+      # No se suben a GitHub archivos completos de terceros ni artifacts.
