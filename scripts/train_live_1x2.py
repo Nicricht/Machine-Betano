@@ -166,7 +166,8 @@ def fit_report(rows: list[dict], as_of: str, horizon_days: int = 7) -> tuple[dic
     ]
     next_rows.sort(key=lambda r: (r["_kickoff"], r["league"], r["match_id"]))
     scored = []
-    if next_rows:
+    # No publicar probabilidades cuando el modelo pierde contra el baseline.
+    if next_rows and improved:
         next_probs = ordered_probabilities(full_model, matrix(next_rows))
         for row, probs in zip(next_rows, next_probs):
             scored.append({
@@ -196,8 +197,16 @@ def fit_report(rows: list[dict], as_of: str, horizon_days: int = 7) -> tuple[dic
         "test_model": validation,
         "baseline_only_train_distribution": reference,
         "test_model_better_log_loss_than_baseline": improved,
-        "upcoming_next_7_days_with_enough_history": len(scored),
-        "model_status": "EXPLORATORY_NOT_CALIBRATED",
+        "upcoming_next_7_days_with_enough_history": len(next_rows),
+        "published_probability_rows": len(scored),
+        "publication_guard": (
+            "MODEL_BETTER_THAN_BASELINE_BUT_UNCALIBRATED" if improved
+            else "BLOCKED_MODEL_WORSE_THAN_BASELINE"
+        ),
+        "model_status": (
+            "EXPLORATORY_NOT_CALIBRATED" if improved
+            else "RESEARCH_UNDERPERFORMS_BASELINE"
+        ),
         "player_ratings_in_training": False,
         "source": "OpenLigaDB ODbL; datos de resultados ya publicados",
         "limitations": [
