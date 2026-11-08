@@ -80,8 +80,6 @@ def validate_one_season(raw: list[dict], featured: list[dict],
     Recompute pre-match features from original fixtures, not from labels.
     In case of any discrepancy, stop before persisting master data.
     """
-    if len(raw) != len(featured):
-        raise ValueError(f"{label}: resultados vs features con cantidad diferente")
     observed = {}
     for row in raw:
         key = match_key(row)
@@ -96,6 +94,8 @@ def validate_one_season(raw: list[dict], featured: list[dict],
         feature_map[key] = row
         if parse_utc(row["as_of_utc"]) != parse_utc(checked):
             raise ValueError(f"{label}: fecha de features distinta del snapshot")
+    if len(raw) != len(featured):
+        raise ValueError(f"{label}: resultados vs features con cantidad diferente")
     if observed.keys() != feature_map.keys():
         raise ValueError(f"{label}: partidos y features sin correspondencia")
     recomputed = {match_key(m): m for m in build_features(raw, checked)}
