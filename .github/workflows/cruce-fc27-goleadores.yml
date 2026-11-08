@@ -39,6 +39,12 @@ jobs:
         run: python -m scripts.normalize_kaggle_fc27
       - name: Generar propuestas de equivalencia sin aprobación automática
         run: python -m scripts.link_fc27_openligadb
+      - name: Probar que identidades FIFA sin evidencia no se vinculan
+        run: python -m unittest discover -s tests -p "test_enrich_master_fc27.py" -v
+      - name: Materializar tabla maestra para unión privada
+        run: python -m scripts.build_master_dataset
+      - name: Enriquecer jugadores con FC27 solo si hay ID revisado
+        run: python -m scripts.enrich_master_fc27
       - name: Publicar solo indicadores agregados (no jugadores)
         run: |
           python - <<'PY'
@@ -47,6 +53,7 @@ jobs:
           from pathlib import Path
           path = Path("datasets/ratings/fc27_openligadb_linkage_audit.json")
           status = json.loads(path.read_text(encoding="utf-8"))
+          enriched = json.loads(Path("datasets/ratings/master_fc27_cobertura.json").read_text(encoding="utf-8"))
           with open(os.environ["GITHUB_STEP_SUMMARY"], "a", encoding="utf-8") as file:
               file.write("## Cruce exploratorio FC27 y OpenLigaDB\n\n")
               file.write("Futbolistas de FC27 analizados: " + str(status["fc_players_considered"]) + "\n\n")
@@ -55,7 +62,9 @@ jobs:
               file.write("Propuestas generadas: " + str(status["proposed_mappings"]) + "\n\n")
               for kind, count in status["proposals_by_status"].items():
                   file.write("- " + kind + ": " + str(count) + "\n")
-              file.write("\n**0 equivalencias aprobadas para entrenamiento:** se requiere revisión de identidad y licencia.\n")
+              file.write("Fichas FC27 en catálogo privado: " + str(enriched["fc27_catalog_rows"]) + "\\n")
+              file.write("IDs confirmados por revisión con evidencia: " + str(enriched["verified_provider_id_pairs_supplied"]) + "\\n")
+              file.write("**Coincidencias provisionales no se usan como IDs confirmados.**\\n")
           PY
       # Nada se envía como artifact ni commit: los ratings y mapas generados
       # pueden tener restricciones de uso y no deben redistribuirse.
