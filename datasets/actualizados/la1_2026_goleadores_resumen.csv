@@ -1,169 +1,169 @@
 league,season_start_year,openligadb_player_id,openligadb_player_name,observed_club,scoring_matches,goals_reported,penalty_goals_reported,own_goals_reported,event_records,as_of_utc,games_played_known,minutes_known,shots_known,source
-la1,2026,11397,Aubameyang,Deportivo A Coruña,4,4,0,0,4,2026-11-08T09:05:28+00:00,,,,OpenLigaDB ODbL-1.0
-la1,2026,11436,Alvarez,Atlético Madrid,1,1,0,0,1,2026-11-08T09:05:28+00:00,,,,OpenLigaDB ODbL-1.0
-la1,2026,14331,Boye,Deportivo Alaves,3,5,1,0,5,2026-11-08T09:05:28+00:00,,,,OpenLigaDB ODbL-1.0
-la1,2026,14424,Budimir,CA Osasuna,6,7,2,1,8,2026-11-08T09:05:28+00:00,,,,OpenLigaDB ODbL-1.0
-la1,2026,14510,Sadik,FC Valencia,1,1,0,0,1,2026-11-08T09:05:28+00:00,,,,OpenLigaDB ODbL-1.0
-la1,2026,14786,Kubo,Real Sociedad,1,1,0,0,1,2026-11-08T09:05:28+00:00,,,,OpenLigaDB ODbL-1.0
-la1,2026,14973,Rodri,FC Barcelona,1,1,0,0,1,2026-11-08T09:05:28+00:00,,,,OpenLigaDB ODbL-1.0
-la1,2026,16400,Lookman,Atlético Madrid,1,1,0,0,1,2026-11-08T09:05:28+00:00,,,,OpenLigaDB ODbL-1.0
-la1,2026,17149,Gabriel Jesus,FC Barcelona,2,2,0,0,2,2026-11-08T09:05:28+00:00,,,,OpenLigaDB ODbL-1.0
-la1,2026,18214,Pedri,FC Barcelona,1,1,0,0,1,2026-11-08T09:05:28+00:00,,,,OpenLigaDB ODbL-1.0
-la1,2026,18419,D. Olmo,FC Barcelona,1,1,0,0,1,2026-11-08T09:05:28+00:00,,,,OpenLigaDB ODbL-1.0
-la1,2026,18702,J. Bellingham,Real Madrid,3,3,0,0,3,2026-11-08T09:05:28+00:00,,,,OpenLigaDB ODbL-1.0
-la1,2026,18892,M. Oyarzabal,Real Sociedad,1,2,0,0,2,2026-11-08T09:05:28+00:00,,,,OpenLigaDB ODbL-1.0
-la1,2026,18902,G. Moreno,FC Villareal,2,2,1,0,2,2026-11-08T09:05:28+00:00,,,,OpenLigaDB ODbL-1.0
-la1,2026,19120,H. Novoa,Deportivo Alaves,1,1,0,0,1,2026-11-08T09:05:28+00:00,,,,OpenLigaDB ODbL-1.0
-la1,2026,19125,J. David,Atlético Madrid,3,3,0,0,3,2026-11-08T09:05:28+00:00,,,,OpenLigaDB ODbL-1.0
-la1,2026,19243,Kylian Mbappé,Real Madrid,5,10,2,0,10,2026-11-08T09:05:28+00:00,,,,OpenLigaDB ODbL-1.0
-la1,2026,19255,A. Martin,Racing Santander,1,1,1,0,1,2026-11-08T09:05:28+00:00,,,,OpenLigaDB ODbL-1.0
-la1,2026,19345,Vinicius Junior,Real Madrid,1,1,0,0,1,2026-11-08T09:05:28+00:00,,,,OpenLigaDB ODbL-1.0
-la1,2026,19423,K. Adeyemi,FC Barcelona,2,2,0,0,2,2026-11-08T09:05:28+00:00,,,,OpenLigaDB ODbL-1.0
-la1,2026,19441,C. Ejuke,FC Sevilla,1,1,0,0,1,2026-11-08T09:05:28+00:00,,,,OpenLigaDB ODbL-1.0
-la1,2026,19527,A. Grimaldo,Atlético Madrid,3,3,2,0,3,2026-11-08T09:05:28+00:00,,,,OpenLigaDB ODbL-1.0
-la1,2026,19649,K. Mbappé,Real Madrid,1,1,0,0,1,2026-11-08T09:05:28+00:00,,,,OpenLigaDB ODbL-1.0
-la1,2026,19651,Carlos Soler,Real Sociedad,1,1,1,0,1,2026-11-08T09:05:28+00:00,,,,OpenLigaDB ODbL-1.0
-la1,2026,20019,J. Cancelo,FC Barcelona,1,1,0,0,1,2026-11-08T09:05:28+00:00,,,,OpenLigaDB ODbL-1.0
-la1,2026,20392,Pepelu,FC Valencia,1,1,1,0,1,2026-11-08T09:05:28+00:00,,,,OpenLigaDB ODbL-1.0
-la1,2026,20403,Rioja,FC Valencia,1,1,0,0,1,2026-11-08T09:05:28+00:00,,,,OpenLigaDB ODbL-1.0
-la1,2026,20452,Villalibre,Racing Santander,1,0,0,1,1,2026-11-08T09:05:28+00:00,,,,OpenLigaDB ODbL-1.0
-la1,2026,20458,Raphinha,FC Barcelona,6,11,3,0,11,2026-11-08T09:05:28+00:00,,,,OpenLigaDB ODbL-1.0
-la1,2026,20470,Iván Martín,Racing Santander,1,1,0,0,1,2026-11-08T09:05:28+00:00,,,,OpenLigaDB ODbL-1.0
-la1,2026,20534,Yuri,Athletic Club,1,1,0,0,1,2026-11-08T09:05:28+00:00,,,,OpenLigaDB ODbL-1.0
-la1,2026,20543,Riquelme,Real Betis,2,2,0,0,2,2026-11-08T09:05:28+00:00,,,,OpenLigaDB ODbL-1.0
-la1,2026,20582,A. Ezzalzouli,Real Betis,3,3,0,0,3,2026-11-08T09:05:28+00:00,,,,OpenLigaDB ODbL-1.0
-la1,2026,20609,G. Jesus,FC Barcelona,1,1,0,0,1,2026-11-08T09:05:28+00:00,,,,OpenLigaDB ODbL-1.0
-la1,2026,20650,O. Sancet,Athletic Club,1,1,0,0,1,2026-11-08T09:05:28+00:00,,,,OpenLigaDB ODbL-1.0
-la1,2026,20681,A. Perez,FC Villareal,1,1,0,0,1,2026-11-08T09:05:28+00:00,,,,OpenLigaDB ODbL-1.0
-la1,2026,20684,L. Yamal,FC Barcelona,2,3,0,0,3,2026-11-08T09:05:28+00:00,,,,OpenLigaDB ODbL-1.0
-la1,2026,20771,Y. Herrera,Real Sociedad,1,1,0,0,1,2026-11-08T09:05:28+00:00,,,,OpenLigaDB ODbL-1.0
-la1,2026,20781,A. Berenguer,Athletic Club,3,3,1,0,3,2026-11-08T09:05:28+00:00,,,,OpenLigaDB ODbL-1.0
-la1,2026,20833,N. Williams,Athletic Club,1,1,0,0,1,2026-11-08T09:05:28+00:00,,,,OpenLigaDB ODbL-1.0
-la1,2026,20834,I. Williams,Athletic Club,1,1,0,0,1,2026-11-08T09:05:28+00:00,,,,OpenLigaDB ODbL-1.0
-la1,2026,20838,A. Barrenetxea,Real Sociedad,2,2,0,0,2,2026-11-08T09:05:28+00:00,,,,OpenLigaDB ODbL-1.0
-la1,2026,20873,A. Moleiro,FC Villareal,2,2,0,0,2,2026-11-08T09:05:28+00:00,,,,OpenLigaDB ODbL-1.0
-la1,2026,22664,A. Rüdiger,Real Madrid,1,1,0,0,1,2026-11-08T09:05:28+00:00,,,,OpenLigaDB ODbL-1.0
-la1,2026,22862,Jules Koundé,FC Barcelona,1,1,0,0,1,2026-11-08T09:05:28+00:00,,,,OpenLigaDB ODbL-1.0
-la1,2026,22866,Lamine Yamal,FC Barcelona,2,3,1,0,3,2026-11-08T09:05:28+00:00,,,,OpenLigaDB ODbL-1.0
-la1,2026,23310,G. Mikautadze,FC Villareal,3,3,1,0,3,2026-11-08T09:05:28+00:00,,,,OpenLigaDB ODbL-1.0
-la1,2026,23340,Alex Baena,Atlético Madrid,4,5,0,0,5,2026-11-08T09:05:28+00:00,,,,OpenLigaDB ODbL-1.0
-la1,2026,23522,A. Güler,Real Madrid,2,2,0,0,2,2026-11-08T09:05:28+00:00,,,,OpenLigaDB ODbL-1.0
-la1,2026,23584,Y. Diomande,Real Madrid,2,2,0,0,2,2026-11-08T09:05:28+00:00,,,,OpenLigaDB ODbL-1.0
-la1,2026,23676,A. Diakhaby,FC Valencia,1,0,0,1,1,2026-11-08T09:05:28+00:00,,,,OpenLigaDB ODbL-1.0
-la1,2026,23960,R. Le Normand,Atlético Madrid,1,1,0,0,1,2026-11-08T09:05:28+00:00,,,,OpenLigaDB ODbL-1.0
-la1,2026,23961,G. Simeone,Atlético Madrid,2,2,0,0,2,2026-11-08T09:05:28+00:00,,,,OpenLigaDB ODbL-1.0
-la1,2026,24136,Roberto Navarro,Athletic Club,1,1,0,0,1,2026-11-08T09:05:28+00:00,,,,OpenLigaDB ODbL-1.0
-la1,2026,24783,Cristian Romero,Atlético Madrid,1,1,0,0,1,2026-11-08T09:05:28+00:00,,,,OpenLigaDB ODbL-1.0
-la1,2026,26074,Alexander Freeman,FC Villareal,1,1,0,0,1,2026-11-08T09:05:28+00:00,,,,OpenLigaDB ODbL-1.0
-la1,2026,27146,Anthony Gordon,FC Barcelona,1,1,0,0,1,2026-11-08T09:05:28+00:00,,,,OpenLigaDB ODbL-1.0
-la1,2026,27184,N. Tenaglia,Deportivo Alaves,1,1,0,0,1,2026-11-08T09:05:28+00:00,,,,OpenLigaDB ODbL-1.0
-la1,2026,27185,M. Diaz,Deportivo Alaves,3,3,0,0,3,2026-11-08T09:05:28+00:00,,,,OpenLigaDB ODbL-1.0
-la1,2026,27186,M. Rodriguez,Deportivo Alaves,1,1,0,0,1,2026-11-08T09:05:28+00:00,,,,OpenLigaDB ODbL-1.0
-la1,2026,27187,A. Garcia,Rayo Vallecano,3,3,0,0,3,2026-11-08T09:05:28+00:00,,,,OpenLigaDB ODbL-1.0
-la1,2026,27188,J. Guridi,FC Sevilla,1,1,1,0,1,2026-11-08T09:05:28+00:00,,,,OpenLigaDB ODbL-1.0
-la1,2026,27189,Peque,FC Sevilla,1,1,1,0,1,2026-11-08T09:05:28+00:00,,,,OpenLigaDB ODbL-1.0
-la1,2026,27190,S. Martinez,Racing Santander,1,1,0,0,1,2026-11-08T09:05:28+00:00,,,,OpenLigaDB ODbL-1.0
-la1,2026,27191,P. Gueye,FC Villareal,2,3,0,0,3,2026-11-08T09:05:28+00:00,,,,OpenLigaDB ODbL-1.0
-la1,2026,27192,N. Pépé,FC Villareal,2,2,0,0,2,2026-11-08T09:05:28+00:00,,,,OpenLigaDB ODbL-1.0
-la1,2026,27193,R. Fernández,Espanyol Barcelona,4,6,0,0,6,2026-11-08T09:05:28+00:00,,,,OpenLigaDB ODbL-1.0
-la1,2026,27195,T. Dolan,Espanyol Barcelona,1,1,0,0,1,2026-11-08T09:05:28+00:00,,,,OpenLigaDB ODbL-1.0
-la1,2026,27196,M. Aguado,Elche CF,1,1,0,0,1,2026-11-08T09:05:28+00:00,,,,OpenLigaDB ODbL-1.0
-la1,2026,27197,Kang-in Lee,Atlético Madrid,2,2,0,0,2,2026-11-08T09:05:28+00:00,,,,OpenLigaDB ODbL-1.0
-la1,2026,27198,S. Camello,Rayo Vallecano,4,5,0,0,5,2026-11-08T09:05:28+00:00,,,,OpenLigaDB ODbL-1.0
-la1,2026,27221,Oso,FC Sevilla,1,1,0,0,1,2026-11-08T09:05:28+00:00,,,,OpenLigaDB ODbL-1.0
-la1,2026,27222,I. Romero,FC Sevilla,2,2,0,0,2,2026-11-08T09:05:28+00:00,,,,OpenLigaDB ODbL-1.0
-la1,2026,27222,I. Romero,Levante UD,3,3,0,0,3,2026-11-08T09:05:28+00:00,,,,OpenLigaDB ODbL-1.0
-la1,2026,27223,A. Paredes,Athletic Club,2,2,0,0,2,2026-11-08T09:05:28+00:00,,,,OpenLigaDB ODbL-1.0
-la1,2026,27230,A. Calatrava,Espanyol Barcelona,1,1,0,0,1,2026-11-08T09:05:28+00:00,,,,OpenLigaDB ODbL-1.0
-la1,2026,27231,C. Espi,Real Madrid,2,2,0,0,2,2026-11-08T09:05:28+00:00,,,,OpenLigaDB ODbL-1.0
-la1,2026,27268,M. Publim,Atlético Madrid,1,1,0,0,1,2026-11-08T09:05:28+00:00,,,,OpenLigaDB ODbL-1.0
-la1,2026,27269,E. Unal,FC Getafe,1,1,0,0,1,2026-11-08T09:05:28+00:00,,,,OpenLigaDB ODbL-1.0
-la1,2026,27270,Fermín,FC Barcelona,3,4,0,0,4,2026-11-08T09:05:28+00:00,,,,OpenLigaDB ODbL-1.0
-la1,2026,27271,Chupe,FC Malaga,1,1,1,0,1,2026-11-08T09:05:28+00:00,,,,OpenLigaDB ODbL-1.0
-la1,2026,27272,P. Garcia,Racing Santander,1,1,0,0,1,2026-11-08T09:05:28+00:00,,,,OpenLigaDB ODbL-1.0
-la1,2026,27272,P. Garcia,Real Betis,1,1,0,0,1,2026-11-08T09:05:28+00:00,,,,OpenLigaDB ODbL-1.0
-la1,2026,27273,L. Sucic,Real Sociedad,3,3,0,0,3,2026-11-08T09:05:28+00:00,,,,OpenLigaDB ODbL-1.0
-la1,2026,27274,K. Barja,CA Osasuna,1,1,0,0,1,2026-11-08T09:05:28+00:00,,,,OpenLigaDB ODbL-1.0
-la1,2026,27275,Y. Zabiri,Racing Santander,5,8,0,0,8,2026-11-08T09:05:28+00:00,,,,OpenLigaDB ODbL-1.0
-la1,2026,27276,Buba Sangare,Elche CF,1,1,0,0,1,2026-11-08T09:05:28+00:00,,,,OpenLigaDB ODbL-1.0
-la1,2026,27277,F. Nino,Elche CF,5,6,1,0,6,2026-11-08T09:05:28+00:00,,,,OpenLigaDB ODbL-1.0
-la1,2026,27279,Della,Levante UD,1,1,0,0,1,2026-11-08T09:05:28+00:00,,,,OpenLigaDB ODbL-1.0
-la1,2026,27280,M. Bartra,Real Betis,1,1,0,0,1,2026-11-08T09:05:28+00:00,,,,OpenLigaDB ODbL-1.0
-la1,2026,27281,E. Bardeli,Levante UD,1,1,0,0,1,2026-11-08T09:05:28+00:00,,,,OpenLigaDB ODbL-1.0
-la1,2026,27283,R. Brugue,Levante UD,3,5,0,0,5,2026-11-08T09:05:28+00:00,,,,OpenLigaDB ODbL-1.0
-la1,2026,27284,J. A. Olasagasti,Levante UD,1,1,0,0,1,2026-11-08T09:05:28+00:00,,,,OpenLigaDB ODbL-1.0
-la1,2026,27286,O. Oskarsson,Real Sociedad,3,3,0,0,3,2026-11-08T09:05:28+00:00,,,,OpenLigaDB ODbL-1.0
-la1,2026,27360,T. Parrott,Real Betis,1,1,0,0,1,2026-11-08T09:05:28+00:00,,,,OpenLigaDB ODbL-1.0
-la1,2026,27368,R. Navarro,Athletic Club,1,1,0,0,1,2026-11-08T09:05:28+00:00,,,,OpenLigaDB ODbL-1.0
-la1,2026,27373,S. Canales,Racing Santander,1,1,0,0,1,2026-11-08T09:05:28+00:00,,,,OpenLigaDB ODbL-1.0
-la1,2026,27378,A. Ratiu,Rayo Vallecano,1,1,0,0,1,2026-11-08T09:05:28+00:00,,,,OpenLigaDB ODbL-1.0
-la1,2026,27386,L. Cruz,Deportivo A Coruña,1,1,0,0,1,2026-11-08T09:05:28+00:00,,,,OpenLigaDB ODbL-1.0
-la1,2026,27387,A. Traoré,Deportivo A Coruña,1,0,0,1,1,2026-11-08T09:05:28+00:00,,,,OpenLigaDB ODbL-1.0
-la1,2026,27388,Z. Eddahchouri,Deportivo A Coruña,1,1,0,0,1,2026-11-08T09:05:28+00:00,,,,OpenLigaDB ODbL-1.0
-la1,2026,27389,P.-E. Aubameyang,Deportivo A Coruña,1,1,0,0,1,2026-11-08T09:05:28+00:00,,,,OpenLigaDB ODbL-1.0
-la1,2026,27493,P. Ibanez,Deportivo Alaves,1,1,0,0,1,2026-11-08T09:05:28+00:00,,,,OpenLigaDB ODbL-1.0
-la1,2026,27494,L. Stassin,FC Sevilla,1,1,0,0,1,2026-11-08T09:05:28+00:00,,,,OpenLigaDB ODbL-1.0
-la1,2026,27495,M. Ferndandez Sanchez,Espanyol Barcelona,1,1,0,0,1,2026-11-08T09:05:28+00:00,,,,OpenLigaDB ODbL-1.0
-la1,2026,27496,M. Satriano,FC Getafe,2,2,0,0,2,2026-11-08T09:05:28+00:00,,,,OpenLigaDB ODbL-1.0
-la1,2026,27497,C. Starfelt,Celta Vigo,1,1,0,0,1,2026-11-08T09:05:28+00:00,,,,OpenLigaDB ODbL-1.0
-la1,2026,27498,J. Ochieng,Real Sociedad,1,1,0,0,1,2026-11-08T09:05:28+00:00,,,,OpenLigaDB ODbL-1.0
-la1,2026,27499,T. Lemar,Elche CF,1,1,0,0,1,2026-11-08T09:05:28+00:00,,,,OpenLigaDB ODbL-1.0
-la1,2026,27500,J. Iglesias,FC Sevilla,1,1,0,0,1,2026-11-08T09:05:28+00:00,,,,OpenLigaDB ODbL-1.0
-la1,2026,27501,V. Koski,Deportivo Alaves,1,1,0,0,1,2026-11-08T09:05:28+00:00,,,,OpenLigaDB ODbL-1.0
-la1,2026,27587,F. Buonanotte,Elche CF,1,1,1,0,1,2026-11-08T09:05:28+00:00,,,,OpenLigaDB ODbL-1.0
-la1,2026,27588,V. Chust,Elche CF,2,0,0,2,2,2026-11-08T09:05:28+00:00,,,,OpenLigaDB ODbL-1.0
-la1,2026,27589,A. Carreras,Real Madrid,1,1,0,0,1,2026-11-08T09:05:28+00:00,,,,OpenLigaDB ODbL-1.0
-la1,2026,27590,F. Jutgla,Celta Vigo,2,2,0,0,2,2026-11-08T09:05:28+00:00,,,,OpenLigaDB ODbL-1.0
-la1,2026,27591,A. Nino,FC Malaga,4,4,0,0,4,2026-11-08T09:05:28+00:00,,,,OpenLigaDB ODbL-1.0
-la1,2026,27592,X. Espart,FC Barcelona,1,1,0,0,1,2026-11-08T09:05:28+00:00,,,,OpenLigaDB ODbL-1.0
-la1,2026,27593,R. Terrats,FC Getafe,1,1,0,0,1,2026-11-08T09:05:28+00:00,,,,OpenLigaDB ODbL-1.0
-la1,2026,27594,C. Hernandez,Real Betis,2,2,0,0,2,2026-11-08T09:05:28+00:00,,,,OpenLigaDB ODbL-1.0
-la1,2026,27595,Natan,Real Betis,1,1,0,0,1,2026-11-08T09:05:28+00:00,,,,OpenLigaDB ODbL-1.0
-la1,2026,27596,A. Pedrosa,Rayo Vallecano,1,1,0,0,1,2026-11-08T09:05:28+00:00,,,,OpenLigaDB ODbL-1.0
-la1,2026,27597,M. Dituro,Elche CF,1,0,0,1,1,2026-11-08T09:05:28+00:00,,,,OpenLigaDB ODbL-1.0
-la1,2026,27598,A. Osorio,Elche CF,1,1,0,0,1,2026-11-08T09:05:28+00:00,,,,OpenLigaDB ODbL-1.0
-la1,2026,27599,M. Sierra,FC Sevilla,1,1,0,0,1,2026-11-08T09:05:28+00:00,,,,OpenLigaDB ODbL-1.0
-la1,2026,27600,M. Gueye,Racing Santander,1,1,0,0,1,2026-11-08T09:05:28+00:00,,,,OpenLigaDB ODbL-1.0
-la1,2026,27601,C. Dotor,FC Malaga,1,1,0,0,1,2026-11-08T09:05:28+00:00,,,,OpenLigaDB ODbL-1.0
-la1,2026,27627,H. Gonzalez,Celta Vigo,1,1,1,0,1,2026-11-08T09:05:28+00:00,,,,OpenLigaDB ODbL-1.0
-la1,2026,27628,I. Moriba,Celta Vigo,1,1,0,0,1,2026-11-08T09:05:28+00:00,,,,OpenLigaDB ODbL-1.0
-la1,2026,27629,M. Roman,Celta Vigo,1,1,0,0,1,2026-11-08T09:05:28+00:00,,,,OpenLigaDB ODbL-1.0
-la1,2026,27630,P. Duran,Celta Vigo,1,2,0,0,2,2026-11-08T09:05:28+00:00,,,,OpenLigaDB ODbL-1.0
-la1,2026,27631,Y. Fofana,FC Sevilla,1,1,0,0,1,2026-11-08T09:05:28+00:00,,,,OpenLigaDB ODbL-1.0
-la1,2026,27632,I. Azon,FC Getafe,1,1,0,0,1,2026-11-08T09:05:28+00:00,,,,OpenLigaDB ODbL-1.0
-la1,2026,27633,D. Villares,Deportivo A Coruña,1,1,0,0,1,2026-11-08T09:05:28+00:00,,,,OpenLigaDB ODbL-1.0
-la1,2026,27634,A. Mayol,FC Valencia,1,1,0,0,1,2026-11-08T09:05:28+00:00,,,,OpenLigaDB ODbL-1.0
-la1,2026,27635,L. Beitia,Real Sociedad,1,0,0,1,1,2026-11-08T09:05:28+00:00,,,,OpenLigaDB ODbL-1.0
-la1,2026,27710,B. Zaragoza,Espanyol Barcelona,1,1,0,0,1,2026-11-08T09:05:28+00:00,,,,OpenLigaDB ODbL-1.0
-la1,2026,27729,J. Martin,Real Sociedad,1,1,0,0,1,2026-11-08T09:05:28+00:00,,,,OpenLigaDB ODbL-1.0
-la1,2026,27730,A. Zakharyan,Real Sociedad,1,1,0,0,1,2026-11-08T09:05:28+00:00,,,,OpenLigaDB ODbL-1.0
-la1,2026,27731,G. Guedes,Real Sociedad,2,2,0,0,2,2026-11-08T09:05:28+00:00,,,,OpenLigaDB ODbL-1.0
-la1,2026,27732,M. Soriano,Deportivo A Coruña,1,1,0,0,1,2026-11-08T09:05:28+00:00,,,,OpenLigaDB ODbL-1.0
-la1,2026,27733,Yeremay,Deportivo A Coruña,1,1,1,0,1,2026-11-08T09:05:28+00:00,,,,OpenLigaDB ODbL-1.0
-la1,2026,27734,R. Garcia,CA Osasuna,1,1,0,0,1,2026-11-08T09:05:28+00:00,,,,OpenLigaDB ODbL-1.0
-la1,2026,27735,Morante,Real Betis,1,1,0,0,1,2026-11-08T09:05:28+00:00,,,,OpenLigaDB ODbL-1.0
-la1,2026,27736,D. Raba,FC Valencia,1,1,0,0,1,2026-11-08T09:05:28+00:00,,,,OpenLigaDB ODbL-1.0
-la1,2026,27737,D. Otorbi,FC Valencia,1,1,0,0,1,2026-11-08T09:05:28+00:00,,,,OpenLigaDB ODbL-1.0
-la1,2026,27738,R. Ure,FC Sevilla,1,1,0,0,1,2026-11-08T09:05:28+00:00,,,,OpenLigaDB ODbL-1.0
-la1,2026,27739,F. Correia,FC Sevilla,2,2,0,0,2,2026-11-08T09:05:28+00:00,,,,OpenLigaDB ODbL-1.0
-la1,2026,27740,De la Fuente,Levante UD,1,1,0,0,1,2026-11-08T09:05:28+00:00,,,,OpenLigaDB ODbL-1.0
-la1,2026,27741,Isaac Romero,FC Sevilla,1,1,0,0,1,2026-11-08T09:05:28+00:00,,,,OpenLigaDB ODbL-1.0
-la1,2026,27742,I. Ndukwe,Levante UD,1,1,0,0,1,2026-11-08T09:05:28+00:00,,,,OpenLigaDB ODbL-1.0
-la1,2026,27852,Turrientes,Real Sociedad,1,1,0,0,1,2026-11-08T09:05:28+00:00,,,,OpenLigaDB ODbL-1.0
-la1,2026,27920,B. Nsongo,Deportivo A Coruña,1,1,0,0,1,2026-11-08T09:05:28+00:00,,,,OpenLigaDB ODbL-1.0
-la1,2026,27921,D. Requena,Levante UD,1,1,0,0,1,2026-11-08T09:05:28+00:00,,,,OpenLigaDB ODbL-1.0
-la1,2026,28006,J. Rodriguez,Celta Vigo,1,1,0,0,1,2026-11-08T09:05:28+00:00,,,,OpenLigaDB ODbL-1.0
-la1,2026,28031,K. Etta Eyong,Levante UD,1,1,0,0,1,2026-11-08T09:05:28+00:00,,,,OpenLigaDB ODbL-1.0
-la1,2026,28032,V. Gomez,Real Betis,1,1,0,0,1,2026-11-08T09:05:28+00:00,,,,OpenLigaDB ODbL-1.0
-la1,2026,28033,E. Garcia,FC Barcelona,1,1,0,0,1,2026-11-08T09:05:28+00:00,,,,OpenLigaDB ODbL-1.0
-la1,2026,28034,A. Osambela,CA Osasuna,1,1,0,0,1,2026-11-08T09:05:28+00:00,,,,OpenLigaDB ODbL-1.0
-la1,2026,28035,P. Martinez,FC Malaga,1,1,0,0,1,2026-11-08T09:05:28+00:00,,,,OpenLigaDB ODbL-1.0
-la1,2026,28036,M. Bueno,FC Sevilla,1,1,0,0,1,2026-11-08T09:05:28+00:00,,,,OpenLigaDB ODbL-1.0
-la1,2026,28037,A. Manas,Deportivo Alaves,1,1,0,0,1,2026-11-08T09:05:28+00:00,,,,OpenLigaDB ODbL-1.0
-la1,2026,28038,F. Redondo,Elche CF,1,1,1,0,1,2026-11-08T09:05:28+00:00,,,,OpenLigaDB ODbL-1.0
-la1,2026,28039,Exposito,Espanyol Barcelona,1,1,0,0,1,2026-11-08T09:05:28+00:00,,,,OpenLigaDB ODbL-1.0
-la1,2026,28040,J. Belocian,Racing Santander,1,1,0,0,1,2026-11-08T09:05:28+00:00,,,,OpenLigaDB ODbL-1.0
-la1,2026,28054,N. Pérez,Levante UD,1,1,0,0,1,2026-11-08T09:05:28+00:00,,,,OpenLigaDB ODbL-1.0
-la1,2026,7121,Iago Aspas,Celta Vigo,1,1,0,0,1,2026-11-08T09:05:28+00:00,,,,OpenLigaDB ODbL-1.0
-la1,2026,7142,Valera,Elche CF,2,2,0,0,2,2026-11-08T09:05:28+00:00,,,,OpenLigaDB ODbL-1.0
-la1,2026,7916,Isco,Real Betis,1,2,1,0,2,2026-11-08T09:05:28+00:00,,,,OpenLigaDB ODbL-1.0
+la1,2026,11397,Aubameyang,Deportivo A Coruña,4,4,0,0,4,2026-11-08T12:23:12+00:00,,,,OpenLigaDB ODbL-1.0
+la1,2026,11436,Alvarez,Atlético Madrid,1,1,0,0,1,2026-11-08T12:23:12+00:00,,,,OpenLigaDB ODbL-1.0
+la1,2026,14331,Boye,Deportivo Alaves,3,5,1,0,5,2026-11-08T12:23:12+00:00,,,,OpenLigaDB ODbL-1.0
+la1,2026,14424,Budimir,CA Osasuna,6,7,2,1,8,2026-11-08T12:23:12+00:00,,,,OpenLigaDB ODbL-1.0
+la1,2026,14510,Sadik,FC Valencia,1,1,0,0,1,2026-11-08T12:23:12+00:00,,,,OpenLigaDB ODbL-1.0
+la1,2026,14786,Kubo,Real Sociedad,1,1,0,0,1,2026-11-08T12:23:12+00:00,,,,OpenLigaDB ODbL-1.0
+la1,2026,14973,Rodri,FC Barcelona,1,1,0,0,1,2026-11-08T12:23:12+00:00,,,,OpenLigaDB ODbL-1.0
+la1,2026,16400,Lookman,Atlético Madrid,1,1,0,0,1,2026-11-08T12:23:12+00:00,,,,OpenLigaDB ODbL-1.0
+la1,2026,17149,Gabriel Jesus,FC Barcelona,2,2,0,0,2,2026-11-08T12:23:12+00:00,,,,OpenLigaDB ODbL-1.0
+la1,2026,18214,Pedri,FC Barcelona,1,1,0,0,1,2026-11-08T12:23:12+00:00,,,,OpenLigaDB ODbL-1.0
+la1,2026,18419,D. Olmo,FC Barcelona,1,1,0,0,1,2026-11-08T12:23:12+00:00,,,,OpenLigaDB ODbL-1.0
+la1,2026,18702,J. Bellingham,Real Madrid,3,3,0,0,3,2026-11-08T12:23:12+00:00,,,,OpenLigaDB ODbL-1.0
+la1,2026,18892,M. Oyarzabal,Real Sociedad,1,2,0,0,2,2026-11-08T12:23:12+00:00,,,,OpenLigaDB ODbL-1.0
+la1,2026,18902,G. Moreno,FC Villareal,2,2,1,0,2,2026-11-08T12:23:12+00:00,,,,OpenLigaDB ODbL-1.0
+la1,2026,19120,H. Novoa,Deportivo Alaves,1,1,0,0,1,2026-11-08T12:23:12+00:00,,,,OpenLigaDB ODbL-1.0
+la1,2026,19125,J. David,Atlético Madrid,3,3,0,0,3,2026-11-08T12:23:12+00:00,,,,OpenLigaDB ODbL-1.0
+la1,2026,19243,Kylian Mbappé,Real Madrid,5,10,2,0,10,2026-11-08T12:23:12+00:00,,,,OpenLigaDB ODbL-1.0
+la1,2026,19255,A. Martin,Racing Santander,1,1,1,0,1,2026-11-08T12:23:12+00:00,,,,OpenLigaDB ODbL-1.0
+la1,2026,19345,Vinicius Junior,Real Madrid,1,1,0,0,1,2026-11-08T12:23:12+00:00,,,,OpenLigaDB ODbL-1.0
+la1,2026,19423,K. Adeyemi,FC Barcelona,2,2,0,0,2,2026-11-08T12:23:12+00:00,,,,OpenLigaDB ODbL-1.0
+la1,2026,19441,C. Ejuke,FC Sevilla,1,1,0,0,1,2026-11-08T12:23:12+00:00,,,,OpenLigaDB ODbL-1.0
+la1,2026,19527,A. Grimaldo,Atlético Madrid,3,3,2,0,3,2026-11-08T12:23:12+00:00,,,,OpenLigaDB ODbL-1.0
+la1,2026,19649,K. Mbappé,Real Madrid,1,1,0,0,1,2026-11-08T12:23:12+00:00,,,,OpenLigaDB ODbL-1.0
+la1,2026,19651,Carlos Soler,Real Sociedad,1,1,1,0,1,2026-11-08T12:23:12+00:00,,,,OpenLigaDB ODbL-1.0
+la1,2026,20019,J. Cancelo,FC Barcelona,1,1,0,0,1,2026-11-08T12:23:12+00:00,,,,OpenLigaDB ODbL-1.0
+la1,2026,20392,Pepelu,FC Valencia,1,1,1,0,1,2026-11-08T12:23:12+00:00,,,,OpenLigaDB ODbL-1.0
+la1,2026,20403,Rioja,FC Valencia,1,1,0,0,1,2026-11-08T12:23:12+00:00,,,,OpenLigaDB ODbL-1.0
+la1,2026,20452,Villalibre,Racing Santander,1,0,0,1,1,2026-11-08T12:23:12+00:00,,,,OpenLigaDB ODbL-1.0
+la1,2026,20458,Raphinha,FC Barcelona,6,11,3,0,11,2026-11-08T12:23:12+00:00,,,,OpenLigaDB ODbL-1.0
+la1,2026,20470,Iván Martín,Racing Santander,1,1,0,0,1,2026-11-08T12:23:12+00:00,,,,OpenLigaDB ODbL-1.0
+la1,2026,20534,Yuri,Athletic Club,1,1,0,0,1,2026-11-08T12:23:12+00:00,,,,OpenLigaDB ODbL-1.0
+la1,2026,20543,Riquelme,Real Betis,2,2,0,0,2,2026-11-08T12:23:12+00:00,,,,OpenLigaDB ODbL-1.0
+la1,2026,20582,A. Ezzalzouli,Real Betis,3,3,0,0,3,2026-11-08T12:23:12+00:00,,,,OpenLigaDB ODbL-1.0
+la1,2026,20609,G. Jesus,FC Barcelona,1,1,0,0,1,2026-11-08T12:23:12+00:00,,,,OpenLigaDB ODbL-1.0
+la1,2026,20650,O. Sancet,Athletic Club,1,1,0,0,1,2026-11-08T12:23:12+00:00,,,,OpenLigaDB ODbL-1.0
+la1,2026,20681,A. Perez,FC Villareal,1,1,0,0,1,2026-11-08T12:23:12+00:00,,,,OpenLigaDB ODbL-1.0
+la1,2026,20684,L. Yamal,FC Barcelona,2,3,0,0,3,2026-11-08T12:23:12+00:00,,,,OpenLigaDB ODbL-1.0
+la1,2026,20771,Y. Herrera,Real Sociedad,1,1,0,0,1,2026-11-08T12:23:12+00:00,,,,OpenLigaDB ODbL-1.0
+la1,2026,20781,A. Berenguer,Athletic Club,3,3,1,0,3,2026-11-08T12:23:12+00:00,,,,OpenLigaDB ODbL-1.0
+la1,2026,20833,N. Williams,Athletic Club,1,1,0,0,1,2026-11-08T12:23:12+00:00,,,,OpenLigaDB ODbL-1.0
+la1,2026,20834,I. Williams,Athletic Club,1,1,0,0,1,2026-11-08T12:23:12+00:00,,,,OpenLigaDB ODbL-1.0
+la1,2026,20838,A. Barrenetxea,Real Sociedad,2,2,0,0,2,2026-11-08T12:23:12+00:00,,,,OpenLigaDB ODbL-1.0
+la1,2026,20873,A. Moleiro,FC Villareal,2,2,0,0,2,2026-11-08T12:23:12+00:00,,,,OpenLigaDB ODbL-1.0
+la1,2026,22664,A. Rüdiger,Real Madrid,1,1,0,0,1,2026-11-08T12:23:12+00:00,,,,OpenLigaDB ODbL-1.0
+la1,2026,22862,Jules Koundé,FC Barcelona,1,1,0,0,1,2026-11-08T12:23:12+00:00,,,,OpenLigaDB ODbL-1.0
+la1,2026,22866,Lamine Yamal,FC Barcelona,2,3,1,0,3,2026-11-08T12:23:12+00:00,,,,OpenLigaDB ODbL-1.0
+la1,2026,23310,G. Mikautadze,FC Villareal,3,3,1,0,3,2026-11-08T12:23:12+00:00,,,,OpenLigaDB ODbL-1.0
+la1,2026,23340,Alex Baena,Atlético Madrid,4,5,0,0,5,2026-11-08T12:23:12+00:00,,,,OpenLigaDB ODbL-1.0
+la1,2026,23522,A. Güler,Real Madrid,2,2,0,0,2,2026-11-08T12:23:12+00:00,,,,OpenLigaDB ODbL-1.0
+la1,2026,23584,Y. Diomande,Real Madrid,2,2,0,0,2,2026-11-08T12:23:12+00:00,,,,OpenLigaDB ODbL-1.0
+la1,2026,23676,A. Diakhaby,FC Valencia,1,0,0,1,1,2026-11-08T12:23:12+00:00,,,,OpenLigaDB ODbL-1.0
+la1,2026,23960,R. Le Normand,Atlético Madrid,1,1,0,0,1,2026-11-08T12:23:12+00:00,,,,OpenLigaDB ODbL-1.0
+la1,2026,23961,G. Simeone,Atlético Madrid,2,2,0,0,2,2026-11-08T12:23:12+00:00,,,,OpenLigaDB ODbL-1.0
+la1,2026,24136,Roberto Navarro,Athletic Club,1,1,0,0,1,2026-11-08T12:23:12+00:00,,,,OpenLigaDB ODbL-1.0
+la1,2026,24783,Cristian Romero,Atlético Madrid,1,1,0,0,1,2026-11-08T12:23:12+00:00,,,,OpenLigaDB ODbL-1.0
+la1,2026,26074,Alexander Freeman,FC Villareal,1,1,0,0,1,2026-11-08T12:23:12+00:00,,,,OpenLigaDB ODbL-1.0
+la1,2026,27146,Anthony Gordon,FC Barcelona,1,1,0,0,1,2026-11-08T12:23:12+00:00,,,,OpenLigaDB ODbL-1.0
+la1,2026,27184,N. Tenaglia,Deportivo Alaves,1,1,0,0,1,2026-11-08T12:23:12+00:00,,,,OpenLigaDB ODbL-1.0
+la1,2026,27185,M. Diaz,Deportivo Alaves,3,3,0,0,3,2026-11-08T12:23:12+00:00,,,,OpenLigaDB ODbL-1.0
+la1,2026,27186,M. Rodriguez,Deportivo Alaves,1,1,0,0,1,2026-11-08T12:23:12+00:00,,,,OpenLigaDB ODbL-1.0
+la1,2026,27187,A. Garcia,Rayo Vallecano,3,3,0,0,3,2026-11-08T12:23:12+00:00,,,,OpenLigaDB ODbL-1.0
+la1,2026,27188,J. Guridi,FC Sevilla,1,1,1,0,1,2026-11-08T12:23:12+00:00,,,,OpenLigaDB ODbL-1.0
+la1,2026,27189,Peque,FC Sevilla,1,1,1,0,1,2026-11-08T12:23:12+00:00,,,,OpenLigaDB ODbL-1.0
+la1,2026,27190,S. Martinez,Racing Santander,1,1,0,0,1,2026-11-08T12:23:12+00:00,,,,OpenLigaDB ODbL-1.0
+la1,2026,27191,P. Gueye,FC Villareal,2,3,0,0,3,2026-11-08T12:23:12+00:00,,,,OpenLigaDB ODbL-1.0
+la1,2026,27192,N. Pépé,FC Villareal,2,2,0,0,2,2026-11-08T12:23:12+00:00,,,,OpenLigaDB ODbL-1.0
+la1,2026,27193,R. Fernández,Espanyol Barcelona,4,6,0,0,6,2026-11-08T12:23:12+00:00,,,,OpenLigaDB ODbL-1.0
+la1,2026,27195,T. Dolan,Espanyol Barcelona,1,1,0,0,1,2026-11-08T12:23:12+00:00,,,,OpenLigaDB ODbL-1.0
+la1,2026,27196,M. Aguado,Elche CF,1,1,0,0,1,2026-11-08T12:23:12+00:00,,,,OpenLigaDB ODbL-1.0
+la1,2026,27197,Kang-in Lee,Atlético Madrid,2,2,0,0,2,2026-11-08T12:23:12+00:00,,,,OpenLigaDB ODbL-1.0
+la1,2026,27198,S. Camello,Rayo Vallecano,4,5,0,0,5,2026-11-08T12:23:12+00:00,,,,OpenLigaDB ODbL-1.0
+la1,2026,27221,Oso,FC Sevilla,1,1,0,0,1,2026-11-08T12:23:12+00:00,,,,OpenLigaDB ODbL-1.0
+la1,2026,27222,I. Romero,FC Sevilla,2,2,0,0,2,2026-11-08T12:23:12+00:00,,,,OpenLigaDB ODbL-1.0
+la1,2026,27222,I. Romero,Levante UD,3,3,0,0,3,2026-11-08T12:23:12+00:00,,,,OpenLigaDB ODbL-1.0
+la1,2026,27223,A. Paredes,Athletic Club,2,2,0,0,2,2026-11-08T12:23:12+00:00,,,,OpenLigaDB ODbL-1.0
+la1,2026,27230,A. Calatrava,Espanyol Barcelona,1,1,0,0,1,2026-11-08T12:23:12+00:00,,,,OpenLigaDB ODbL-1.0
+la1,2026,27231,C. Espi,Real Madrid,2,2,0,0,2,2026-11-08T12:23:12+00:00,,,,OpenLigaDB ODbL-1.0
+la1,2026,27268,M. Publim,Atlético Madrid,1,1,0,0,1,2026-11-08T12:23:12+00:00,,,,OpenLigaDB ODbL-1.0
+la1,2026,27269,E. Unal,FC Getafe,1,1,0,0,1,2026-11-08T12:23:12+00:00,,,,OpenLigaDB ODbL-1.0
+la1,2026,27270,Fermín,FC Barcelona,3,4,0,0,4,2026-11-08T12:23:12+00:00,,,,OpenLigaDB ODbL-1.0
+la1,2026,27271,Chupe,FC Malaga,1,1,1,0,1,2026-11-08T12:23:12+00:00,,,,OpenLigaDB ODbL-1.0
+la1,2026,27272,P. Garcia,Racing Santander,1,1,0,0,1,2026-11-08T12:23:12+00:00,,,,OpenLigaDB ODbL-1.0
+la1,2026,27272,P. Garcia,Real Betis,1,1,0,0,1,2026-11-08T12:23:12+00:00,,,,OpenLigaDB ODbL-1.0
+la1,2026,27273,L. Sucic,Real Sociedad,3,3,0,0,3,2026-11-08T12:23:12+00:00,,,,OpenLigaDB ODbL-1.0
+la1,2026,27274,K. Barja,CA Osasuna,1,1,0,0,1,2026-11-08T12:23:12+00:00,,,,OpenLigaDB ODbL-1.0
+la1,2026,27275,Y. Zabiri,Racing Santander,5,8,0,0,8,2026-11-08T12:23:12+00:00,,,,OpenLigaDB ODbL-1.0
+la1,2026,27276,Buba Sangare,Elche CF,1,1,0,0,1,2026-11-08T12:23:12+00:00,,,,OpenLigaDB ODbL-1.0
+la1,2026,27277,F. Nino,Elche CF,5,6,1,0,6,2026-11-08T12:23:12+00:00,,,,OpenLigaDB ODbL-1.0
+la1,2026,27279,Della,Levante UD,1,1,0,0,1,2026-11-08T12:23:12+00:00,,,,OpenLigaDB ODbL-1.0
+la1,2026,27280,M. Bartra,Real Betis,1,1,0,0,1,2026-11-08T12:23:12+00:00,,,,OpenLigaDB ODbL-1.0
+la1,2026,27281,E. Bardeli,Levante UD,1,1,0,0,1,2026-11-08T12:23:12+00:00,,,,OpenLigaDB ODbL-1.0
+la1,2026,27283,R. Brugue,Levante UD,3,5,0,0,5,2026-11-08T12:23:12+00:00,,,,OpenLigaDB ODbL-1.0
+la1,2026,27284,J. A. Olasagasti,Levante UD,1,1,0,0,1,2026-11-08T12:23:12+00:00,,,,OpenLigaDB ODbL-1.0
+la1,2026,27286,O. Oskarsson,Real Sociedad,3,3,0,0,3,2026-11-08T12:23:12+00:00,,,,OpenLigaDB ODbL-1.0
+la1,2026,27360,T. Parrott,Real Betis,1,1,0,0,1,2026-11-08T12:23:12+00:00,,,,OpenLigaDB ODbL-1.0
+la1,2026,27368,R. Navarro,Athletic Club,1,1,0,0,1,2026-11-08T12:23:12+00:00,,,,OpenLigaDB ODbL-1.0
+la1,2026,27373,S. Canales,Racing Santander,1,1,0,0,1,2026-11-08T12:23:12+00:00,,,,OpenLigaDB ODbL-1.0
+la1,2026,27378,A. Ratiu,Rayo Vallecano,1,1,0,0,1,2026-11-08T12:23:12+00:00,,,,OpenLigaDB ODbL-1.0
+la1,2026,27386,L. Cruz,Deportivo A Coruña,1,1,0,0,1,2026-11-08T12:23:12+00:00,,,,OpenLigaDB ODbL-1.0
+la1,2026,27387,A. Traoré,Deportivo A Coruña,1,0,0,1,1,2026-11-08T12:23:12+00:00,,,,OpenLigaDB ODbL-1.0
+la1,2026,27388,Z. Eddahchouri,Deportivo A Coruña,1,1,0,0,1,2026-11-08T12:23:12+00:00,,,,OpenLigaDB ODbL-1.0
+la1,2026,27389,P.-E. Aubameyang,Deportivo A Coruña,1,1,0,0,1,2026-11-08T12:23:12+00:00,,,,OpenLigaDB ODbL-1.0
+la1,2026,27493,P. Ibanez,Deportivo Alaves,1,1,0,0,1,2026-11-08T12:23:12+00:00,,,,OpenLigaDB ODbL-1.0
+la1,2026,27494,L. Stassin,FC Sevilla,1,1,0,0,1,2026-11-08T12:23:12+00:00,,,,OpenLigaDB ODbL-1.0
+la1,2026,27495,M. Ferndandez Sanchez,Espanyol Barcelona,1,1,0,0,1,2026-11-08T12:23:12+00:00,,,,OpenLigaDB ODbL-1.0
+la1,2026,27496,M. Satriano,FC Getafe,2,2,0,0,2,2026-11-08T12:23:12+00:00,,,,OpenLigaDB ODbL-1.0
+la1,2026,27497,C. Starfelt,Celta Vigo,1,1,0,0,1,2026-11-08T12:23:12+00:00,,,,OpenLigaDB ODbL-1.0
+la1,2026,27498,J. Ochieng,Real Sociedad,1,1,0,0,1,2026-11-08T12:23:12+00:00,,,,OpenLigaDB ODbL-1.0
+la1,2026,27499,T. Lemar,Elche CF,1,1,0,0,1,2026-11-08T12:23:12+00:00,,,,OpenLigaDB ODbL-1.0
+la1,2026,27500,J. Iglesias,FC Sevilla,1,1,0,0,1,2026-11-08T12:23:12+00:00,,,,OpenLigaDB ODbL-1.0
+la1,2026,27501,V. Koski,Deportivo Alaves,1,1,0,0,1,2026-11-08T12:23:12+00:00,,,,OpenLigaDB ODbL-1.0
+la1,2026,27587,F. Buonanotte,Elche CF,1,1,1,0,1,2026-11-08T12:23:12+00:00,,,,OpenLigaDB ODbL-1.0
+la1,2026,27588,V. Chust,Elche CF,2,0,0,2,2,2026-11-08T12:23:12+00:00,,,,OpenLigaDB ODbL-1.0
+la1,2026,27589,A. Carreras,Real Madrid,1,1,0,0,1,2026-11-08T12:23:12+00:00,,,,OpenLigaDB ODbL-1.0
+la1,2026,27590,F. Jutgla,Celta Vigo,2,2,0,0,2,2026-11-08T12:23:12+00:00,,,,OpenLigaDB ODbL-1.0
+la1,2026,27591,A. Nino,FC Malaga,4,4,0,0,4,2026-11-08T12:23:12+00:00,,,,OpenLigaDB ODbL-1.0
+la1,2026,27592,X. Espart,FC Barcelona,1,1,0,0,1,2026-11-08T12:23:12+00:00,,,,OpenLigaDB ODbL-1.0
+la1,2026,27593,R. Terrats,FC Getafe,1,1,0,0,1,2026-11-08T12:23:12+00:00,,,,OpenLigaDB ODbL-1.0
+la1,2026,27594,C. Hernandez,Real Betis,2,2,0,0,2,2026-11-08T12:23:12+00:00,,,,OpenLigaDB ODbL-1.0
+la1,2026,27595,Natan,Real Betis,1,1,0,0,1,2026-11-08T12:23:12+00:00,,,,OpenLigaDB ODbL-1.0
+la1,2026,27596,A. Pedrosa,Rayo Vallecano,1,1,0,0,1,2026-11-08T12:23:12+00:00,,,,OpenLigaDB ODbL-1.0
+la1,2026,27597,M. Dituro,Elche CF,1,0,0,1,1,2026-11-08T12:23:12+00:00,,,,OpenLigaDB ODbL-1.0
+la1,2026,27598,A. Osorio,Elche CF,1,1,0,0,1,2026-11-08T12:23:12+00:00,,,,OpenLigaDB ODbL-1.0
+la1,2026,27599,M. Sierra,FC Sevilla,1,1,0,0,1,2026-11-08T12:23:12+00:00,,,,OpenLigaDB ODbL-1.0
+la1,2026,27600,M. Gueye,Racing Santander,1,1,0,0,1,2026-11-08T12:23:12+00:00,,,,OpenLigaDB ODbL-1.0
+la1,2026,27601,C. Dotor,FC Malaga,1,1,0,0,1,2026-11-08T12:23:12+00:00,,,,OpenLigaDB ODbL-1.0
+la1,2026,27627,H. Gonzalez,Celta Vigo,1,1,1,0,1,2026-11-08T12:23:12+00:00,,,,OpenLigaDB ODbL-1.0
+la1,2026,27628,I. Moriba,Celta Vigo,1,1,0,0,1,2026-11-08T12:23:12+00:00,,,,OpenLigaDB ODbL-1.0
+la1,2026,27629,M. Roman,Celta Vigo,1,1,0,0,1,2026-11-08T12:23:12+00:00,,,,OpenLigaDB ODbL-1.0
+la1,2026,27630,P. Duran,Celta Vigo,1,2,0,0,2,2026-11-08T12:23:12+00:00,,,,OpenLigaDB ODbL-1.0
+la1,2026,27631,Y. Fofana,FC Sevilla,1,1,0,0,1,2026-11-08T12:23:12+00:00,,,,OpenLigaDB ODbL-1.0
+la1,2026,27632,I. Azon,FC Getafe,1,1,0,0,1,2026-11-08T12:23:12+00:00,,,,OpenLigaDB ODbL-1.0
+la1,2026,27633,D. Villares,Deportivo A Coruña,1,1,0,0,1,2026-11-08T12:23:12+00:00,,,,OpenLigaDB ODbL-1.0
+la1,2026,27634,A. Mayol,FC Valencia,1,1,0,0,1,2026-11-08T12:23:12+00:00,,,,OpenLigaDB ODbL-1.0
+la1,2026,27635,L. Beitia,Real Sociedad,1,0,0,1,1,2026-11-08T12:23:12+00:00,,,,OpenLigaDB ODbL-1.0
+la1,2026,27710,B. Zaragoza,Espanyol Barcelona,1,1,0,0,1,2026-11-08T12:23:12+00:00,,,,OpenLigaDB ODbL-1.0
+la1,2026,27729,J. Martin,Real Sociedad,1,1,0,0,1,2026-11-08T12:23:12+00:00,,,,OpenLigaDB ODbL-1.0
+la1,2026,27730,A. Zakharyan,Real Sociedad,1,1,0,0,1,2026-11-08T12:23:12+00:00,,,,OpenLigaDB ODbL-1.0
+la1,2026,27731,G. Guedes,Real Sociedad,2,2,0,0,2,2026-11-08T12:23:12+00:00,,,,OpenLigaDB ODbL-1.0
+la1,2026,27732,M. Soriano,Deportivo A Coruña,1,1,0,0,1,2026-11-08T12:23:12+00:00,,,,OpenLigaDB ODbL-1.0
+la1,2026,27733,Yeremay,Deportivo A Coruña,1,1,1,0,1,2026-11-08T12:23:12+00:00,,,,OpenLigaDB ODbL-1.0
+la1,2026,27734,R. Garcia,CA Osasuna,1,1,0,0,1,2026-11-08T12:23:12+00:00,,,,OpenLigaDB ODbL-1.0
+la1,2026,27735,Morante,Real Betis,1,1,0,0,1,2026-11-08T12:23:12+00:00,,,,OpenLigaDB ODbL-1.0
+la1,2026,27736,D. Raba,FC Valencia,1,1,0,0,1,2026-11-08T12:23:12+00:00,,,,OpenLigaDB ODbL-1.0
+la1,2026,27737,D. Otorbi,FC Valencia,1,1,0,0,1,2026-11-08T12:23:12+00:00,,,,OpenLigaDB ODbL-1.0
+la1,2026,27738,R. Ure,FC Sevilla,1,1,0,0,1,2026-11-08T12:23:12+00:00,,,,OpenLigaDB ODbL-1.0
+la1,2026,27739,F. Correia,FC Sevilla,2,2,0,0,2,2026-11-08T12:23:12+00:00,,,,OpenLigaDB ODbL-1.0
+la1,2026,27740,De la Fuente,Levante UD,1,1,0,0,1,2026-11-08T12:23:12+00:00,,,,OpenLigaDB ODbL-1.0
+la1,2026,27741,Isaac Romero,FC Sevilla,1,1,0,0,1,2026-11-08T12:23:12+00:00,,,,OpenLigaDB ODbL-1.0
+la1,2026,27742,I. Ndukwe,Levante UD,1,1,0,0,1,2026-11-08T12:23:12+00:00,,,,OpenLigaDB ODbL-1.0
+la1,2026,27852,Turrientes,Real Sociedad,1,1,0,0,1,2026-11-08T12:23:12+00:00,,,,OpenLigaDB ODbL-1.0
+la1,2026,27920,B. Nsongo,Deportivo A Coruña,1,1,0,0,1,2026-11-08T12:23:12+00:00,,,,OpenLigaDB ODbL-1.0
+la1,2026,27921,D. Requena,Levante UD,1,1,0,0,1,2026-11-08T12:23:12+00:00,,,,OpenLigaDB ODbL-1.0
+la1,2026,28006,J. Rodriguez,Celta Vigo,1,1,0,0,1,2026-11-08T12:23:12+00:00,,,,OpenLigaDB ODbL-1.0
+la1,2026,28031,K. Etta Eyong,Levante UD,1,1,0,0,1,2026-11-08T12:23:12+00:00,,,,OpenLigaDB ODbL-1.0
+la1,2026,28032,V. Gomez,Real Betis,1,1,0,0,1,2026-11-08T12:23:12+00:00,,,,OpenLigaDB ODbL-1.0
+la1,2026,28033,E. Garcia,FC Barcelona,1,1,0,0,1,2026-11-08T12:23:12+00:00,,,,OpenLigaDB ODbL-1.0
+la1,2026,28034,A. Osambela,CA Osasuna,1,1,0,0,1,2026-11-08T12:23:12+00:00,,,,OpenLigaDB ODbL-1.0
+la1,2026,28035,P. Martinez,FC Malaga,1,1,0,0,1,2026-11-08T12:23:12+00:00,,,,OpenLigaDB ODbL-1.0
+la1,2026,28036,M. Bueno,FC Sevilla,1,1,0,0,1,2026-11-08T12:23:12+00:00,,,,OpenLigaDB ODbL-1.0
+la1,2026,28037,A. Manas,Deportivo Alaves,1,1,0,0,1,2026-11-08T12:23:12+00:00,,,,OpenLigaDB ODbL-1.0
+la1,2026,28038,F. Redondo,Elche CF,1,1,1,0,1,2026-11-08T12:23:12+00:00,,,,OpenLigaDB ODbL-1.0
+la1,2026,28039,Exposito,Espanyol Barcelona,1,1,0,0,1,2026-11-08T12:23:12+00:00,,,,OpenLigaDB ODbL-1.0
+la1,2026,28040,J. Belocian,Racing Santander,1,1,0,0,1,2026-11-08T12:23:12+00:00,,,,OpenLigaDB ODbL-1.0
+la1,2026,28054,N. Pérez,Levante UD,1,1,0,0,1,2026-11-08T12:23:12+00:00,,,,OpenLigaDB ODbL-1.0
+la1,2026,7121,Iago Aspas,Celta Vigo,1,1,0,0,1,2026-11-08T12:23:12+00:00,,,,OpenLigaDB ODbL-1.0
+la1,2026,7142,Valera,Elche CF,2,2,0,0,2,2026-11-08T12:23:12+00:00,,,,OpenLigaDB ODbL-1.0
+la1,2026,7916,Isco,Real Betis,1,2,1,0,2,2026-11-08T12:23:12+00:00,,,,OpenLigaDB ODbL-1.0

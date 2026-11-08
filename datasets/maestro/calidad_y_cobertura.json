@@ -1,0 +1,107 @@
+{
+  "generated_at_utc": "2026-11-08T12:23:16+00:00",
+  "current_source_snapshot_utc": "2026-11-08T12:23:12+00:00",
+  "source": "OpenLigaDB",
+  "license": "ODbL-1.0",
+  "tables": {
+    "master_partidos.csv": 1298,
+    "master_eventos_gol.csv": 573,
+    "master_goleadores_observados.csv": 310
+  },
+  "research_eligible_1x2_rows": 678,
+  "finished_rows": 789,
+  "by_season": [
+    {
+      "season": "la1_2026",
+      "source_snapshot_utc": "2026-11-08T12:23:12+00:00",
+      "match_rows": 380,
+      "finished": 99,
+      "research_eligible_1x2": 69,
+      "goal_event_rows": 299,
+      "goal_events_with_club": 288,
+      "scorer_rows": 168,
+      "archived": false,
+      "player_stats_coverage": {
+        "source_goal_events": 299,
+        "goal_events_with_team_inferred": 288,
+        "matches_with_incomplete_or_invalid_goal_sequence": 1,
+        "observed_unique_scorer_club_rows": 168,
+        "distinct_scorer_ids": 166,
+        "all_players_roster_coverage": false,
+        "minutes_shots_participation_available": false,
+        "as_of_utc": "2026-11-08T12:23:12+00:00"
+      }
+    },
+    {
+      "season": "bl1_2026",
+      "source_snapshot_utc": "2026-11-08T12:23:12+00:00",
+      "match_rows": 306,
+      "finished": 78,
+      "research_eligible_1x2": 51,
+      "goal_event_rows": 274,
+      "goal_events_with_club": 274,
+      "scorer_rows": 142,
+      "archived": false,
+      "player_stats_coverage": {
+        "source_goal_events": 274,
+        "goal_events_with_team_inferred": 274,
+        "matches_with_incomplete_or_invalid_goal_sequence": 0,
+        "observed_unique_scorer_club_rows": 142,
+        "distinct_scorer_ids": 142,
+        "all_players_roster_coverage": false,
+        "minutes_shots_participation_available": false,
+        "as_of_utc": "2026-11-08T12:23:12+00:00"
+      }
+    },
+    {
+      "season": "bl1_2024",
+      "source_snapshot_utc": "2026-11-07T20:54:48+00:00",
+      "match_rows": 306,
+      "finished": 306,
+      "research_eligible_1x2": 279,
+      "goal_event_rows": 0,
+      "goal_events_with_club": 0,
+      "scorer_rows": 0,
+      "archived": true,
+      "player_stats_coverage": {
+        "all_players_roster_coverage": false,
+        "reason": "No se descargaron goles de temporadas históricas"
+      }
+    },
+    {
+      "season": "bl1_2025",
+      "source_snapshot_utc": "2026-11-07T20:54:48+00:00",
+      "match_rows": 306,
+      "finished": 306,
+      "research_eligible_1x2": 279,
+      "goal_event_rows": 0,
+      "goal_events_with_club": 0,
+      "scorer_rows": 0,
+      "archived": true,
+      "player_stats_coverage": {
+        "all_players_roster_coverage": false,
+        "reason": "No se descargaron goles de temporadas históricas"
+      }
+    }
+  ],
+  "quality_checks_passed": true,
+  "fifa_fc27_catalog_status": "PRIVATE_SEPARATE_CATALOG_ONLY_NOT_MERGED_IN_PUBLIC_MASTER",
+  "fifa_fc27_verified_player_id_links": 0,
+  "has_complete_player_match_stats": false,
+  "has_verified_player_shots_minutes_cards": false,
+  "has_current_xg_all_leagues": false,
+  "ready_for_final_player_models": false,
+  "ready_for_final_betting_models": false,
+  "notes": [
+    "Etiquetas y marcadores postpartido son columnas separadas, nunca features.",
+    "Un goleador ausente del dataset NO tiene cero tiros ni cero minutos.",
+    "Solo se identifica el club del goleador cuando la secuencia de goles coincide con el marcador final.",
+    "Las valoraciones EA FC27 permanecen privadas; falta verificar identidades entre proveedores.",
+    "Datos de OpenLigaDB son comunitarios; se necesita comprobación externa para competiciones reales."
+  ],
+  "sha256": {
+    "master_partidos.csv": "be6fc429fcb007274e48974ac6f764ac91048e697b3196bfe609553f685bdae2",
+    "master_eventos_gol.csv": "1e9d991d6fd33fd99b4b2fd4735639d8f2ab3e36b2a9b183b5d9d29e69d17d6b",
+    "master_goleadores_observados.csv": "fb6702cca2649eb44ff73b4ce3f7ab2b80a5a1786597070c9043241f8560c486"
+  }
+}
