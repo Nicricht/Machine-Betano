@@ -62,7 +62,9 @@ jobs:
               file.write("Propuestas generadas: " + str(status["proposed_mappings"]) + "\n\n")
               for kind, count in status["proposals_by_status"].items():
                   file.write("- " + kind + ": " + str(count) + "\n")
-              file.write("\n**0 equivalencias aprobadas para entrenamiento:** se requiere revisión de identidad y licencia.\n")
+              file.write("Fichas FC27 en catálogo privado: " + str(enriched["fc27_catalog_rows"]) + "\\n")
+              file.write("IDs confirmados por revisión con evidencia: " + str(enriched["verified_provider_id_pairs_supplied"]) + "\\n")
+              file.write("**Coincidencias provisionales no se usan como IDs confirmados.**\\n")
           PY
       # Nada se envía como artifact ni commit: los ratings y mapas generados
       # pueden tener restricciones de uso y no deben redistribuirse.
