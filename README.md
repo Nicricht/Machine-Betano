@@ -6,7 +6,7 @@ Proyecto de investigación y aprendizaje automático aplicado a datos histórico
 - **OpenLigaDB, activo:** resultados de LaLiga y Bundesliga (temporada 2026/27) y goleadores de la comunidad. Se actualiza mediante [GitHub Actions](.github/workflows/actualizacion-datos.yml) en [datasets/actualizados](datasets/actualizados/).
 - **API-Football, conector implementado, pendiente de acceso:** extracción de partidos, estadísticas individuales, tiros, córners, tarjetas, lesiones y alineaciones. Necesita una clave autorizada en el secreto `API_FOOTBALL_KEY`. Sus datos no se publican en este repositorio público por limitaciones contractuales. [Metodología y cobertura](docs/FUENTES_AVANZADAS.md).
 - **StatsBomb Open Data, histórico:** hay una versión exploratoria y archivos de ejemplo en el [PR #1](https://github.com/Nicricht/Machine-Betano/pull/1); no garantiza cobertura actual ni total.
-- **EA Sports FC y xG actual:** pendientes de acceso verificable y derechos de uso.
+- **EA Sports FC27:** 19.789 registros descargados y normalizados en runner privado; IDs deportivos aún sin verificar. **xG actual:** pendiente de fuente suficiente.
 
 Los identificadores de equipos y jugadores son específicos de cada proveedor. No mezclar nombres o estadísticas de diferente origen sin validación.
 
@@ -35,10 +35,10 @@ Se añadió un proceso que intenta asociar IDs de futbolistas de FC27 (Kaggle) c
 
 ## Primer modelo de resultados y cobertura de jugadores
 
-Con los partidos actuales de OpenLigaDB se puede generar automáticamente:
+Como exploración técnica anterior se generaron:
 - Un **resumen observado de goles por jugador**, sin suponer minutos, tiros o participación en partidos donde no anotó.
 - Un **modelo exploratorio 1X2** (local, empate, visitante) con corte cronológico, accuracy, log-loss y Brier, comparado con un baseline del entrenamiento.
-- Probabilidades exploratorias solamente para partidos de los próximos 7 días con historial mínimo.
+- La publicación de probabilidades estuvo bloqueada cuando el modelo no superó al baseline. **El modelo no se entrena automáticamente mientras completamos el dataset maestro.**
 
 ```bash
 python -m pip install -r requirements-model.txt
@@ -47,3 +47,12 @@ python -m scripts.train_live_1x2
 ```
 
 La ejecución automática publica un artifact de evaluación. **No se han integrado todavía ratings FC27 al entrenamiento**, porque los IDs de FIFA y los de los proveedores deportivos todavía no se han confirmado, aunque la descarga y normalización técnica ya funcionan. Ver [alcance y requisitos pendientes](docs/MODELO_1X2_Y_COBERTURA_JUGADORES.md).
+
+
+## Preparación antes de entrenar: dataset maestro
+
+El proceso de datos ahora genera `datasets/maestro/master_partidos.csv`, `master_eventos_gol.csv`, `master_goleadores_observados.csv` y `calidad_y_cobertura.json`. Cada tabla declara origen, fecha y nulos; las 12 variables de los partidos se recalculan para impedir filtración de resultados futuros. Los goles del propio partido están separados de las variables predictoras.
+
+Los ratings EA FC27 se procesan en un catálogo **privado**; únicamente pasan a una ficha unificada si hay un mapa revisado de identificadores FIFA ↔ OpenLigaDB. Ninguna coincidencia por nombre se confirma automáticamente. No hay todavía minutos, tiros, tarjetas y participación de todos los jugadores.
+
+**No se ejecutan entrenamientos automáticos del modelo 1X2 ni predicciones finales mientras cerramos la calidad de los datos.** El modelo histórico permanece disponible como experimento reproducible, no como producto listo. [Esquema, pruebas y pendientes](docs/DATASET_MAESTRO.md).
