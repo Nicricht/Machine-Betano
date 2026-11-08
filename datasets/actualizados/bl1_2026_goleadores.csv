@@ -262,6 +262,11 @@ match_id,league,season_start_year,player_id,player_name,minute,home_score_after_
 83229,bl1,2026,18529,C. Baumgartner,66,5,1,False,False,OpenLigaDB
 83229,bl1,2026,28147,Uchenna Ogundu,93,5,2,False,False,OpenLigaDB
 83230,bl1,2026,24990,M. Mittelstädt,7,1,0,False,False,OpenLigaDB
+83231,bl1,2026,20687,F. Asllani,10,1,0,False,False,OpenLigaDB
+83231,bl1,2026,19004,T. Lemperle,26,2,0,False,False,OpenLigaDB
+83231,bl1,2026,22890,J. Adamu,81,2,1,False,False,OpenLigaDB
+83232,bl1,2026,785,R. Khedira,55,1,0,False,True,OpenLigaDB
+83232,bl1,2026,24246,Y. Suzuki,67,2,0,False,False,OpenLigaDB
 83233,bl1,2026,15977,J. Kimmich,14,0,1,False,False,OpenLigaDB
 83233,bl1,2026,24138,Lennart Karl,57,0,2,False,False,OpenLigaDB
 83233,bl1,2026,18976,P. Tietz,93,1,2,False,False,OpenLigaDB

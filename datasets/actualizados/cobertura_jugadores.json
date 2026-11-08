@@ -7,16 +7,16 @@
     "distinct_scorer_ids": 166,
     "all_players_roster_coverage": false,
     "minutes_shots_participation_available": false,
-    "as_of_utc": "2026-11-08T17:06:14+00:00"
+    "as_of_utc": "2026-11-08T21:12:49+00:00"
   },
   "bl1_2026": {
-    "source_goal_events": 277,
-    "goal_events_with_team_inferred": 277,
+    "source_goal_events": 282,
+    "goal_events_with_team_inferred": 282,
     "matches_with_incomplete_or_invalid_goal_sequence": 0,
-    "observed_unique_scorer_club_rows": 143,
-    "distinct_scorer_ids": 143,
+    "observed_unique_scorer_club_rows": 146,
+    "distinct_scorer_ids": 146,
     "all_players_roster_coverage": false,
     "minutes_shots_participation_available": false,
-    "as_of_utc": "2026-11-08T17:06:14+00:00"
+    "as_of_utc": "2026-11-08T21:12:49+00:00"
   }
 }
