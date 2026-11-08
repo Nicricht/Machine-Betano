@@ -18,3 +18,7 @@ outputs/
 # Propuestas de identidad y auditoría basadas en FC27: privadas
 datasets/ratings/fc27_openligadb_candidates.csv
 datasets/ratings/fc27_openligadb_linkage_audit.json
+# Equivalencias revisadas y catálogo enriquecido FC27: solo almacenamiento privado
+datasets/ratings/id_map_verificados.csv
+datasets/ratings/master_fc27_jugadores_verificados.csv
+datasets/ratings/master_fc27_cobertura.json
