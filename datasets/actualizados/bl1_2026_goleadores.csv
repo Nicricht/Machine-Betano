@@ -269,6 +269,9 @@ match_id,league,season_start_year,player_id,player_name,minute,home_score_after_
 83234,bl1,2026,19101,J. Scally,44,1,1,False,False,OpenLigaDB
 83234,bl1,2026,28144,Shafiq Nandja,60,2,1,False,False,OpenLigaDB
 83234,bl1,2026,23262,A. Grønbæk,70,3,1,False,False,OpenLigaDB
+83235,bl1,2026,27187,A. Garcia,7,0,1,False,False,OpenLigaDB
+83235,bl1,2026,18331,P. Schick,85,0,2,False,False,OpenLigaDB
+83235,bl1,2026,21344,S. El Mala,92,1,2,False,False,OpenLigaDB
 83236,bl1,2026,19126,J. Burkardt,23,0,1,False,False,OpenLigaDB
 83236,bl1,2026,19470,R. Obermair,45,1,1,False,False,OpenLigaDB
 83236,bl1,2026,18446,M. Pieringer,73,2,1,True,False,OpenLigaDB
