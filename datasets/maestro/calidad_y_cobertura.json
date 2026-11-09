@@ -1,6 +1,6 @@
 {
-  "generated_at_utc": "2026-11-08T21:12:54+00:00",
-  "current_source_snapshot_utc": "2026-11-08T21:12:49+00:00",
+  "generated_at_utc": "2026-11-09T00:39:22+00:00",
+  "current_source_snapshot_utc": "2026-11-09T00:39:17+00:00",
   "source": "OpenLigaDB",
   "license": "ODbL-1.0",
   "tables": {
@@ -13,7 +13,7 @@
   "by_season": [
     {
       "season": "la1_2026",
-      "source_snapshot_utc": "2026-11-08T21:12:49+00:00",
+      "source_snapshot_utc": "2026-11-09T00:39:17+00:00",
       "match_rows": 380,
       "finished": 99,
       "research_eligible_1x2": 69,
@@ -29,12 +29,12 @@
         "distinct_scorer_ids": 166,
         "all_players_roster_coverage": false,
         "minutes_shots_participation_available": false,
-        "as_of_utc": "2026-11-08T21:12:49+00:00"
+        "as_of_utc": "2026-11-09T00:39:17+00:00"
       }
     },
     {
       "season": "bl1_2026",
-      "source_snapshot_utc": "2026-11-08T21:12:49+00:00",
+      "source_snapshot_utc": "2026-11-09T00:39:17+00:00",
       "match_rows": 306,
       "finished": 81,
       "research_eligible_1x2": 54,
@@ -50,7 +50,7 @@
         "distinct_scorer_ids": 146,
         "all_players_roster_coverage": false,
         "minutes_shots_participation_available": false,
-        "as_of_utc": "2026-11-08T21:12:49+00:00"
+        "as_of_utc": "2026-11-09T00:39:17+00:00"
       }
     },
     {
@@ -100,8 +100,8 @@
     "Datos de OpenLigaDB son comunitarios; se necesita comprobación externa para competiciones reales."
   ],
   "sha256": {
-    "master_partidos.csv": "9113218bf1449d0eb61322e729db570f5da2170b5846b8d8df8d3bf0b62127ea",
-    "master_eventos_gol.csv": "7de2f8e55722b8f49f6adae4790c22cafa7883dbbf5cc43c532d6f181747676d",
-    "master_goleadores_observados.csv": "727dbbbc7f096328baa44d83269164b330bb9a6312f1f593bce2ccda7f23d788"
+    "master_partidos.csv": "56d18f7436989c144759b1548d84ec09fd5b1556fe8ab528a6b8ce05c008ddca",
+    "master_eventos_gol.csv": "c183be9a93d6130c92004779b9c9eaabb49a2bb4cb668860c29dde0182989819",
+    "master_goleadores_observados.csv": "2607426683b1b22ee69df978149865bc66a3faa941bd43ec519096b826aa6fb4"
   }
 }
