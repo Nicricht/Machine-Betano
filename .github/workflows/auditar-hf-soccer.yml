@@ -1,0 +1,59 @@
+name: Auditar metadata Hugging Face Soccer (sin importar datos)
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - "audit/huggingface-soccer-*"
+  pull_request:
+    paths:
+      - "scripts/audit_hf_soccer_metadata.py"
+      - "tests/test_hf_soccer_metadata.py"
+      - ".github/workflows/auditar-hf-soccer.yml"
+
+permissions:
+  contents: read
+
+jobs:
+  solo-metadatos:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Instalar lector de metadata y Parquet pequeño
+        run: python -m pip install "huggingface_hub>=0.34,<2" "pyarrow>=17,<25"
+      - name: Probar que la auditoría no apruebe licencias ni datos no observados
+        run: python -m unittest discover -s tests -p "test_hf_soccer_metadata.py" -v
+      - name: Obtener sólo catálogo de ligas y documentación pública
+        run: python -m scripts.audit_hf_soccer_metadata
+      - name: Publicar informe agregado de cobertura declarada
+        run: |
+          python - <<'PY'
+          import json
+          import os
+          from pathlib import Path
+          r = json.loads(Path("outputs/auditoria_hf_soccer.json").read_text(encoding="utf-8"))
+          with open(os.environ["GITHUB_STEP_SUMMARY"], "a", encoding="utf-8") as out:
+              out.write("## Auditoría de metadata Hugging Face Soccer\n\n")
+              out.write("Fuente: " + r["repository_url"] + "\n\n")
+              out.write("Revisión SHA: " + r["revision_sha"] + "\n\n")
+              out.write("Filas del catálogo de ligas: " +
+                        str(r["league_catalogue"]["catalogue_rows"]) + "\n\n")
+              for league, matches in r["league_catalogue"]["selected_leagues"].items():
+                  out.write("### " + league + "\n")
+                  if not matches:
+                      out.write("- Sin primera división identificada en este catálogo.\n")
+                  for item in matches:
+                      out.write(f"- {item['provider_name']} ({item['country']}), "
+                                f"presente={item['in_dataset']}, "
+                                f"histórico={item['history_status']}, "
+                                f"años declarados={item['years_present_claimed']}\n")
+              out.write("\n**Permisos de terceros NO verificados; tabla NO importada "
+                        "ni entrenada. Solo auditoría de metadata.**\n")
+          PY
+      # Sin artefactos ni copias de Parquet de partidos o futbolistas.
