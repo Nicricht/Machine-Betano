@@ -48,3 +48,15 @@ Ejecutar python -m scripts.audit_hf_soccer_metadata.
 https://huggingface.co/SoccerNet está dirigido principalmente a tareas de visión con video (tracking y detección de eventos). Es potencialmente útil más adelante, pero no reemplaza por sí solo la estadística tabular individual que requiere Machine-Betano.
 
 El dataset maestro actual datasets/maestro/ continúa construido sólo con OpenLigaDB; los modelos definitivos no se entrenan.
+
+## Resultado de auditoría real (8 de noviembre de 2026)
+
+Se ejecutó la auditoría de metadatos en [GitHub Actions #42541214813](https://github.com/Nicricht/Machine-Betano/actions/runs/42541214813), con todas las pruebas aprobadas. La revisión de Hugging Face auditada fue `f0cbe86bee3f28cc4b803f735a5287968741c471`.
+
+El catálogo `league_catalogue.parquet` contiene **1.235 filas**. Encontramos:
+- **LaLiga:** API-Football league_id **140**, España, `in_dataset=true`, `history_status=full`, rango de temporadas declarado **2010–2026**, `present_years=18`, `af_has_stats=true`.
+- **Bundesliga:** API-Football league_id **78**, Alemania, `in_dataset=true`, `history_status=full`, rango de temporadas declarado **2010–2026**, `present_years=18`, `af_has_stats=true`.
+
+El paquete de metadatos confirma las claves requeridas para identificar encuentros, jugadores y columnas `games_minutes`/`shots_total`. El editor declara **673.966** partidos y **4.903.099** filas de estadísticas individuales globales. Estos números son globales y declarados: todavía NO se conocen las cantidades reales de estadísticas por jugador y partido para las dos ligas seleccionadas.
+
+**Decisión:** no introducir este dataset en el maestro ni usarlo en entrenamiento hasta aclarar los permisos de las fuentes originales. La descarga masiva queda desactivada por defecto.
