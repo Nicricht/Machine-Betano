@@ -56,3 +56,7 @@ El proceso de datos ahora genera `datasets/maestro/master_partidos.csv`, `master
 Los ratings EA FC27 se procesan en un catálogo **privado**; únicamente pasan a una ficha unificada si hay un mapa revisado de identificadores FIFA ↔ OpenLigaDB. Ninguna coincidencia por nombre se confirma automáticamente. No hay todavía minutos, tiros, tarjetas y participación de todos los jugadores.
 
 **No se ejecutan entrenamientos automáticos del modelo 1X2 ni predicciones finales mientras cerramos la calidad de los datos.** El modelo histórico permanece disponible como experimento reproducible, no como producto listo. [Esquema, pruebas y pendientes](docs/DATASET_MAESTRO.md).
+
+## Fuente Hugging Face en evaluación (NO integrada)
+
+El usuario localizó el [Global Football Soccer Data Lake](https://huggingface.co/datasets/eatpizzanot/soccer-dataset). Incluye potencialmente minutos, tiros, tarjetas y apariciones por partido, pero el autor declara procedencia API-Football y football-data.co.uk, con permisos aguas arriba aún sin comprobar. El lector `scripts/audit_hf_soccer_metadata.py` analiza solo el diccionario, metadatos y catálogo pequeño de ligas; no descarga los millones de filas individuales ni alimenta modelos. Ver [auditoría y bloqueos](docs/AUDITORIA_HF_SOCCER.md).
