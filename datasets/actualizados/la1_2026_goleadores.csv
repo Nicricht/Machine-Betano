@@ -1,14 +1,14 @@
 match_id,league,season_start_year,player_id,player_name,minute,home_score_after_goal,away_score_after_goal,is_penalty,is_own_goal,source
 85335,la1,2026,27184,N. Tenaglia,73,1,0,False,False,OpenLigaDB
-85335,la1,2026,27186,M. Rodriguez,90,3,0,False,False,OpenLigaDB
 85335,la1,2026,27185,M. Diaz,90,2,0,False,False,OpenLigaDB
+85335,la1,2026,27186,M. Rodriguez,90,3,0,False,False,OpenLigaDB
 85336,la1,2026,27187,A. Garcia,4,0,1,False,False,OpenLigaDB
 85336,la1,2026,27188,J. Guridi,52,1,1,True,False,OpenLigaDB
 85336,la1,2026,27189,Peque,90,2,1,True,False,OpenLigaDB
 85337,la1,2026,19255,A. Martin,21,1,0,True,False,OpenLigaDB
 85337,la1,2026,27190,S. Martinez,34,2,0,False,False,OpenLigaDB
-85337,la1,2026,27192,N. Pépé,45,2,2,False,False,OpenLigaDB
 85337,la1,2026,27191,P. Gueye,45,2,1,False,False,OpenLigaDB
+85337,la1,2026,27192,N. Pépé,45,2,2,False,False,OpenLigaDB
 85338,la1,2026,27193,R. Fernández,40,2,0,False,False,OpenLigaDB
 85338,la1,2026,27193,R. Fernández,5,1,0,False,False,OpenLigaDB
 85338,la1,2026,27195,T. Dolan,80,3,0,False,False,OpenLigaDB
@@ -298,3 +298,9 @@ match_id,league,season_start_year,player_id,player_name,minute,home_score_after_
 85434,la1,2026,20392,Pepelu,38,1,0,True,False,OpenLigaDB
 85434,la1,2026,26074,Alexander Freeman,69,1,1,False,False,OpenLigaDB
 85434,la1,2026,23310,G. Mikautadze,90,1,2,False,False,OpenLigaDB
+85441,la1,2026,19527,A. Grimaldo,36,0,1,False,False,OpenLigaDB
+85441,la1,2026,23961,G. Simeone,62,0,2,False,False,OpenLigaDB
+85443,la1,2026,,,,1,0,False,False,OpenLigaDB
+85443,la1,2026,,,,2,0,False,False,OpenLigaDB
+85443,la1,2026,,,,3,0,False,False,OpenLigaDB
+85444,la1,2026,28194,L. Cabrera,60,0,1,False,False,OpenLigaDB

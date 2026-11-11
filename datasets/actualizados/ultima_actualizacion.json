@@ -1,5 +1,5 @@
 {
-  "checked_at_utc": "2026-11-11T09:30:29+00:00",
+  "checked_at_utc": "2026-11-11T18:43:50+00:00",
   "license": "ODbL-1.0",
   "source": "https://openligadb.de",
   "warning": "Fuente comunitaria. Puede estar retrasada o incompleta; no contiene alineaciones, lesiones, xG ni estadísticas FIFA.",
@@ -10,7 +10,7 @@
       "matches": 380,
       "finished_with_score": 99,
       "missing_final_score": 0,
-      "goal_events": 299,
+      "goal_events": 305,
       "endpoint": "https://api.openligadb.de/getmatchdata/la1/2026"
     },
     {
