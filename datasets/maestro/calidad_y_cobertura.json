@@ -1,40 +1,40 @@
 {
-  "generated_at_utc": "2026-11-11T18:43:55+00:00",
-  "current_source_snapshot_utc": "2026-11-11T18:43:50+00:00",
+  "generated_at_utc": "2026-11-12T09:54:14+00:00",
+  "current_source_snapshot_utc": "2026-11-12T09:54:10+00:00",
   "source": "OpenLigaDB",
   "license": "ODbL-1.0",
   "tables": {
     "master_partidos.csv": 1298,
-    "master_eventos_gol.csv": 587,
-    "master_goleadores_observados.csv": 314
+    "master_eventos_gol.csv": 611,
+    "master_goleadores_observados.csv": 322
   },
-  "research_eligible_1x2_rows": 681,
-  "finished_rows": 792,
+  "research_eligible_1x2_rows": 691,
+  "finished_rows": 802,
   "by_season": [
     {
       "season": "la1_2026",
-      "source_snapshot_utc": "2026-11-11T18:43:50+00:00",
+      "source_snapshot_utc": "2026-11-12T09:54:10+00:00",
       "match_rows": 380,
-      "finished": 99,
-      "research_eligible_1x2": 69,
-      "goal_event_rows": 305,
-      "goal_events_with_club": 288,
-      "scorer_rows": 168,
+      "finished": 109,
+      "research_eligible_1x2": 79,
+      "goal_event_rows": 329,
+      "goal_events_with_club": 318,
+      "scorer_rows": 176,
       "archived": false,
       "player_stats_coverage": {
-        "source_goal_events": 305,
-        "goal_events_with_team_inferred": 288,
-        "matches_with_incomplete_or_invalid_goal_sequence": 4,
-        "observed_unique_scorer_club_rows": 168,
-        "distinct_scorer_ids": 166,
+        "source_goal_events": 329,
+        "goal_events_with_team_inferred": 318,
+        "matches_with_incomplete_or_invalid_goal_sequence": 1,
+        "observed_unique_scorer_club_rows": 176,
+        "distinct_scorer_ids": 174,
         "all_players_roster_coverage": false,
         "minutes_shots_participation_available": false,
-        "as_of_utc": "2026-11-11T18:43:50+00:00"
+        "as_of_utc": "2026-11-12T09:54:10+00:00"
       }
     },
     {
       "season": "bl1_2026",
-      "source_snapshot_utc": "2026-11-11T18:43:50+00:00",
+      "source_snapshot_utc": "2026-11-12T09:54:10+00:00",
       "match_rows": 306,
       "finished": 81,
       "research_eligible_1x2": 54,
@@ -50,7 +50,7 @@
         "distinct_scorer_ids": 146,
         "all_players_roster_coverage": false,
         "minutes_shots_participation_available": false,
-        "as_of_utc": "2026-11-11T18:43:50+00:00"
+        "as_of_utc": "2026-11-12T09:54:10+00:00"
       }
     },
     {
@@ -100,8 +100,8 @@
     "Datos de OpenLigaDB son comunitarios; se necesita comprobación externa para competiciones reales."
   ],
   "sha256": {
-    "master_partidos.csv": "c1844660990e890946a47eaf4c10d2a39e1c182c499b0b1b74983c596118b91a",
-    "master_eventos_gol.csv": "56b6a76d234f8114a4267ce09b318fd35af2c0c790fc1e8f6b7c81b86ac19f72",
-    "master_goleadores_observados.csv": "9d67d99698467907f34d4bc14ad96692444cf202d72309ab49df91969e07ec51"
+    "master_partidos.csv": "c130a061a6e784e4c38f9ad3430bd506df55b3753748fec13f91318f94c783e4",
+    "master_eventos_gol.csv": "a63c07e916917f26cea912d79bbc0bd67fea16dd5231fb781d7baf8f1dbe1964",
+    "master_goleadores_observados.csv": "e0c3b3def6010df3d876fa6801569c4b799fcab9057ad9c96bb1169394445991"
   }
 }

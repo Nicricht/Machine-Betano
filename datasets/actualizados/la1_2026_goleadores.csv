@@ -146,8 +146,8 @@ match_id,league,season_start_year,player_id,player_name,minute,home_score_after_
 85381,la1,2026,27198,S. Camello,51,3,1,False,False,OpenLigaDB
 85381,la1,2026,19243,Kylian Mbappé,90,4,1,False,False,OpenLigaDB
 85382,la1,2026,19527,A. Grimaldo,84,0,1,True,False,OpenLigaDB
-85382,la1,2026,19125,J. David,90,0,2,False,False,OpenLigaDB
 85382,la1,2026,23961,G. Simeone,90,0,3,False,False,OpenLigaDB
+85382,la1,2026,19125,J. David,90,0,2,False,False,OpenLigaDB
 85383,la1,2026,27500,J. Iglesias,81,1,0,False,False,OpenLigaDB
 85384,la1,2026,18902,G. Moreno,29,1,0,False,False,OpenLigaDB
 85384,la1,2026,27594,C. Hernandez,39,1,1,False,False,OpenLigaDB
@@ -298,9 +298,33 @@ match_id,league,season_start_year,player_id,player_name,minute,home_score_after_
 85434,la1,2026,20392,Pepelu,38,1,0,True,False,OpenLigaDB
 85434,la1,2026,26074,Alexander Freeman,69,1,1,False,False,OpenLigaDB
 85434,la1,2026,23310,G. Mikautadze,90,1,2,False,False,OpenLigaDB
+85435,la1,2026,20834,I. Williams,14,1,0,False,False,OpenLigaDB
+85435,la1,2026,27273,L. Sucic,30,1,1,False,False,OpenLigaDB
+85435,la1,2026,20781,A. Berenguer,45,2,1,True,False,OpenLigaDB
+85436,la1,2026,27280,M. Bartra,38,1,0,False,False,OpenLigaDB
+85436,la1,2026,28199,P. Fornals,45,2,0,False,False,OpenLigaDB
+85436,la1,2026,27591,A. Nino,68,2,1,False,False,OpenLigaDB
+85437,la1,2026,14424,Budimir,32,0,1,False,False,OpenLigaDB
+85437,la1,2026,27732,M. Soriano,64,1,1,False,False,OpenLigaDB
+85437,la1,2026,27920,B. Nsongo,87,2,1,False,False,OpenLigaDB
+85438,la1,2026,28202,U. Sadiq,69,0,1,False,False,OpenLigaDB
+85439,la1,2026,20747,F. Lopez,23,2,0,False,False,OpenLigaDB
+85439,la1,2026,20458,Raphinha,41,3,0,False,False,OpenLigaDB
+85439,la1,2026,22866,Lamine Yamal,45,4,0,False,False,OpenLigaDB
+85439,la1,2026,22866,Lamine Yamal,64,5,0,False,False,OpenLigaDB
+85439,la1,2026,20458,Raphinha,8,1,0,False,False,OpenLigaDB
+85439,la1,2026,27146,Anthony Gordon,81,6,0,False,False,OpenLigaDB
+85439,la1,2026,27185,M. Diaz,84,6,1,False,False,OpenLigaDB
+85440,la1,2026,20501,Kike Salas,19,0,1,False,False,OpenLigaDB
+85440,la1,2026,27269,E. Unal,68,1,1,False,False,OpenLigaDB
+85440,la1,2026,27496,M. Satriano,73,2,1,False,False,OpenLigaDB
+85440,la1,2026,28200,O. Mangala,90,3,1,False,False,OpenLigaDB
 85441,la1,2026,19527,A. Grimaldo,36,0,1,False,False,OpenLigaDB
 85441,la1,2026,23961,G. Simeone,62,0,2,False,False,OpenLigaDB
-85443,la1,2026,,,,1,0,False,False,OpenLigaDB
-85443,la1,2026,,,,2,0,False,False,OpenLigaDB
-85443,la1,2026,,,,3,0,False,False,OpenLigaDB
+85442,la1,2026,19243,Kylian Mbappé,11,0,1,True,False,OpenLigaDB
+85442,la1,2026,18702,J. Bellingham,21,0,2,False,False,OpenLigaDB
+85442,la1,2026,23584,Y. Diomande,36,0,3,False,False,OpenLigaDB
+85443,la1,2026,20451,De Frutos,36,1,0,False,False,OpenLigaDB
+85443,la1,2026,20451,De Frutos,55,2,0,False,False,OpenLigaDB
+85443,la1,2026,28197,U. López,73,3,0,False,False,OpenLigaDB
 85444,la1,2026,28194,L. Cabrera,60,0,1,False,False,OpenLigaDB
